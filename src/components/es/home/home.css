@@ -1,0 +1,29 @@
+.example{
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+}
+.parallax-container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+}
+.text-parallax {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.header__codice {
+    font-family: trajan-pro-3, serif;
+    font-weight: 400;
+    font-size: 5rem;
+    line-height: 5rem;
+}
+.header__almanaque {
+    font-family: Raleway, serif;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
