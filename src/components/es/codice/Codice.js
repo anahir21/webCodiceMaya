@@ -5,7 +5,7 @@ export const Codice = () => {
         <div>
             <h1>Códice</h1>
             <h1>Códice</h1>
-            <h1>Códice</h1>
+           
         </div>
     )
 }

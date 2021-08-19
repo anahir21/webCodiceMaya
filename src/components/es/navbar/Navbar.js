@@ -5,6 +5,7 @@ import logo from "../../../images/logo.png"
 import {FaBars} from 'react-icons/fa'
 import {GrClose} from 'react-icons/gr'
 import { Mailto } from '../../ui/Mailto'
+import {Estudios} from '../estudios/Estudios'
 
 export const Navbar = () => {
     
@@ -22,7 +23,7 @@ const handleSetMenu = () => setShowMenu(true);
                 <div className = "links">
                     <NavLink to="/presentacion">Presentación</NavLink>
                     <NavLink to="/codice">Códice Maya de México</NavLink>
-                    <li  className ="drop-down-container">Estudios
+                    <li onClick ={Estudios} className ="drop-down-container">Estudios
                         <ul>
                             <li><NavLink to ="/">Moreno Toscano</NavLink></li>
                             <li><NavLink to ="/">Brito Guadarrama</NavLink></li>
