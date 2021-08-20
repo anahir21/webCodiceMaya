@@ -1,4 +1,4 @@
-import React from "react";
+import { React, useState } from "react";
 import { Navbar } from "../../es/navbar/Navbar";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";
@@ -8,8 +8,26 @@ import orozco from "../../../images/estudios/orozco.jpg";
 import saeko from "../../../images/estudios/saeko.jpg";
 import velasquez from "../../../images/estudios/velasquez.jpg";
 import vila from "../../../images/estudios/vila.jpg";
+import { Button } from "../../ui/Ver_mas";
 
 export const Estudios = () => {
+  let classHover = "invisible";
+  const [isHovering, setIsHovering] = useState(false);
+
+  function handleMouseEnter(e, url) {
+    setIsHovering(true);
+    classHover = "visible";
+  }
+
+  function showButton() {
+    
+  }
+
+  function handleMouseLeave(e) {
+    setIsHovering(false);
+    classHover = "invisible";
+  }
+
   return (
     <div className="estudios__container">
       <Navbar />
@@ -17,6 +35,7 @@ export const Estudios = () => {
         <div className="estudios__container_body">
           <h1 className="section_titles">Estudios</h1>
           <hr />
+          <Button />
           <h3 className="section-subtitle top-line">
             Los Expertos y sus estudios
           </h3>
@@ -32,11 +51,11 @@ export const Estudios = () => {
                 className="img_author"
                 alt="Moreno Toscano"
                 src={morenotoscano}
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
               />
               <hr />
-              <h4 className="img_container_header" >
-                Presentación
-              </h4>
+              <h4 className="img_container_header">Presentación</h4>
               <h6 className="img_container_author">Alejandra Moreno Toscano</h6>
             </div>
 
@@ -47,7 +66,7 @@ export const Estudios = () => {
                 src={brito}
               />
               <hr />
-              <h4 className="img_container_header" >
+              <h4 className="img_container_header">
                 El Legado de un Ajtz' IHB El códice Maya de México
               </h4>
               <h6 className="img_container_author">
