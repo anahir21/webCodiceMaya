@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+
+.section_titles{
+
+color: #ffffff;
+justify-content: center;
+text-transform: uppercase;
+font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 4rem;
+line-height: 5rem;
+text-align: center;
+
+
+}
+
+.section-subtitle{
+font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: normal;
+font-size: 2.5rem;
+line-height: 3rem;
+color: #FFFFFF;
+text-align: center;
+line-height: 24px;
+}
+

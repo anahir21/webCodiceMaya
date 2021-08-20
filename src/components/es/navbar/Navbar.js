@@ -6,6 +6,9 @@ import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Mailto } from "../../ui/Mailto";
 
+
+
+
 export const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleSetMenu = () => setShowMenu(true);
