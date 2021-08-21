@@ -63,6 +63,7 @@ export const Navbar = () => {
         <FaBars className="bars-icon" onClick={handleSetMenu} />
       </div>
       <nav id="menu-overlay" className={showMenu ? "is-open" : "is-close"}>
+      
         <AiOutlineClose id="close-menu" onClick = {handleSetMenuClose}/>
         <NavLink to="/">
           <img alt="logo" src={logo}></img>

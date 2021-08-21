@@ -60,7 +60,7 @@
 }
 /* mobile menu */
 #menu-overlay{
-    position: absolute;
+    position: fixed;
     min-width: 90%;
     background-color: #000;
     z-index: 1000;
@@ -89,9 +89,13 @@
     max-height: 70vh;
     width: 50%;
 }
-#menu-overlay a{
+.options a{
 color: #fff;
 text-decoration: none;
+font-family: trajan-pro-3, serif;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 0;
 }
 #menu-overlay a:hover{
 color: #9C6720;

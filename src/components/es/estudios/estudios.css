@@ -11,7 +11,7 @@ width: 100%;
 
  /*.img_author:hover {filter: opacity(.5);}*/
  
-p{
+.text-p{
     font-family: Raleway;
     font-style: normal;
     font-weight: 500;
@@ -21,7 +21,7 @@ p{
     color: #FFFFFF;
 }
 
-hr{
+hr {
     color:#806767;
     width: 100px;
 

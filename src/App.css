@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -58,9 +59,43 @@ font-family: trajan-pro-3, serif;
 font-style: normal;
 font-weight: normal;
 font-size: 2.5rem;
-line-height: 3rem;
 color: #FFFFFF;
-text-align: center;
-line-height: 24px;
 }
+.text-left{
+  text-align: left;
+}
+.text-center{
+  text-align: center;
+}
+/* Enlaces */
+a {
+  color: #ffffff;
+  transition: color .3s;
+}
+a:hover{
+  color: #9C6720;
+}
+/* Estilos de lineas hr */
+.line {
+  width: 100px;
+  color: #888888;
+  border-color: #888888;
+  padding: 0;
+  margin: 0;
+} 
+.line-left{
+  display: block;
+  float: left;
+}
+.line-center{
+  display: block;
+  float: center;
+}
+/*Estilos de párrafos*/
 
+
+.text-gray{
+  color: #979797;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
