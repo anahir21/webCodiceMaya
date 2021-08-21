@@ -12,7 +12,7 @@ export const Footer = () => {
           <img src={logos} alt="logos" />
           </div>
           <div className="site-map">
-              <nav>
+              <nav id="nav-footer">
               <p>Secciones</p>    
               <NavLink to="/presentacion">Presentación</NavLink>
               <NavLink to="/codice">Códice Maya de México</NavLink>

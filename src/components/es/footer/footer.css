@@ -70,13 +70,13 @@ nav p{
     footer div{
         width: 100%;
     }
-    nav{
+    .nav-footer{
         position: relative;
         transform: none;
         right: 0;
         margin-bottom: 20px;
     }
-    nav a{
+    .nav-footer a{
         display: inline-block;
         padding: 0 15px;
     }
