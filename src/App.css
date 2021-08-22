@@ -100,6 +100,11 @@ a:hover{
   font-size: 1.2rem;
   line-height: 2rem;
 }
+.text-gray-article{
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
 /*Estilos de contenedores*/
 .view{
   margin-top: 100px;
