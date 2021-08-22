@@ -20,13 +20,13 @@ footer img {
 footer div{
     width: 50%;
 }
-nav{
+#nav-footer{
    position: absolute;
    right: 10%;
    margin-top: 0%;
    transform: translateY(-50%);
 }
-nav a{
+.footer-a{
     color: #fff;
     text-decoration: none;
     display: block;
@@ -34,7 +34,7 @@ nav a{
     font-size: 15px;
 }
 
-nav p{
+.footer-p{
     font-size: 15px;
     margin-bottom: 10px;
     color: #888888;
@@ -70,13 +70,13 @@ nav p{
     footer div{
         width: 100%;
     }
-    .nav-footer{
+    #nav-footer{
         position: relative;
         transform: none;
         right: 0;
         margin-bottom: 20px;
     }
-    .nav-footer a{
+    .footer-a{
         display: inline-block;
         padding: 0 15px;
     }

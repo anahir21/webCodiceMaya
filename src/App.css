@@ -1,6 +1,8 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
 .App {
   text-align: center;
-  
 }
 
 .App-logo {
@@ -43,7 +45,6 @@
 
 color: #ffffff;
 justify-content: center;
-text-transform: uppercase;
 font-family: trajan-pro-3, serif;
 font-style: normal;
 font-weight: normal;
@@ -98,4 +99,69 @@ a:hover{
   color: #979797;
   font-size: 1.2rem;
   line-height: 2rem;
+}
+/*Estilos de contenedores*/
+.view{
+  margin-top: 100px;
+  padding-top: 50px;
+}
+
+/* Blockquote */
+blockquote {
+  margin-bottom: 50px;
+  display: flex;
+}
+blockquote img{
+  height: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.quote-author{
+  color: #888;
+}
+
+/* Estilos Artículos */
+
+.article-white {
+  color: #D8D8D8;
+  padding: 50px 20%;
+  margin: 0;
+}
+.dropcap{
+  margin: 0%;
+  padding: 0;
+}
+.article-white p{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+.dropcap::first-letter{
+  font-family: trajan-pro-3, serif;
+  font-size: 4rem;
+  line-height: 3.5rem;
+  padding: 0;
+  margin-left: -5px;
+  float:left
+}
+.gallery-items-2{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+  padding: 0;
+  margin-left: 0;
+}
+.gallery-items-2 img{
+  width: 48%;
+}
+.gallery-items-2 figcaption {
+  width: 100%;
+}
+.more-container{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

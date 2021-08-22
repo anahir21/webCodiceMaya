@@ -53,7 +53,7 @@ export const Navbar = () => {
             </ul>
           </li>
           <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descarga</NavLink>
+          <NavLink to="/descargas">Descargas</NavLink>
           <NavLink to="/creditos">Créditos</NavLink>
         </div>
         <select id="language">
@@ -95,7 +95,7 @@ export const Navbar = () => {
             </ul>
           </li>
           <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descarga</NavLink>
+          <NavLink to="/descargas">Descargas</NavLink>
           <NavLink to="/creditos">Créditos</NavLink>
         </section>
         <section id="contact">
