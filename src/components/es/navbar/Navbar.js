@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { NavLink, Link, useHistory, useLocation } from "react-router-dom";
+import { NavLink, Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../../images/logo.png";
 import { FaBars } from "react-icons/fa";
@@ -15,7 +15,7 @@ export const Navbar = () => {
   const handleSetMenuClose = () => setShowMenu(false);
 
   let history =useHistory();
-  let location = useLocation();
+  
   function handlePath (path){
       history.push(path);
   }
@@ -53,7 +53,7 @@ export const Navbar = () => {
             </ul>
           </li>
           <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descarga</NavLink>
+          <NavLink to="/descargas">Descargas</NavLink>
           <NavLink to="/creditos">Créditos</NavLink>
         </div>
         <select id="language">
@@ -63,6 +63,7 @@ export const Navbar = () => {
         <FaBars className="bars-icon" onClick={handleSetMenu} />
       </div>
       <nav id="menu-overlay" className={showMenu ? "is-open" : "is-close"}>
+      
         <AiOutlineClose id="close-menu" onClick = {handleSetMenuClose}/>
         <NavLink to="/">
           <img alt="logo" src={logo}></img>
@@ -94,7 +95,7 @@ export const Navbar = () => {
             </ul>
           </li>
           <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descarga</NavLink>
+          <NavLink to="/descargas">Descargas</NavLink>
           <NavLink to="/creditos">Créditos</NavLink>
         </section>
         <section id="contact">

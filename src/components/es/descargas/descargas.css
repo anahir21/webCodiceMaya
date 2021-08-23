@@ -1,0 +1,136 @@
+.text-left {
+    text-align: left;
+}
+.downloads {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.grid-pages {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 90px;
+    grid-auto-rows: minmax(50px, auto);
+}
+.folio-card img{
+    width: 100%;
+}
+.figcaption{
+    color: #fff;
+    font-family: trajan-pro-3, serif;
+font-style: normal;
+font-weight: normal;
+}
+.date{
+    color: #888;
+    display: flex;
+    align-items: flex-start;
+}
+.line-date{
+    width:40px;
+    margin-right: 10px;
+    border-color: #888;
+}
+.date p{
+    padding: 0;
+    margin: 0;
+}
+.download-button{
+    
+    padding: 15px 16.5px;
+    background-color: #262626;
+    border-radius: 50%;
+    border:1px solid #fff;
+    box-shadow: 0 0 0 10px #262626;
+    transition: all .3s ease-in;
+    font-size: 1rem;
+    margin-top: 20px;
+    display: block;
+    float: left;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.download-button:hover{
+    color: #fff;
+    font-size: 1.1rem;
+    background-color: #888;
+    box-shadow: 0 0 0 10px #888;
+}
+.folio-card:nth-child(2){
+    margin-top: 100px;
+}
+.folio-card:nth-child(5){
+    margin-top: 100px;
+}
+.folio-card:nth-child(8){
+    margin-top: 100px;
+}
+.folio-card:nth-child(10){
+    grid-column: 3;
+    margin-top: -150px;
+}
+.license-images{
+    display: flex;
+    color: #fff;
+    padding: 0 10%;
+    align-items: center;
+    margin-top: 50px;
+}
+.license-images p{
+    padding: 0;
+    margin: 0;
+}
+.license-images img {
+    height: 40px;
+    margin-right: 20px;
+}
+@media all and (max-width: 1080px) {
+    .grid-pages {
+        width: 80%;
+        padding: 0 10%;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    .folio-card:nth-child(10){
+        grid-column: 2;
+        margin-top: 50px;
+        
+    }
+
+}
+@media all and (max-width: 720px) {
+    .grid-pages {
+        width: 80%;
+        padding: 0 10%;
+        grid-template-columns: 1fr;
+        
+    }
+    .folio-card{
+        margin-top: 10px;
+    }
+    .folio-card img{
+        width: 50%;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .folio-card:nth-child(2), .folio-card:nth-child(5), .folio-card:nth-child(8){
+        margin-top: 0;
+    }
+    .folio-card:nth-child(10){
+        grid-column: 1;
+        margin-top: 0;
+        
+    }
+    .license-images{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    .license-images p{
+        margin-top: 20px;
+    }
+}

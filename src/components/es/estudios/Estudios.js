@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { Navbar } from "../../es/navbar/Navbar";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";
@@ -8,9 +8,12 @@ import orozco from "../../../images/estudios/orozco.jpg";
 import saeko from "../../../images/estudios/saeko.jpg";
 import velasquez from "../../../images/estudios/velasquez.jpg";
 import vila from "../../../images/estudios/vila.jpg";
-import { Button } from "../../ui/Ver_mas";
+import { ButtonMore } from "../../ui/ButtonMore";
 
 export const Estudios = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   let classHover = "invisible";
   const [isHovering, setIsHovering] = useState(false);
 
@@ -35,7 +38,7 @@ export const Estudios = () => {
         <div className="estudios__container_body">
           <h1 className="section_titles">Estudios</h1>
           <hr />
-          <Button />
+          <ButtonMore />
           <h3 className="section-subtitle top-line">
             Los Expertos y sus estudios
           </h3>
