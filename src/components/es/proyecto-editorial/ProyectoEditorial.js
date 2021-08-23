@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
@@ -11,6 +11,9 @@ import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
 import quote from "../../../images/editorial/quote.png";
 
 export const ProyectoEditorial = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className="view">
       <Navbar />

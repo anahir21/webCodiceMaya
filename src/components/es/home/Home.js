@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import Iframe from "react-iframe";
 import { Parallax } from "react-parallax";
 import { Modal } from "../modal/Modal.js";
@@ -13,6 +13,9 @@ import { Footer } from "../footer/Footer.js";
 import { Navbar } from "../navbar/Navbar.js";
 
 export const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {

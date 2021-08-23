@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { Navbar } from "../../es/navbar/Navbar";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";
@@ -11,6 +11,9 @@ import vila from "../../../images/estudios/vila.jpg";
 import { ButtonMore } from "../../ui/ButtonMore";
 
 export const Estudios = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   let classHover = "invisible";
   const [isHovering, setIsHovering] = useState(false);
 

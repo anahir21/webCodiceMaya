@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Navbar } from "../../es/navbar/Navbar";
 import "./presentacion.css";
 import { Footer } from "../footer/Footer";
@@ -7,12 +7,15 @@ import cacao from "../../../images/presentacion/cacao.jpg";
 import vectorCacao from "../../../images/presentacion/vector-cacao.jpg";
 import { ButtonMore } from "../../ui/ButtonMore";
 export const Presentacion = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className="view">
       <Navbar />
       <div className="header-section">
-        <p className="subtitle-section">Presentación</p>
-        <h1 className="section_titles">El Códice Maya de México</h1>
+        <p className="subtitle-section text-center">Presentación</p>
+        <h1 className="section_titles text-center">El Códice Maya de México</h1>
         <h1 className="section_titles">Almanaque de Venus</h1>
         <p className="name-author">Alejandra Moreno Toscano</p>
       </div>

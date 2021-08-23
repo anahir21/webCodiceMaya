@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Navbar } from "../navbar/Navbar";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
@@ -20,10 +20,13 @@ import cc from "../../../images/descargas/by-nc-sa.png";
 
 
 export const Descargas = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className=" view downloads">
       <Navbar />
-      <h1 className="section_titles">Descargas</h1>
+      <h1 className="section_titles text-left">Descargas</h1>
       <div className="grid-pages">
         <div className="folio-card">
           <img src={codice01} alt="codice-folio-1" />

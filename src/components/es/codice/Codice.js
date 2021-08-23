@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import "./codice.css";
@@ -8,6 +8,9 @@ import tarjeta3 from "../../../images/codice/tarjeta3.png";
 import tarjeta6 from "../../../images/codice/tarjeta6.png";
 
 export const Codice = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
   return (
     <section className="view">
       <Navbar />

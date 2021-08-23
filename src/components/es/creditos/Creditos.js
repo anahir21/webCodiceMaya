@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import "./creditos.css";
 export const Creditos = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className="view-credits">
       <Navbar />

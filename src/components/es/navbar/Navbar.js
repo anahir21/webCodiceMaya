@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from "react";
-import { NavLink, Link, useHistory, useLocation } from "react-router-dom";
+import { NavLink, Link, useHistory } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../../../images/logo.png";
 import { FaBars } from "react-icons/fa";
@@ -15,7 +15,7 @@ export const Navbar = () => {
   const handleSetMenuClose = () => setShowMenu(false);
 
   let history =useHistory();
-  let location = useLocation();
+  
   function handlePath (path){
       history.push(path);
   }
