@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/webCodiceMaya/static/css/main.38ab27c4.chunk.css",
-    "main.js": "/webCodiceMaya/static/js/main.d7f0d35e.chunk.js",
-    "main.js.map": "/webCodiceMaya/static/js/main.d7f0d35e.chunk.js.map",
+    "main.js": "/webCodiceMaya/static/js/main.143735d2.chunk.js",
+    "main.js.map": "/webCodiceMaya/static/js/main.143735d2.chunk.js.map",
     "runtime-main.js": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js",
     "runtime-main.js.map": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js.map",
-    "static/js/2.1ac6267b.chunk.js": "/webCodiceMaya/static/js/2.1ac6267b.chunk.js",
-    "static/js/2.1ac6267b.chunk.js.map": "/webCodiceMaya/static/js/2.1ac6267b.chunk.js.map",
+    "static/js/2.e04812fd.chunk.js": "/webCodiceMaya/static/js/2.e04812fd.chunk.js",
+    "static/js/2.e04812fd.chunk.js.map": "/webCodiceMaya/static/js/2.e04812fd.chunk.js.map",
     "index.html": "/webCodiceMaya/index.html",
     "static/css/main.38ab27c4.chunk.css.map": "/webCodiceMaya/static/css/main.38ab27c4.chunk.css.map",
-    "static/js/2.1ac6267b.chunk.js.LICENSE.txt": "/webCodiceMaya/static/js/2.1ac6267b.chunk.js.LICENSE.txt",
+    "static/js/2.e04812fd.chunk.js.LICENSE.txt": "/webCodiceMaya/static/js/2.e04812fd.chunk.js.LICENSE.txt",
     "static/media/brito-article01.fe17eada.jpg": "/webCodiceMaya/static/media/brito-article01.fe17eada.jpg",
     "static/media/brito-article02.7e71a72c.jpg": "/webCodiceMaya/static/media/brito-article02.7e71a72c.jpg",
     "static/media/autores.css": "/webCodiceMaya/static/media/vila-portada.4c94ab59.jpg",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.96cefa5d.js",
-    "static/js/2.1ac6267b.chunk.js",
+    "static/js/2.e04812fd.chunk.js",
     "static/css/main.38ab27c4.chunk.css",
-    "static/js/main.d7f0d35e.chunk.js"
+    "static/js/main.143735d2.chunk.js"
   ]
 }
