@@ -29,26 +29,26 @@ export const Navbar = () => {
         <div className="links">
           <NavLink to="/presentacion">Presentación</NavLink>
           <NavLink to="/codice">Códice Maya de México</NavLink>
-          <li className="drop-down-container" onClick={()=>handlePath('estudios')}>
-            Estudios
+          <li className="drop-down-container">
+          <NavLink to="/estudios">Estudios</NavLink>
             <ul>
               <li>
-                <NavLink to="/">Moreno Toscano</NavLink>
+                <NavLink to="/presentacion">Moreno Toscano</NavLink>
               </li>
               <li>
-                <NavLink to="/">Brito Guadarrama</NavLink>
+                <NavLink to="/baltazar-brito">Brito Guadarrama</NavLink>
               </li>
               <li>
-                <NavLink to="/">Velásquez</NavLink>
+                <NavLink to="/erik-velasquez">Velásquez</NavLink>
               </li>
               <li>
-                <NavLink to="/">Vila Freyer</NavLink>
+                <NavLink to="/ricardo-vila">Vila Freyer</NavLink>
               </li>
               <li>
-                <NavLink to="/">B. Carlson</NavLink>
+                <NavLink to="/john-carlson">B. Carlson</NavLink>
               </li>
               <li>
-                <NavLink to="/">Orozco</NavLink>
+                <NavLink to="/esther-orozco">Orozco</NavLink>
               </li>
             </ul>
           </li>
@@ -72,25 +72,25 @@ export const Navbar = () => {
           <NavLink to="/presentacion">Presentación</NavLink>
           <NavLink to="/codice">Códice Maya de México</NavLink>
           <li className="drop-down-container">
-            Estudios
+          <NavLink to="/estudios">Estudios</NavLink>
             <ul>
               <li>
-                <Link to="/">Moreno Toscano</Link>
+                <Link to="/presentacion">Moreno Toscano</Link>
               </li>
               <li>
-                <Link to="/">Brito Guadarrama</Link>
+                <Link to="/baltazar-brito">Brito Guadarrama</Link>
               </li>
               <li>
-                <Link to="/">Velásquez</Link>
+                <Link to="/erik-velasquez">Velásquez</Link>
               </li>
               <li>
-                <Link to="/">Vila Freyer</Link>
+                <Link to="/ricardo-vila">Vila Freyer</Link>
               </li>
               <li>
-                <Link to="/">B. Carlson</Link>
+                <Link to="/john-carlson">B. Carlson</Link>
               </li>
               <li>
-                <Link to="/">Orozco</Link>
+                <Link to="/esther-orozco">Orozco</Link>
               </li>
             </ul>
           </li>

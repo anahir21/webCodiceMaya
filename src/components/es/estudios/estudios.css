@@ -7,6 +7,7 @@ width: 100%;
  width: 100%;
  height: auto;
  }
+ 
 
 
  /*.img_author:hover {filter: opacity(.5);}*/
@@ -91,7 +92,41 @@ hr {
     text-transform: uppercase;
     color: #d8d8d8;
   }
+/* Card Styles */ 
+.container-over{
+  position: relative;
 
+}
+.card-over{
+  opacity: 0;
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+}
+.container-over:hover .card-over{
+  opacity:1;
+}
+
+.card-leave{
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ transition: all .5;
+}
 
   @media all and (max-width: 1080px) {
 
