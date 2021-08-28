@@ -1,14 +1,18 @@
-import React from 'react';
-import { RiArrowDropRightLine } from "react-icons/ri"
-import './ButtonMore.css'
+import React from "react";
+import { useHistory } from "react-router-dom";
+import { RiArrowDropRightLine } from "react-icons/ri";
+import "./ButtonMore.css";
 
+export const ButtonMore = ({path}) => {
+  let history = useHistory();
 
-export const ButtonMore = (onClick) => {
-    return (
-        <button className="button__ver_mas" onClick = {onClick}>
-            Ver más <RiArrowDropRightLine />
-            </button>
-    )
+  function handlePath(path) {
+    history.push(path);
+  }
 
-}
-
+  return (
+    <button className="button__ver_mas" onClick={()=>handlePath(path)}>
+      Ver más <RiArrowDropRightLine />
+    </button>
+  );
+};
