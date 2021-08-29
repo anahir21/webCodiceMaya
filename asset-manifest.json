@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/webCodiceMaya/static/css/main.38ab27c4.chunk.css",
-    "main.js": "/webCodiceMaya/static/js/main.143735d2.chunk.js",
-    "main.js.map": "/webCodiceMaya/static/js/main.143735d2.chunk.js.map",
+    "main.js": "/webCodiceMaya/static/js/main.60a41f8e.chunk.js",
+    "main.js.map": "/webCodiceMaya/static/js/main.60a41f8e.chunk.js.map",
     "runtime-main.js": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js",
     "runtime-main.js.map": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js.map",
     "static/js/2.e04812fd.chunk.js": "/webCodiceMaya/static/js/2.e04812fd.chunk.js",
@@ -38,6 +38,7 @@
     "static/media/paginas-codice.6f065720.jpg": "/webCodiceMaya/static/media/paginas-codice.6f065720.jpg",
     "static/media/papel-amate-1.26dbdbed.png": "/webCodiceMaya/static/media/papel-amate-1.26dbdbed.png",
     "static/media/papel-amate-2.e3dd8450.png": "/webCodiceMaya/static/media/papel-amate-2.e3dd8450.png",
+    "static/media/planet-venus-in-space-with-stars.0a804a24.mp4": "/webCodiceMaya/static/media/planet-venus-in-space-with-stars.0a804a24.mp4",
     "static/media/portada-editorial.2f7eeb8b.png": "/webCodiceMaya/static/media/portada-editorial.2f7eeb8b.png",
     "static/media/saeko.403aa381.jpg": "/webCodiceMaya/static/media/saeko.403aa381.jpg",
     "static/media/tabla.bbc3e96c.png": "/webCodiceMaya/static/media/tabla.bbc3e96c.png",
@@ -53,6 +54,6 @@
     "static/js/runtime-main.96cefa5d.js",
     "static/js/2.e04812fd.chunk.js",
     "static/css/main.38ab27c4.chunk.css",
-    "static/js/main.143735d2.chunk.js"
+    "static/js/main.60a41f8e.chunk.js"
   ]
 }
