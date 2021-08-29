@@ -54,25 +54,37 @@ export const Iconografia = () => {
     </div> */}
 
       <div className="todos-los-folios">
-        <div className="folio-container">
-          <div className="images-codice"></div>
-          <div className="text-media">
-            <div className="slide-tex">
-                <Parallax pages={2} horizontal>
-                    <ParallaxLayer factor={.5} offset={0} className="layer blue">
-                        <p>Uno</p>
-                    </ParallaxLayer>
-                    <ParallaxLayer factor={.5} offset={.5} className="layer red">
-                        <p>Dos</p>
-                    </ParallaxLayer>
-                    <ParallaxLayer factor={.5} offset={1} className="layer blue">
-                        <p>Tres</p>
-                    </ParallaxLayer>
-                </Parallax>
+        <Parallax pages={5}>
+          <ParallaxLayer sticky={{ start: 0, end: 3 }} className="sticky">
+            <div className="w50">
+              <img src={folio_01_a} alt="folios" />
             </div>
-            <div className="audio-container"></div>
-          </div>
-        </div>
+          </ParallaxLayer>
+          <ParallaxLayer sticky={{ start: 0, end: 3 }} className="sticky-right">
+            <div className="w50">
+              <hr className="hr-folio" />
+              <h3 className="number-folio">Folio 1</h3>
+              <div className="blur"></div>
+            </div>
+            
+          </ParallaxLayer>
+          <ParallaxLayer className="no-sticky" offset={1}>
+            <div className="w50">
+              <p className="text-gray text-flow">
+                El día 1 K’an [signo desaparecido, 1º signo de la columna
+                jeroglífico], desde la primera salida de Venus como el Lucero
+                Matutino en el día 1 Ajaw [último signo de la columna
+                jeroglífica de la página XX, hoy perdida] pasaron 1,404 días
+                [(584 x 2) + 236],{" "}
+              </p>
+            </div>
+          </ParallaxLayer>
+          <ParallaxLayer className="no-sticky" offset={3}>
+              <div className="w50">
+            <p className="text-gray text-flow">Venus está oculto detrás del Sol. Allí permanecerá 90 días [número de anillo: (5x2) + (20 x 4).</p>
+            </div>
+          </ParallaxLayer>
+        </Parallax>
       </div>
     </section>
   );
