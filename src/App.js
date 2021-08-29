@@ -16,6 +16,7 @@ import { Carlson } from "./components/es/autores/carlson";
 import { Velasquez } from "./components/es/autores/velasquez";
 import { Vila } from "./components/es/autores/vila";
 import { Orozco} from "./components/es/autores/orozco";
+import { Iconografia } from './components/es/iconografia/Iconografia';
 
 function App() {
   const location = useLocation();
@@ -51,6 +52,8 @@ function App() {
         <Route path="/ricardo-vila" component={Vila}></Route>
 
         <Route path="/esther-orozco" component={Orozco}></Route>
+
+        <Route path="/estudio-iconografico" component={Iconografia}></Route>
       </Switch>
     </animated.div>
   ));

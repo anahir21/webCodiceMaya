@@ -1,0 +1,54 @@
+.view-iconography{
+    margin-top: 100px;
+    padding-top: 0px;
+  }
+.cover-iconography{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: calc(100vh - 100px);
+}
+
+.section_titles_iconography{
+
+    color: #ffffff;
+    justify-content: center;
+    font-family: trajan-pro-3, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 5rem;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.title-iconography{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    justify-content: flex-end;
+    padding: 0 50px;
+}
+.author-section-iconography {
+    display: flex;
+    text-transform: uppercase;
+    color: #888;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: right;
+}
+.author-section-iconography hr{
+    border-color: #555;
+    width: 50px;
+    margin-right: 10px;
+}
+.cover-iconography-image{
+    width: 50%;
+}
+.cover-iconography-image img{
+    width: 90%;
+}
+.intro-iconography{
+    padding: 50px 15%;
+}
