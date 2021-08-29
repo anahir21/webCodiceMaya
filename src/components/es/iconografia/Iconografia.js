@@ -1,12 +1,11 @@
-import React from "react";
-import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax'
-
+import React, { useRef } from "react";
+import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Navbar } from "../navbar/Navbar";
 import "./iconografia.css";
 
 import codice_03 from "../../../images/iconografia/codice_03.png";
 import folio_01_a from "../../../images/iconografia/codice_01_a.png";
-import folio_01_b from "../../../images/iconografia/codice_01_b.png";
+import folio_01_b from "../../../images/iconografia/codice_01-b.png";
 
 export const Iconografia = () => {
   return (
@@ -30,7 +29,6 @@ export const Iconografia = () => {
         </div>
       </div>
       <div className="intro-iconography">
-
         <p className="text-gray">
           Los Mayas dividían el ciclo sinódico de este astro en cuatro fases
           aparentes desde la Tierra. La fase uno, cuando Venus aparece como la
@@ -46,15 +44,36 @@ export const Iconografia = () => {
           y el omega de toda la construcción del almanaque venusino.
         </p>
       </div>
-    
-    <div className="folio-container">
+
+      {/* <div className="folio-container">
         <div className="images-codice"></div>
         <div className="text-media">
             <div className="slide-tex"></div>
             <div className="audio-container"></div>
         </div>
-    </div>
+    </div> */}
 
+      <div className="todos-los-folios">
+        <div className="folio-container">
+          <div className="images-codice"></div>
+          <div className="text-media">
+            <div className="slide-tex">
+                <Parallax pages={2} horizontal>
+                    <ParallaxLayer factor={.5} offset={0} className="layer blue">
+                        <p>Uno</p>
+                    </ParallaxLayer>
+                    <ParallaxLayer factor={.5} offset={.5} className="layer red">
+                        <p>Dos</p>
+                    </ParallaxLayer>
+                    <ParallaxLayer factor={.5} offset={1} className="layer blue">
+                        <p>Tres</p>
+                    </ParallaxLayer>
+                </Parallax>
+            </div>
+            <div className="audio-container"></div>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };

@@ -52,3 +52,32 @@
 .intro-iconography{
     padding: 50px 15%;
 }
+
+.blue {
+    background-color: blue;
+}
+.red{
+    background-color: brown;
+}
+/* FOLIOS */
+.folio-container{
+    background-color: burlywood;
+    display: flex;
+    min-height: 100vh;
+}
+.images-codice{
+    width: 50%;
+    background-color: cadetblue;
+}
+.text-media{
+    width: 50%;
+    background-color: coral;
+}
+.slide-tex{
+    color: #ffffff;
+}
+.layer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
