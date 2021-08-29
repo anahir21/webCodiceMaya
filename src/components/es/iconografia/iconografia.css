@@ -60,9 +60,9 @@
 }
 /* FOLIOS */
 .folio-container {
-  background-color: burlywood;
-  display: flex;
-  min-height: 100vh;
+display: flex;
+min-height: 100vh;
+position: relative;
 }
 .images-codice {
   width: 50%;
@@ -70,7 +70,6 @@
 }
 .text-media {
   width: 50%;
-  background-color: coral;
 }
 .slide-tex {
   color: #ffffff;
@@ -144,4 +143,60 @@
 }
 .text-flow{
     padding: 0 70px;
+}
+/* Scrollama */
+.folio1a {
+  width: 50%;
+}
+.text-media{
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+}
+.text-media div{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+#is-sticky{
+  position: fixed;
+  top: 100px;
+  left:0;
+}
+.folio-container #is-sticky {
+  height: 100vh;
+}
+.folio-container #no-sticky {
+  height: 100vh;
+}
+.no-background{
+  background: transparent;
+}
+.no-background p{
+  padding: 0 50px;
+}
+.change-image {
+  width: 100%;
+}
+
+.change-image .folio1-1 {
+  height: 100vh;
+  background: url('../../../images/iconografia/folio1/folio1_1.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.change-image .folio1-2 {
+  width: 50%;
+  height: 100vh;
+  background: url('../../../images/iconografia/folio1/folio1_2.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.change-image .folio1-3 {
+  width: 50%;
+  height: 100vh;
+  background: url('../../../images/iconografia/folio1/folio1_3.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
 }
