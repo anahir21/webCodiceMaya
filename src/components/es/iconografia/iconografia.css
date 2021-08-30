@@ -59,143 +59,33 @@
   background-color: brown;
 }
 /* FOLIOS */
-.folio-container {
-display: flex;
-min-height: 100vh;
-position: relative;
-}
-.images-codice {
-  width: 50%;
-  background-color: cadetblue;
-}
-.text-media {
-  width: 50%;
-}
-.slide-tex {
-  color: #ffffff;
-}
-.layer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 /* Nuevos folios */
-.w50 {
+.scrollytelling {
+  display: flex;
+  width: 100%;
+}
+#aSticky{
+  width: 50%;
+  height: 100vh;
+}
+.text-folio-container{
   width: 50%;
 }
-.w50 img {
-  width: 100%;
-}
-.todos-los-folios {
-  width: 100%;
-  min-height: 100vh;
-  height: auto;
-  position: relative;
-}
-.sticky {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-.sticky-right {
-  display: flex;
-  justify-content: flex-end;
-  align-items: space-around;
-}
-.sticky-right .w50 {
-  padding: 70px 0;
-  min-height: 50px;
-  height: 100px;
-  background-color: #111;
-  color: #ffffff;
-  padding-bottom: 0;
-  margin-bottom: 0;
-}
-.blur{
-    height: 50px;
-  background-color: #111;
-  filter: blur(10px);
-  margin-top: -20px;
-  padding: 0;
-}
-.number-folio {
-  padding-left: 70px;
-  font-size: 3rem;
-  font-family: trajan-pro-3, serif;
-  font-style: normal;
-  font-weight: normal;
-  margin-top: 20px;
-  background-color: #111;
-  padding-bottom: 10px;
-  margin-bottom: 0;
-
-}
-.hr-folio {
-  width: 100px;
-  margin-left: 70px;
-  display: block;
-  float: left;
-}
-.no-sticky {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-}
-.text-flow{
-    padding: 0 70px;
-}
-/* Scrollama */
-.folio1a {
-  width: 50%;
-}
-.text-media{
-  color: #ffffff;
-  position: absolute;
-  left: 50%;
-}
-.text-media div{
+.text-folio-container div{
   height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-#is-sticky{
-  position: fixed;
-  top: 100px;
-  left:0;
-}
-.folio-container #is-sticky {
-  height: 100vh;
-}
-.folio-container #no-sticky {
-  height: 100vh;
-}
-.no-background{
-  background: transparent;
-}
-.no-background p{
-  padding: 0 50px;
-}
-.change-image {
-  width: 100%;
 }
 
-.change-image .folio1-1 {
-  height: 100vh;
+.folio1-1 {
   background: url('../../../images/iconografia/folio1/folio1_1.png') no-repeat center;
   background-size: contain;
   transition: all .2s;
 }
-.change-image .folio1-2 {
-  width: 50%;
-  height: 100vh;
+.folio1-2 {
   background: url('../../../images/iconografia/folio1/folio1_2.png') no-repeat center;
   background-size: contain;
   transition: all .2s;
 }
-.change-image .folio1-3 {
-  width: 50%;
-  height: 100vh;
+.folio1-3 {
   background: url('../../../images/iconografia/folio1/folio1_3.png') no-repeat center;
   background-size: contain;
   transition: all .2s;
