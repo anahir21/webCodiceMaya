@@ -2,6 +2,7 @@ import { createContext, useContext, useState } from "react";
 
 const EmitterContext = createContext({
     data: null,
+    title: null,
     setValue: (value) => {}
   });
   
@@ -9,12 +10,14 @@ const EmitterContext = createContext({
   
  export const Emmiter = ({ children }) => {
     const [data, setData] = useState();
+    const [title, setTitle] = useState();
   
-    const setDataEvent = (data) => {
+    const setDataEvent = (data, title) => {
       setData(data);
+      setTitle(title)
     };
   
-    const value = { data, setDataEvent };
+    const value = { data, title, setDataEvent };
   
     return (
       <EmitterContext.Provider value={value}>{children}</EmitterContext.Provider>

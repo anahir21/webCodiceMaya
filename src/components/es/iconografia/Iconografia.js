@@ -2,6 +2,8 @@ import React, { useState, useRef, useEffect } from "react";
 import { Navbar } from "../navbar/Navbar";
 import  UseSpy from "./useSpy";
 import { UseEmitter, Emmiter } from "./emiter";
+import { useInView } from 'react-intersection-observer';
+
 
 
 import "./iconografia.css";
@@ -12,12 +14,14 @@ import folio1_2 from "../../../images/iconografia/folio1/folio1_2.png";
 import { ImageFolio } from "./ImageFolio";
 import { TextFolio } from "./TextFolio";
 
-
+ 
 export const Iconografia = () => {
-
-
+  const [ref, inView] = useInView({
+    threshold: 0,
+  })
+  
   return (
-    <section className="view-iconography">
+    <section >
       <Navbar />
       <div className="cover-iconography">
         <div className="title-iconography">
@@ -36,7 +40,7 @@ export const Iconografia = () => {
           <img src={codice_03} alt="codice-maya-folio-3" />
         </div>
       </div>
-      <div className="intro-iconography">
+      <div ref={ref}  className="intro-iconography">
         <p className="text-gray">
           Los Mayas dividían el ciclo sinódico de este astro en cuatro fases
           aparentes desde la Tierra. La fase uno, cuando Venus aparece como la
@@ -53,10 +57,13 @@ export const Iconografia = () => {
         </p>
       </div>
      
-      <div className="folio-container">
+      <div className="folio-container" >
         <Emmiter>
           <div className="scrollytelling">
+          <div className={inView ? 'no-sticky': 'is-sticky' }>
           <ImageFolio />
+          </div>
+          
           <TextFolio></TextFolio>
           </div>
         </Emmiter>

@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import UseSpy from "./useSpy";
 import { UseEmitter } from "./emiter";
 
-export const DivFolio = ({folio, text}) => {
+export const DivFolio = ({title, folio, text}) => {
     
 const { setDataEvent } = UseEmitter();
-const { isVisible, itemRef, ratio } = UseSpy();
+const { isVisible, itemRef} = UseSpy();
 
 useEffect(() => {
     if (isVisible) {
-      setDataEvent(folio);
+      setDataEvent(folio, title);
     }
-  }, [isVisible, folio, setDataEvent]);
+  }, [isVisible, title, folio, setDataEvent]);
     return (
         <div ref={itemRef} folio={folio}>
             <p className='text-gray'>{text}</p>
