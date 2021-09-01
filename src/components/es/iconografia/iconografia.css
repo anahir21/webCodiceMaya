@@ -1,0 +1,111 @@
+.view-iconography {
+  margin-top: 100px;
+  padding-top: 0px;
+}
+.cover-iconography {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100vh;
+}
+
+.section_titles_iconography {
+  color: #ffffff;
+  justify-content: center;
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4rem;
+  line-height: 5rem;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+.title-iconography {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: flex-end;
+  padding: 0 50px;
+}
+.author-section-iconography {
+  display: flex;
+  text-transform: uppercase;
+  color: #888;
+  align-items: center;
+  justify-content: flex-end;
+  text-align: right;
+}
+.author-section-iconography hr {
+  border-color: #555;
+  width: 50px;
+  margin-right: 10px;
+}
+.cover-iconography-image {
+  width: 50%;
+}
+.cover-iconography-image img {
+  width: 90%;
+}
+.intro-iconography {
+  padding: 50px 15%;
+}
+
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: brown;
+}
+/* FOLIOS */
+/* Nuevos folios */
+.scrollytelling {
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+.folio-container {
+  margin-top: 150px;
+}
+#aSticky{
+  width: 100%;
+  height: 100vh;
+}
+.no-sticky{
+  width: 50%;
+}
+.is-sticky{
+  width: 50%;
+  position: fixed;
+  top: 135px;
+  left: 0;
+}
+.text-folio-container{
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+}
+.text-folio-container div{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+.folio1-1 {
+  background: url('../../../images/iconografia/folio1/folio1_1.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.folio1-2 {
+  background: url('../../../images/iconografia/folio1/folio1_2.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.folio1-3 {
+  background: url('../../../images/iconografia/folio1/folio1_3.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
