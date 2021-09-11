@@ -2,7 +2,7 @@ import React, { Fragment, useState, useEffect } from "react";
 import Iframe from "react-iframe";
 import { Parallax } from "react-parallax";
 import { Modal } from "../modal/Modal.js";
-import { Play } from "../../ui/Play";
+import { Play } from "../ui/Play";
 import venus from "../../../images/home/venus.jpg";
 import venus2 from "../../../images/home/venus2.jpg";
 import pageCodice from "../../../images/home/codice_02.png";

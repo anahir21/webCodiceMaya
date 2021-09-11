@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
-import { ButtonMore } from '../../ui/ButtonMore';
+import { ButtonMore } from '../ui/ButtonMore';
 import "./autores.css";
 
 export const Orozco = () => {

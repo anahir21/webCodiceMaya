@@ -7,7 +7,6 @@ export const ImageFolio = () => {
 
     return (
         <div id='aSticky' className = {data}>
-            <h3 className="section_titles text-left">{title}</h3>
             
         </div>
     )

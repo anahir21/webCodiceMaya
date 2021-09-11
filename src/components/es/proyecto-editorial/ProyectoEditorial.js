@@ -3,9 +3,9 @@ import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import portada from "../../../images/editorial/portada-editorial.png"
-import { Play } from "../../ui/Play";
+import { Play } from "../ui/Play";
 import "./editorial.css";
-import { ButtonMore } from "../../ui/ButtonMore";
+import { ButtonMore } from '../ui/ButtonMore';
 import papelAmate1 from "../../../images/editorial/papel-amate-1.png";
 import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
 import quote from "../../../images/editorial/quote.png";

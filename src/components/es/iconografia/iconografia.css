@@ -92,6 +92,7 @@
   display: flex;
   align-items: center;
   padding: 10%;
+  flex-direction: column;
 }
 
 .folio1-1 {
@@ -106,6 +107,21 @@
 }
 .folio1-3 {
   background: url('../../../images/iconografia/folio1/folio1_3.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.folio2-1 {
+  background: url('../../../images/iconografia/folio2/folio2_1.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.folio2-2 {
+  background: url('../../../images/iconografia/folio2/folio2_2.png') no-repeat center;
+  background-size: contain;
+  transition: all .2s;
+}
+.folio2-3 {
+  background: url('../../../images/iconografia/folio2/folio2_3.png') no-repeat center;
   background-size: contain;
   transition: all .2s;
 }
