@@ -12,7 +12,7 @@ export const TextFolio = () => {
               Matutino en el día 1 Ajaw [último signo de la columna jeroglífica
               de la página XX, hoy perdida] pasaron 1,404 días [(584 x 2) +
               236],{" "}'
-        url="lamina1"
+        url="1"
         sound="lamina_1"
       />
 
@@ -32,7 +32,7 @@ export const TextFolio = () => {
         title="Folio 2"
         folio="folio2-1"
         text="El día 12 Hix [1º signo de la columna jeroglífica], al atardecer, Venus aparece por el Oeste."
-        url="lamina2"
+        url="2"
         sound="lamina_2"
       />
     </div>

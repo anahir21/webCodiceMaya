@@ -1,36 +1,78 @@
 import React, { useState, useEffect, Fragment } from "react";
-import audio1 from '../../../audio/lamina_1.mp3'
-import audio2 from '../../../audio/lamina_2.mp3'
+import audio1 from "../../../audio/lamina_1.mp3";
+import audio2 from "../../../audio/lamina_2.mp3";
 
-export const AudioPlay = ({url}) => {
-  console.log(url)
-  const useAudio = (sound) => {
-    const [audio] = useState(new Audio(sound));
-    const [playing, setPlaying] = useState(false);
+const allAudios = [audio1, audio2];
 
-    const toggle = () => setPlaying(!playing);
-
-    useEffect(() => {
-      playing ? audio.play() : audio.pause();
-    }, [playing]);
-
-    useEffect(() => {
-      audio.addEventListener("ended", () => setPlaying(false));
-      return () => {
-        audio.removeEventListener("ended", () => setPlaying(false));
+const useMultiAudio = (urls) => {
+  const [sources, setSources] = useState(
+    urls.map((url) => {
+      return {
+        url,
+        audio: new Audio(url),
       };
-    }, []);
+    })
+  );
 
-    return [playing, toggle];
+  const [players, setPlayers] = useState(
+    urls.map((url) => {
+      return {
+        url,
+        playing: false,
+      };
+    })
+  );
+
+  const toggle = (targetIndex) => () => {
+    const newPlayers = [...players];
+    const currentIndex = players.findIndex((p) => p.playing === true);
+    if (currentIndex !== -1 && currentIndex !== targetIndex) {
+      newPlayers[currentIndex].playing = false;
+      newPlayers[targetIndex].playing = true;
+    } else if (currentIndex !== -1) {
+      newPlayers[targetIndex].playing = false;
+    } else {
+      newPlayers[targetIndex].playing = true;
+    }
+    setPlayers(newPlayers);
+    
   };
 
-  const [playing, toggle] = useAudio(
-    url === 'lamina1' ? audio1 : url === 'lamina2' ? audio2 : null
-    );
+  useEffect(() => {
+    sources.forEach((source, i) => {
+      players[i].playing ? source.audio.play() : source.audio.pause();
+    });
+  }, [sources, players]);
 
+  useEffect(() => {
+    sources.forEach((source, i) => {
+      source.audio.addEventListener("ended", () => {
+        const newPlayers = [...players];
+        newPlayers[i].playing = false;
+        setPlayers(newPlayers);
+      });
+    });
+    return () => {
+      sources.forEach((source, i) => {
+        source.audio.removeEventListener("ended", () => {
+          const newPlayers = [...players];
+          newPlayers[i].playing = false;
+          setPlayers(newPlayers);
+        });
+      });
+    };
+  }, []);
+
+  return [players, toggle, sources];
+};
+export const AudioPlay = ({ url }) => {
+  const [players, toggle] = useMultiAudio(allAudios);
   return (
     <Fragment>
-      <button onClick={toggle}>{playing ? "Pause" : "Play"}</button>
+      {players.map((player, i) => (
+      i === url - 1 ? <button onClick={toggle(i)}>{player.playing ? "Pause" : "Play"}</button>
+: null   
+))}
     </Fragment>
   );
 };
