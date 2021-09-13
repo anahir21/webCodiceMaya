@@ -4,7 +4,7 @@ import "./Navbar.css";
 import logo from "../../../images/logo.png";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
-import { Mailto } from "../../ui/Mailto";
+import { Mailto } from "../ui/Mailto";
 
 
 

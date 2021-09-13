@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import { Route, Switch, useLocation } from "react-router-dom";
 import { animated, useTransition } from "react-spring";
 
@@ -17,8 +17,57 @@ import { Velasquez } from "./components/es/autores/velasquez";
 import { Vila } from "./components/es/autores/vila";
 import { Orozco} from "./components/es/autores/orozco";
 import { Iconografia } from './components/es/iconografia/Iconografia';
+import audio1 from './audio/lamina_1.mp3'
+import audio2 from './audio/lamina_2.mp3'
+import audio3 from './audio/lamina_3.mp3'
+import { AudioContext }from './components/es/context/AudioContext';
+const allAudios = [audio1, audio2, audio3];
+
+const playlist = allAudios.map((url) => {
+  return {
+    url,
+    audio: new Audio(url),
+  };
+})
+
 
 function App() {
+
+  const [players, setPlayers] = useState(
+    playlist.map(url => {
+      return {
+        url,
+        playing: false
+      };
+    })
+  );
+  useEffect(() => {
+    players.forEach((source, i) => {
+      players[i].playing ? source.url.audio.play() : source.url.audio.pause();
+    });
+  }, [players]);
+
+  useEffect(() => {
+    players.forEach((source, i) => {
+      source.url.audio.addEventListener("ended", () => {
+        const newPlayers = [...players];
+        newPlayers[i].playing = false;
+        setPlayers(newPlayers);
+      });
+    });
+  
+    return () => {
+      players.forEach((source, i) => {
+        source.url.audio.removeEventListener("ended", () => {
+          const newPlayers = [...players];
+          newPlayers[i].playing = false;
+          setPlayers(newPlayers);
+        });
+      });
+    };
+  }, []);
+
+
   const location = useLocation();
 
   const transitions = useTransition(location, {
@@ -27,10 +76,16 @@ function App() {
   });
 
   return transitions((props, item) => (
+    <AudioContext.Provider value={{
+      players,
+      setPlayers,
+    } 
+    }>
     <animated.div style={props}>
       <Switch location={item}>
-        <Route path="/" exact component={Home}></Route>
-
+        
+        <Route path="/" exact component={Home} ></Route>
+      
         <Route path="/presentacion" exact component={Presentacion}></Route>
 
         <Route path="/codice" component={Codice}></Route>
@@ -56,6 +111,7 @@ function App() {
         <Route path="/estudio-iconografico" component={Iconografia}></Route>
       </Switch>
     </animated.div>
+    </AudioContext.Provider>
   ));
 }
 
