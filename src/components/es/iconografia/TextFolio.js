@@ -35,6 +35,35 @@ export const TextFolio = () => {
         url="2"
         sound="lamina_2"
       />
+      <DivFolio
+        folio="folio2-2"
+        text="Venus es el dios Kisin, el dios de la muerte, ataviado como guerrero tolteca con yelmo de jaguar, saca su aliento de putrefacción."
+        url="2"
+      />
+      <DivFolio
+        folio="folio2-3"
+        text="Venus es el dios Kisin, el dios de la muerte, ataviado como guerrero tolteca con yelmo de jaguar, saca su aliento de putrefacción. "
+        url="2"
+      />
+
+      <DivFolio
+        title="Folio 3"
+        folio="folio3-1"
+        text='El día 3 K’an [signo desaparecido], Venus se oculta en el Inframundo, lugar obscuro, lleno de desgracia, ahí permanecerá por ocho días [número de anillo: 5 + 3].'
+        url="3"
+        sound="lamina_3"
+      />
+      <DivFolio
+        folio="folio3-2"
+        text='El día 3 K’an [signo desaparecido], Venus se oculta en el Inframundo, lugar obscuro, lleno de desgracia, ahí permanecerá por ocho días [número de anillo: 5 + 3].'
+        url="3"
+      />
+      <DivFolio
+        folio="folio3-3"
+        text='Corre el peligro a los gobernantes.'
+        url="3"
+      />
+
     </div>
   );
 };

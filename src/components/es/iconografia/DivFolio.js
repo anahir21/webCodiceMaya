@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import UseSpy from "./useSpy";
 import { UseEmitter } from "./emiter";
-import { AudioPlay } from "../ui/AudioPlay";
+import  AudioPlay  from "../ui/AudioPlay";
 
 export const DivFolio = ({title, folio, text, url, sound}) => {
     

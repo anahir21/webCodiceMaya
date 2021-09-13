@@ -7,7 +7,7 @@ const EmitterContext = createContext({
     setValue: (value) => {}
   });
   
-  export const UseEmitter = () => useContext(EmitterContext);
+export const UseEmitter = () => useContext(EmitterContext);
   
  export const Emmiter = ({ children }) => {
     const [data, setData] = useState();
