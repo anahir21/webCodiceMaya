@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/webCodiceMaya/static/css/main.38ab27c4.chunk.css",
-    "main.js": "/webCodiceMaya/static/js/main.6e449430.chunk.js",
-    "main.js.map": "/webCodiceMaya/static/js/main.6e449430.chunk.js.map",
+    "main.css": "/webCodiceMaya/static/css/main.4a46c45a.chunk.css",
+    "main.js": "/webCodiceMaya/static/js/main.f21f8cc8.chunk.js",
+    "main.js.map": "/webCodiceMaya/static/js/main.f21f8cc8.chunk.js.map",
     "runtime-main.js": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js",
     "runtime-main.js.map": "/webCodiceMaya/static/js/runtime-main.96cefa5d.js.map",
-    "static/js/2.e04812fd.chunk.js": "/webCodiceMaya/static/js/2.e04812fd.chunk.js",
-    "static/js/2.e04812fd.chunk.js.map": "/webCodiceMaya/static/js/2.e04812fd.chunk.js.map",
+    "static/js/2.ba332b38.chunk.js": "/webCodiceMaya/static/js/2.ba332b38.chunk.js",
+    "static/js/2.ba332b38.chunk.js.map": "/webCodiceMaya/static/js/2.ba332b38.chunk.js.map",
     "index.html": "/webCodiceMaya/index.html",
-    "static/css/main.38ab27c4.chunk.css.map": "/webCodiceMaya/static/css/main.38ab27c4.chunk.css.map",
-    "static/js/2.e04812fd.chunk.js.LICENSE.txt": "/webCodiceMaya/static/js/2.e04812fd.chunk.js.LICENSE.txt",
+    "static/css/main.4a46c45a.chunk.css.map": "/webCodiceMaya/static/css/main.4a46c45a.chunk.css.map",
+    "static/js/2.ba332b38.chunk.js.LICENSE.txt": "/webCodiceMaya/static/js/2.ba332b38.chunk.js.LICENSE.txt",
     "static/media/brito-article01.fe17eada.jpg": "/webCodiceMaya/static/media/brito-article01.fe17eada.jpg",
     "static/media/brito-article02.7e71a72c.jpg": "/webCodiceMaya/static/media/brito-article02.7e71a72c.jpg",
     "static/media/autores.css": "/webCodiceMaya/static/media/vila-portada.4c94ab59.jpg",
@@ -22,6 +22,7 @@
     "static/media/codice_02.a7081da8.png": "/webCodiceMaya/static/media/codice_02.a7081da8.png",
     "static/media/codice_02.bb242c0a.png": "/webCodiceMaya/static/media/codice_02.bb242c0a.png",
     "static/media/codice_03.05edc1e5.png": "/webCodiceMaya/static/media/codice_03.05edc1e5.png",
+    "static/media/codice_03.1ec62c28.png": "/webCodiceMaya/static/media/codice_03.1ec62c28.png",
     "static/media/codice_04.7e05e964.png": "/webCodiceMaya/static/media/codice_04.7e05e964.png",
     "static/media/codice_05.ab9d9bc5.png": "/webCodiceMaya/static/media/codice_05.ab9d9bc5.png",
     "static/media/codice_06.273f1785.png": "/webCodiceMaya/static/media/codice_06.273f1785.png",
@@ -31,6 +32,10 @@
     "static/media/codice_10.59f58398.png": "/webCodiceMaya/static/media/codice_10.59f58398.png",
     "static/media/creditos.css": "/webCodiceMaya/static/media/cover-credits.d215d050.png",
     "static/media/especialistas.60921660.jpg": "/webCodiceMaya/static/media/especialistas.60921660.jpg",
+    "static/media/iconografia.css": "/webCodiceMaya/static/media/folio3_3.908ecda3.png",
+    "static/media/lamina_1.9d228b37.mp3": "/webCodiceMaya/static/media/lamina_1.9d228b37.mp3",
+    "static/media/lamina_2.aee491d1.mp3": "/webCodiceMaya/static/media/lamina_2.aee491d1.mp3",
+    "static/media/lamina_3.0afe47ac.mp3": "/webCodiceMaya/static/media/lamina_3.0afe47ac.mp3",
     "static/media/logos-footer.8a25bcd1.png": "/webCodiceMaya/static/media/logos-footer.8a25bcd1.png",
     "static/media/moreno_toscano.cfc7a659.jpg": "/webCodiceMaya/static/media/moreno_toscano.cfc7a659.jpg",
     "static/media/orbitas.c309bedb.png": "/webCodiceMaya/static/media/orbitas.c309bedb.png",
@@ -45,14 +50,17 @@
     "static/media/tarjeta6.2b3b9c60.png": "/webCodiceMaya/static/media/tarjeta6.2b3b9c60.png",
     "static/media/vector-cacao.09e615d0.jpg": "/webCodiceMaya/static/media/vector-cacao.09e615d0.jpg",
     "static/media/velasquez.4335fbd8.jpg": "/webCodiceMaya/static/media/velasquez.4335fbd8.jpg",
+    "static/media/velasquez01.8f88fe45.jpg": "/webCodiceMaya/static/media/velasquez01.8f88fe45.jpg",
+    "static/media/velasquez02.434b95a0.jpg": "/webCodiceMaya/static/media/velasquez02.434b95a0.jpg",
     "static/media/venus.96f81a38.jpg": "/webCodiceMaya/static/media/venus.96f81a38.jpg",
     "static/media/venus2.82ba531e.jpg": "/webCodiceMaya/static/media/venus2.82ba531e.jpg",
-    "static/media/vila.2f040e93.jpg": "/webCodiceMaya/static/media/vila.2f040e93.jpg"
+    "static/media/vila.2f040e93.jpg": "/webCodiceMaya/static/media/vila.2f040e93.jpg",
+    "static/media/vila_01.5176ac3b.jpg": "/webCodiceMaya/static/media/vila_01.5176ac3b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.96cefa5d.js",
-    "static/js/2.e04812fd.chunk.js",
-    "static/css/main.38ab27c4.chunk.css",
-    "static/js/main.6e449430.chunk.js"
+    "static/js/2.ba332b38.chunk.js",
+    "static/css/main.4a46c45a.chunk.css",
+    "static/js/main.f21f8cc8.chunk.js"
   ]
 }
