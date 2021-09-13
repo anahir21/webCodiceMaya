@@ -3,7 +3,7 @@ import { Navbar } from "../navbar/Navbar";
 import  UseSpy from "./useSpy";
 import { UseEmitter, Emmiter } from "./emiter";
 import { useInView } from 'react-intersection-observer';
-
+import {PlayTrack} from "./Audio.js"
 
 
 import "./iconografia.css";
@@ -63,7 +63,7 @@ export const Iconografia = () => {
           <div className={inView ? 'no-sticky': 'is-sticky' }>
           <ImageFolio />
           </div>
-          
+          <PlayTrack></PlayTrack>
           <TextFolio></TextFolio>
           </div>
         </Emmiter>

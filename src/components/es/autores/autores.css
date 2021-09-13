@@ -167,3 +167,16 @@
     display: flex;
     justify-content: center;
   }
+
+footpage {
+    font-family: Raleway;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 2px;
+text-transform: uppercase;
+
+color: #000000;
+
+  }
