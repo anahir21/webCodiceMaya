@@ -30,6 +30,7 @@ const playlist = allAudios.map((url) => {
   };
 })
 
+
 function App() {
 
   const [players, setPlayers] = useState(
@@ -54,6 +55,7 @@ function App() {
         setPlayers(newPlayers);
       });
     });
+  
     return () => {
       players.forEach((source, i) => {
         source.url.audio.removeEventListener("ended", () => {
@@ -64,6 +66,7 @@ function App() {
       });
     };
   }, []);
+
 
   const location = useLocation();
 
@@ -80,8 +83,9 @@ function App() {
     }>
     <animated.div style={props}>
       <Switch location={item}>
-        <Route path="/" exact component={Home}></Route>
-
+        
+        <Route path="/" exact component={Home} ></Route>
+      
         <Route path="/presentacion" exact component={Presentacion}></Route>
 
         <Route path="/codice" component={Codice}></Route>

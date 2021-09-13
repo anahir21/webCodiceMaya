@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect} from "react";
 import Iframe from "react-iframe";
 import { Parallax } from "react-parallax";
 import { Modal } from "../modal/Modal.js";
@@ -16,6 +16,7 @@ export const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
@@ -68,7 +69,8 @@ export const Home = () => {
           <p className="text-gray">
             Descubre el documento más antiguo de América de la mano de
             especialistas que describen la importancia de cultural del códice,
-            que a través de sus extraordinarias láminas registran
+            que a través de sus extraordinaimport { AudioContext } from '../context/AudioContext';
+rias láminas registran
             sistemáticamente los movimientos del planeta Venus como fenómeno
             astronómico recurrente y observable.
           </p>
