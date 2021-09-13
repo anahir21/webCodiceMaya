@@ -5,7 +5,7 @@ import { Footer } from "../footer/Footer";
 import pages from "../../../images/presentacion/paginas-codice.jpg";
 import cacao from "../../../images/presentacion/cacao.jpg";
 import vectorCacao from "../../../images/presentacion/vector-cacao.jpg";
-import { ButtonMore } from "../../ui/ButtonMore";
+import { ButtonMore } from '../ui/ButtonMore';
 export const Presentacion = () => {
   useEffect(() => {
     window.scrollTo(0, 0)

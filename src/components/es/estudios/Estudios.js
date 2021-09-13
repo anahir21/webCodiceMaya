@@ -1,5 +1,4 @@
 import { React, useState, useEffect } from "react";
-import { useHistory } from "react-router-dom";
 import { Navbar } from "../../es/navbar/Navbar";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";
@@ -9,7 +8,7 @@ import orozco from "../../../images/estudios/orozco.jpg";
 import saeko from "../../../images/estudios/saeko.jpg";
 import velasquez from "../../../images/estudios/velasquez.jpg";
 import vila from "../../../images/estudios/vila.jpg";
-import { ButtonMore } from "../../ui/ButtonMore";
+import { ButtonMore } from "../ui/ButtonMore";
 
 export const Estudios = () => {
   useEffect(() => {

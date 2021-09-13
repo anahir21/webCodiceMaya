@@ -1,8 +1,8 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState, useEffect} from "react";
 import Iframe from "react-iframe";
 import { Parallax } from "react-parallax";
 import { Modal } from "../modal/Modal.js";
-import { Play } from "../../ui/Play";
+import { Play } from "../ui/Play";
 import venus from "../../../images/home/venus.jpg";
 import venus2 from "../../../images/home/venus2.jpg";
 import pageCodice from "../../../images/home/codice_02.png";
@@ -16,6 +16,7 @@ export const Home = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
@@ -68,7 +69,8 @@ export const Home = () => {
           <p className="text-gray">
             Descubre el documento más antiguo de América de la mano de
             especialistas que describen la importancia de cultural del códice,
-            que a través de sus extraordinarias láminas registran
+            que a través de sus extraordinaimport { AudioContext } from '../context/AudioContext';
+rias láminas registran
             sistemáticamente los movimientos del planeta Venus como fenómeno
             astronómico recurrente y observable.
           </p>

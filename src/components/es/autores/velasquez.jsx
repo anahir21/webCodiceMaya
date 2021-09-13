@@ -5,7 +5,7 @@ import quote from "../../../images/blackquote.png";
 import "./autores.css";
 import velasquez01 from "../../../images/velasquez/velasquez01.jpg";
 import velasquez02 from "../../../images/velasquez/velasquez02.jpg";
-import { ButtonMore } from '../../ui/ButtonMore';
+import { ButtonMore } from "../../es/ui/ButtonMore";
 
 export const Velasquez = () => {
     useEffect(() => {

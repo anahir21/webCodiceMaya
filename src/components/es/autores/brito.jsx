@@ -4,9 +4,9 @@ import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import brito01 from "../../../images/brito/brito-article01.jpg";
 import brito02 from "../../../images/brito/brito-article02.jpg";
-import { ButtonMore } from '../../ui/ButtonMore';
 
 import "./autores.css";
+import { ButtonMore } from '../ui/ButtonMore';
 
 
 export const Brito = () => {
@@ -49,7 +49,8 @@ export const Brito = () => {
                     en duda su originalidad? Para saberlo, es necesario llevar
                     a cabo un breve recuento de su devenir histórico. Pero
                     ¿de dónde salió este importante documento en
-                    principio tan desdeñado por una parte de la comunidad
+                    principio tan desdeñaimport { ButtonMore } from '../ui/ButtonMore';
+do por una parte de la comunidad
                     académica? y ¿por qué durante todos estos años
                     estuvo envuelto en una fuerte controversia que ponía
                     en duda su originalidad? Para saberlo, es necesario llevar
@@ -144,7 +145,7 @@ export const Brito = () => {
 
             </article>
             <div className="more-container">
-        <ButtonMore/>
+        <ButtonMore />
       </div>
             <Footer />
         </section>

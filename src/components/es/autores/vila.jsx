@@ -3,7 +3,7 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import vila01 from "../../../images/vila/vila_01.jpg";
-import { ButtonMore } from '../../ui/ButtonMore';
+import { ButtonMore } from "../../es/ui/ButtonMore";
 import "./autores.css";
 
 export const Vila = () => {
