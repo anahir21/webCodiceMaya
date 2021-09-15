@@ -25,24 +25,6 @@ export const Estudios = () => {
   const handleCardOver = () => setCardOver(true);
   const handleCard = () => setCardOver(false);
 
-  /* 
-  let classHover = "invisible";
-  const [isHovering, setIsHovering] = useState(false);
-
-  function handleMouseEnter(e, url) {
-    setIsHovering(true);
-    classHover = "visible";
-  }
-
-  function showButton() {
-    
-  }
-
-  function handleMouseLeave(e) {
-    setIsHovering(false);
-    classHover = "invisible";
-   
-  }*/
 
   return (
     <div className="estudios__container">
