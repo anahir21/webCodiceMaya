@@ -153,11 +153,11 @@ export const Codice = () => {
           Víctima. Una figura antropomorfa, arquitectónica o de nateraleza
           afectada por la acción negativa de Venus.
         </p>
-        <footpage className="text-gray-article">
+        <p className="text-gray-article">
           Nota: Existen varias formas de escribir los nombres de los días del
           almanaque adivinatorio de 260 días. Aquí utilizamos la ortografía
           moderna en maya yucateco.
-        </footpage>
+        </p>
       </article>
 
       <Footer />
