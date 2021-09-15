@@ -4,8 +4,7 @@ import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import brito01 from "../../../images/brito/brito-article01.jpg";
 import brito02 from "../../../images/brito/brito-article02.jpg";
-import { ButtonMore } from '../../ui/ButtonMore';
-
+import { ButtonMore } from '../ui/ButtonMore';
 
 
 import "./autores.css";
