@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import "./codice.css";
@@ -6,11 +6,13 @@ import tabla from "../../../images/codice/tabla.png";
 import orbitas from "../../../images/codice/orbitas.png";
 import tarjeta3 from "../../../images/codice/tarjeta3.png";
 import tarjeta6 from "../../../images/codice/tarjeta6.png";
+import tarjeta7 from "../../../images/codice/tarjeta7.png";
+import tarjeta4 from "../../../images/codice/tarjeta4.jpg";
 
 export const Codice = () => {
-    useEffect(() => {
-        window.scrollTo(0, 0)
-      }, [])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section className="view">
       <Navbar />
@@ -48,19 +50,6 @@ export const Codice = () => {
           pronosticar los eclipses tanto lunar como solar, ya que relacionaban
           el movimiento de Venus con esos fenómenos.
         </p>
-
-        <div className="call-to-action">
-          <div className="image-action"></div>
-          <div className="content-action">
-            <h4>Iconografía</h4>
-            <p>
-              Luckily offered article led lasting country minutes nor old.
-              Happen people things oh is oppose up parish effect. Law handsome
-              old outweigh humoured far appetite.
-            </p>
-            <button>ESTUDIO ICONOGRÁFICO</button>
-          </div>
-        </div>
 
         <p className="text-gray-article">
           Tanto en el Códice Maya de México como el de Dresde, el ciclo sinódico
@@ -111,6 +100,64 @@ export const Codice = () => {
           <img src={tarjeta6} alt="table" />
         </div>
 
+        <h6 className="subtitle-article">Estructura de cada página</h6>
+        <p className="text-gray-article">
+          Cada página tiene misma estructura. Se divide en cuatro partes. 1)
+          Columna jeroglífica de día. La columna del jeroglifo de los días del
+          almanaque adivinatorio representa las fechas iniciales de la fase de
+          Venus con su augurio presentada en la página. Son 13 veces repetidas
+          el mismo jeroglifo pero acompañado por distinto coeficiente numérico.
+          El coeficiente es pintado de color rojo y se lee un punto como uno y
+          una barra como cinco. El mínimo es el uno y el máximo es el trece. El
+          almanaque de 260 días consiste en la combinación de un número de 1 a
+          13 con uno de veinte jeroglifos o nombres de días. Esta combinación
+          funciona como el día del calendario tanto del adivinatorio como del
+          año solar.
+        </p>
+        <div className="full-image">
+          <img src={tarjeta7} alt="table" />
+          <img src={tarjeta4} alt="table" />
+        </div>
+
+        <p className="text-gray-article">
+          2) Número de distancia. Un anillo o bulto en color rojo amarrado con
+          un nudo es un jeroglifo de la palabra tzol y significa “colocar en
+          orden”. Representa el número de distancia o también se conoce como el
+          número de anillo que significa los días que duran la fase. El valor
+          del signo numérico es diferente si está adentro del anillo o afuera.
+          Adentro un punto tiene valor de uno y una barra, de cinco, ambos en
+          color negro, mientras que afuera sólo hay puntos en rojo y cada uno
+          vale veinte. Si hay un punto y tres barras negros adentro del anillo y
+          once puntos rojos afuera, la suma es de 236 días: 1 + (5 x 3) + (20 x
+          11). Son cuatro cifras dependiendo de la posición de Venus: la 90, (5
+          x 2) + (20 x 4), es cuando Venus es invisible, porque está detrás del
+          Sol (Conjunción Superior) (páginas 1, 5 y 9), la 250, (5 x 2) + (20 x
+          12), es visible como la Estrella de la Tarde (páginas 2, 6 y 10), la
+          8, 3 + 5, es invisible por estar entre la Tierra y el Sol (Conjunción
+          Inferior) (páginas 3 y 7) y la 236 es visible como la Estrella de la
+          Mañana (páginas 4 y 8). La duración de cada fase no coincide con los
+          cálculos astronómicos reales, sino son cifras manipuladas en relación
+          con tanto los días del almanaque adivinatorio como múltiplos de
+          lunaciones porque el propósito final de la tabla de Venus es
+          pronosticar eclipses para hacer rituales específicos. 3) Deidad. Una
+          deidad personificada a Venus agrede a una víctima. Son dioses con
+          características negativas como de la guerra, de la muerte o del
+          inframundo porque los mayas creían que el tiempo en el que Venus era
+          invisible andaba en el inframundo y cuando aparecía, venía cargado de
+          desgracias, enfermedad y muerte. Además le culpaban de ocasionar los
+          eclipses, pues pensaban que el agresivo astro mordía el Sol o la Luna.
+          Por la característica del periodo probable de su elaboración, el
+          Posclásico temprano (900-1200 d. C.), el Códice Maya de México es un
+          códice híbrido de estilo del centro de México y maya los dioses pueden
+          llevar elementos de ambas tradiciones cultural y artística. 4)
+          Víctima. Una figura antropomorfa, arquitectónica o de nateraleza
+          afectada por la acción negativa de Venus.
+        </p>
+        <footpage className="text-gray-article">
+          Nota: Existen varias formas de escribir los nombres de los días del
+          almanaque adivinatorio de 260 días. Aquí utilizamos la ortografía
+          moderna en maya yucateco.
+        </footpage>
       </article>
 
       <Footer />

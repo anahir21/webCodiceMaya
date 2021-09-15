@@ -6,7 +6,6 @@ import './ui.css'
 
 const AudioPlay = (url) => {
   const { players, setPlayers } = useContext(AudioContext);
-  console.log(setPlayers);
 
   const toggle = index => () => {
     const targetIndex = parseInt(index.url) -1;

@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
@@ -9,11 +9,19 @@ import { ButtonMore } from '../ui/ButtonMore';
 import papelAmate1 from "../../../images/editorial/papel-amate-1.png";
 import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
 import quote from "../../../images/editorial/quote.png";
+import { Modal } from "../modal/Modal.js";
 
 export const ProyectoEditorial = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+  
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
+
   return (
     <section className="view">
       <Navbar />
@@ -23,7 +31,8 @@ export const ProyectoEditorial = () => {
 
       <Parallax bgImage={portada} strength={200} className="parallax-view" >
           <div className="parallax-container-editorial">
-          <Play />
+          <Play onClick={openModal} />
+          <Modal showModal={showModal} setShowModal={setShowModal} url="https://www.youtube.com/embed/I79ftTdSlms" />
           </div>
       </Parallax>
 
@@ -65,15 +74,7 @@ export const ProyectoEditorial = () => {
 
         <br />
 
-        <blockquote>
-            <img src={quote} alt="icon-quote"/>
-            <div className="text-quote">
-            <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris  veniam.
-            </p>
-            <p className="quote-author">Autor Lorem Ipsum</p>
-            </div>
-        </blockquote>
+      
         <p>
           La Secretaría de Relaciones Exteriores, la Secretaría de Cultura del
           Gobierno de México, el Instituto Nacional de Antropología e Historia,

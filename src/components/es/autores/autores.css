@@ -11,18 +11,19 @@
 .cover-carlson {
   background: url("../../../images/carlson/carlson-portada.jpg") no-repeat
     center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .cover-orozco {
-  background: url("../../../images/orozco/orozco-portada.jpg") no-repeat bottom right;
+  background: url("../../../images/orozco/orozco-portada.jpg") no-repeat bottom
+    right;
   background-size: cover;
 }
 
 .cover-velasquez {
   background: url("../../../images/velasquez/velasquez-portada.jpg") no-repeat
     center;
-    background-size: cover;
+  background-size: cover;
 }
 
 .cover-vila {
@@ -161,22 +162,35 @@
   font-size: 1.2rem;
   line-height: 2rem;
 }
-.more-container-article{
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
+.more-container-article {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.footpage {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  color: #555555;
+}
+
+@media all and (max-width: 720px) {
+  .title-article {
+    font-size: 1.5rem;
   }
-
-footpage {
-    font-family: Raleway;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 16px;
-letter-spacing: 2px;
-text-transform: uppercase;
-
-color: #000000;
-
+  .text-article {
+    width: 70%;
+    padding: 30px;
   }
+  .p-quote {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}

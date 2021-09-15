@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { Navbar } from "../navbar/Navbar";
-import { Emmiter } from "./emiter";
+import  UseSpy from "./useSpy";
+import { UseEmitter, Emmiter } from "./emiter";
 import { useInView } from 'react-intersection-observer';
 
 
@@ -8,6 +9,8 @@ import { useInView } from 'react-intersection-observer';
 import "./iconografia.css";
 
 import codice_03 from "../../../images/iconografia/codice_03.png";
+import folio1_1 from "../../../images/iconografia/folio1/folio1_1.png";
+import folio1_2 from "../../../images/iconografia/folio1/folio1_2.png";
 import { ImageFolio } from "./ImageFolio";
 import { TextFolio } from "./TextFolio";
 
@@ -55,7 +58,6 @@ export const Iconografia = () => {
       </div>
      
       <div className="folio-container" >
-        
         <Emmiter>
           <div className="scrollytelling">
           <div className={inView ? 'no-sticky': 'is-sticky' }>

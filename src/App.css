@@ -10,12 +10,6 @@ body{
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -29,15 +23,6 @@ body{
 
 .App-link {
   color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
 
 
@@ -97,6 +82,11 @@ a:hover{
 
 .text-gray{
   color: #979797;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.text-white{
+  color: #fff;
   font-size: 1.2rem;
   line-height: 2rem;
 }
@@ -169,4 +159,40 @@ blockquote img{
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+@media all and (max-width: 720px) {
+  .section_titles {
+    font-size:2rem;
+    line-height: 2rem;
+  }
+  .section-subtitle {
+    font-size:1.5rem;
+    line-height: 2rem;
+  }
+  .section-subtitle br {
+    display: none;
+  }
+  .blockquote img {
+    height:25px;
+    margin-right:10px;
+
+
+  }
+  
+}
+@media all and (max-width: 320px) {
+  .section_titles {
+    font-size:2rem;
+    line-height: 2rem;
+  }
+  .section-subtitle {
+    font-size:1.5rem;
+    line-height: 2rem;
+  }
+  .article-white p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
 }

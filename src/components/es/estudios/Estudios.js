@@ -37,7 +37,7 @@ export const Estudios = () => {
           <h3 className="section-subtitle text-center top-line">
             Los Expertos y sus estudios
           </h3>
-          <p>
+          <p className="text-white text-center">
             Siete expertos comparten sus conocimientos sobre diversas líneas
             temáticas: <br />
             historia, arqueología, antropología, astronomía y matemáticas{" "}

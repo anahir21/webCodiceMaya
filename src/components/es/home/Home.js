@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect} from "react";
+import React, { Fragment, useState, useEffect } from "react";
 import Iframe from "react-iframe";
 import { Parallax } from "react-parallax";
 import { Modal } from "../modal/Modal.js";
@@ -14,8 +14,8 @@ import { Navbar } from "../navbar/Navbar.js";
 
 export const Home = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+    window.scrollTo(0, 0);
+  }, []);
 
   const [showModal, setShowModal] = useState(false);
 
@@ -50,7 +50,7 @@ export const Home = () => {
 
       <Parallax bgImage={venus2} strength={200}>
         <div className="parallax-container">
-          <Modal showModal={showModal} setShowModal={setShowModal} />
+          <Modal showModal={showModal} setShowModal={setShowModal} url="https://www.youtube.com/embed/8-gEB1y9fhc" />
           <Play onClick={openModal} />
         </div>
       </Parallax>
@@ -69,10 +69,10 @@ export const Home = () => {
           <p className="text-gray">
             Descubre el documento más antiguo de América de la mano de
             especialistas que describen la importancia de cultural del códice,
-            que a través de sus extraordinaimport { AudioContext } from '../context/AudioContext';
-rias láminas registran
-            sistemáticamente los movimientos del planeta Venus como fenómeno
-            astronómico recurrente y observable.
+            que a través de sus extraordinaimport {AudioContext} from
+            '../context/AudioContext'; rias láminas registran sistemáticamente
+            los movimientos del planeta Venus como fenómeno astronómico
+            recurrente y observable.
           </p>
         </div>
       </section>
@@ -104,14 +104,15 @@ rias láminas registran
             <hr className="line line-center" />
             <h3 className="section-subtitle text-center">Publicación</h3>
           </div>
-          <div id="iframe-container">
-            <div id="license">
+          <div id="license">
               <img src={cc} alt="license" />
               <p>
                 Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0
                 Internacional
               </p>
             </div>
+          <div id="iframe-container">
+            
 
             <Iframe
               src="https://indd.adobe.com/embed/240f6732-3f4a-4038-a23f-b49d6052a2df?startpage=1&allowFullscreen=true"
@@ -121,7 +122,7 @@ rias láminas registran
           </div>
         </div>
       </section>
-      <Footer/>
+      <Footer />
     </Fragment>
   );
 };

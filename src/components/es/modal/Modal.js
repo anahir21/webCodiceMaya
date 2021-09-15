@@ -4,7 +4,7 @@ import logo from '../../../images/logo.png'
 import { AiOutlineClose as Close } from "react-icons/ai";
 import './modal.css'
 
-export const Modal = ({ showModal, setShowModal }) => {
+export const Modal = ({ showModal, setShowModal, url }) => {
   showModal
     ? (document.body.style.overflow = "hidden")
     : (document.body.style.overflow = "unset");
@@ -50,7 +50,7 @@ export const Modal = ({ showModal, setShowModal }) => {
           <iframe
             width="560"
             height="315"
-            src="https://www.youtube.com/embed/8-gEB1y9fhc"
+            src={url}
             title="YouTube video player"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
