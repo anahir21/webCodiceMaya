@@ -16,6 +16,17 @@ import codice07 from "../../../images/descargas/codice_07.png";
 import codice08 from "../../../images/descargas/codice_08.png";
 import codice09 from "../../../images/descargas/codice_09.png";
 import codice10 from "../../../images/descargas/codice_10.png";
+
+import codice01_th from "../../../images/descargas/codice_01_th.png";
+import codice02_th from "../../../images/descargas/codice_02_th.png";
+import codice03_th from "../../../images/descargas/codice_03_th.png";
+import codice04_th from "../../../images/descargas/codice_04_th.png";
+import codice05_th from "../../../images/descargas/codice_05_th.png";
+import codice06_th from "../../../images/descargas/codice_06_th.png";
+import codice07_th from "../../../images/descargas/codice_07_th.png";
+import codice08_th from "../../../images/descargas/codice_08_th.png";
+import codice09_th from "../../../images/descargas/codice_09_th.png";
+import codice10_th from "../../../images/descargas/codice_10_th.png";
 import cc from "../../../images/descargas/by-nc-sa.png";
 
 
@@ -29,7 +40,7 @@ export const Descargas = () => {
       <h1 className="section_titles text-left">Descargas</h1>
       <div className="grid-pages">
         <div className="folio-card">
-          <img src={codice01} alt="codice-folio-1" />
+          <img src={codice01_th} alt="codice-folio-1" />
 
           <p className="figcaption">Folio actual 1, folio original 9</p>
           <div className="date">
@@ -51,7 +62,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice02} alt="codice-folio-2" />
+          <img src={codice02_th} alt="codice-folio-2" />
 
           <p className="figcaption">Folio actual 2, folio original 10</p>
           <div className="date">
@@ -73,7 +84,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice03} alt="codice-folio-3" />
+          <img src={codice03_th} alt="codice-folio-3" />
 
           <p className="figcaption">Folio actual 3, folio original 11</p>
           <div className="date">
@@ -95,7 +106,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice04} alt="codice-folio-4" />
+          <img src={codice04_th} alt="codice-folio-4" />
 
           <p className="figcaption">Folio actual 4, folio original 12</p>
           <div className="date">
@@ -117,7 +128,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice05} alt="codice-folio-5" />
+          <img src={codice05_th} alt="codice-folio-5" />
 
           <p className="figcaption">Folio actual 5, folio original 13</p>
           <div className="date">
@@ -139,7 +150,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice06} alt="codice-folio-6" />
+          <img src={codice06_th} alt="codice-folio-6" />
 
           <p className="figcaption">Folio actual 6, folio original 14</p>
           <div className="date">
@@ -161,7 +172,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice07} alt="codice-folio-7" />
+          <img src={codice07_th} alt="codice-folio-7" />
 
           <p className="figcaption">Folio actual 7, folio original 15</p>
           <div className="date">
@@ -183,7 +194,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice08} alt="codice-folio-8" />
+          <img src={codice08_th} alt="codice-folio-8" />
 
           <p className="figcaption">Folio actual 8, folio original 16</p>
           <div className="date">
@@ -205,7 +216,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice09} alt="codice-folio-9" />
+          <img src={codice09_th} alt="codice-folio-9" />
 
           <p className="figcaption">Folio actual 9, folio original 17</p>
           <div className="date">
@@ -227,7 +238,7 @@ export const Descargas = () => {
         </div>
 
         <div className="folio-card">
-          <img src={codice10} alt="codice-folio-10" />
+          <img src={codice10_th} alt="codice-folio-10" />
 
           <p className="figcaption">Folio actual 10, folio original 18</p>
           <div className="date">

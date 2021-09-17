@@ -5,8 +5,8 @@
     align-items: center;
     position: fixed;
     z-index: 999;
-    width: 90%;
-    padding: 10px 5%;
+    width: 90vw;
+    padding: 10px 5vw;
     justify-content: space-between;
     top: 0;
     left: 0;
@@ -148,8 +148,13 @@ color: #9C6720;
     }
     #menu-overlay {
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
+
     }
+    .options{
+        margin-top:50px;
+
+    } 
     #menu-overlay .drop-down-container ul{
         position: relative;
         transform:  translate(0, 0);
@@ -170,7 +175,10 @@ color: #9C6720;
     }
     #contact {
         color: #fff;
-        padding-left: 40%;
+        padding-left: 0;
+    }
+    .options a{
+        font-size: 1.3rem;
     }
     
 }
