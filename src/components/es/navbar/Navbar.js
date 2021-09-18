@@ -24,11 +24,12 @@ export const Navbar = () => {
     <Fragment>
       <div className="menu">
         <NavLink to="/">
-          <img alt="logo" src={logo}></img>
+          <h2 className="logo">Códice <br/>Maya de<br/> México</h2>
         </NavLink>
         <div className="links">
           <NavLink to="/presentacion">Presentación</NavLink>
           <NavLink to="/codice">Códice Maya de México</NavLink>
+          <NavLink to="/estudio-iconografico">Iconografía</NavLink>
           <li className="drop-down-container">
           <NavLink to="/estudios">Estudios</NavLink>
             <ul>
@@ -71,6 +72,7 @@ export const Navbar = () => {
         <section className="options">
           <NavLink to="/presentacion">Presentación</NavLink>
           <NavLink to="/codice">Códice Maya de México</NavLink>
+          <NavLink to="/estudio-iconografico">Iconografía</NavLink>
           <li className="drop-down-container">
           <NavLink to="/estudios">Estudios</NavLink>
             <ul>
@@ -97,6 +99,7 @@ export const Navbar = () => {
           <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
           <NavLink to="/descargas">Descargas</NavLink>
           <NavLink to="/creditos">Créditos</NavLink>
+     
         </section>
         <section id="contact">
           <p>CONTACTO</p>

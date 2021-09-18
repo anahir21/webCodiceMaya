@@ -3,7 +3,7 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import "./autores.css";
-import { ButtonMore } from '../ui/ButtonMore';
+ import pdfCarlson from "../../../documents/carlson.pdf"
 import codicecarlson from "../../../images/carlson/codice-carlson.jpg"
 
 export const Carlson = () => {
@@ -178,7 +178,13 @@ export const Carlson = () => {
 
             </article>
             <div className="more-container">
-                <ButtonMore />
+            <a
+            href={pdfCarlson}
+            download="carlson.pdf"
+          >
+            Leer más
+      </a>
+      
             </div>
             <Footer />
         </section>

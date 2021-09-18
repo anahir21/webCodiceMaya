@@ -11,6 +11,16 @@
     top: 0;
     left: 0;
 }
+.logo{
+    font-family: trajan-pro-3, serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin: 0;
+
+}
 .menu a {
     color: #fff;
     text-decoration: none;
@@ -181,4 +191,10 @@ color: #9C6720;
         font-size: 1.3rem;
     }
     
+}
+@media all and (max-width: 720px) {
+    .logo{
+    font-size: .8rem;
+    line-height: 1.1rem;
+    }
 }

@@ -5,7 +5,7 @@ import quote from "../../../images/blackquote.png";
 import "./autores.css";
 import velasquez01 from "../../../images/velasquez/velasquez01.jpg";
 import velasquez02 from "../../../images/velasquez/velasquez02.jpg";
-import { ButtonMore } from "../../es/ui/ButtonMore";
+import pdfVelasquez from "../../../documents/velazquez.pdf"
 
 export const Velasquez = () => {
     useEffect(() => {
@@ -154,7 +154,12 @@ export const Velasquez = () => {
 
             </article>
             <div className="more-container">
-        <ButtonMore/>
+            <a
+            href={pdfVelasquez}
+            download="velasquez.pdf"
+          >
+            Leer más
+      </a>
       </div>
            
             <Footer />

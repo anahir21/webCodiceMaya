@@ -3,8 +3,9 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import brito01 from "../../../images/brito/brito-article01.jpg";
-import brito02 from "../../../images/brito/brito-article02.jpg";
-import { ButtonMore } from '../ui/ButtonMore';
+import brito02 from "../../../images/brito/brito-article02.jpg";    
+import pdfBrito from "../../../documents/brito.pdf"
+
 
 
 import "./autores.css";
@@ -145,7 +146,13 @@ export const Brito = () => {
 
             </article>
             <div className="more-container">
-        <ButtonMore/>
+            <a
+            href={pdfBrito}
+            download="baltazar_brito.pdf"
+          >
+            Leer más
+      </a>
+      
       </div>
             <Footer />
         </section>

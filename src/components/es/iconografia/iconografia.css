@@ -68,26 +68,26 @@
 .folio-container {
   margin-top: 150px;
 }
-#aSticky{
+#aSticky {
   width: 100%;
   height: 100vh;
 }
-.no-sticky{
+.no-sticky {
   width: 50%;
 }
-.is-sticky{
+.is-sticky {
   width: 50%;
   position: fixed;
   top: 135px;
   left: 0;
 }
-.text-folio-container{
+.text-folio-container {
   width: 50%;
   position: absolute;
   left: 50%;
   top: 0;
 }
-.text-folio-container div{
+.text-folio-container div {
   height: 100vh;
   display: flex;
   align-items: flex-start;
@@ -96,47 +96,236 @@
 }
 
 .folio1-1 {
-  background: url('../../../images/iconografia/folio1/folio1_1.png') no-repeat center;
+  background: url("../../../images/iconografia/folio1/folio1_1.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio1-2 {
-  background: url('../../../images/iconografia/folio1/folio1_2.png') no-repeat center;
+  background: url("../../../images/iconografia/folio1/folio1_2.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio1-3 {
-  background: url('../../../images/iconografia/folio1/folio1_3.png') no-repeat center;
+  background: url("../../../images/iconografia/folio1/folio1_3.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio2-1 {
-  background: url('../../../images/iconografia/folio2/folio2_1.png') no-repeat center;
+  background: url("../../../images/iconografia/folio2/folio2_1.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio2-2 {
-  background: url('../../../images/iconografia/folio2/folio2_2.png') no-repeat center;
+  background: url("../../../images/iconografia/folio2/folio2_2.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio2-3 {
-  background: url('../../../images/iconografia/folio2/folio2_3.png') no-repeat center;
+  background: url("../../../images/iconografia/folio2/folio2_3.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio3-1 {
-  background: url('../../../images/iconografia/folio3/folio3_1.png') no-repeat center;
+  background: url("../../../images/iconografia/folio3/folio3_1.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio3-2 {
-  background: url('../../../images/iconografia/folio3/folio3_2.png') no-repeat center;
+  background: url("../../../images/iconografia/folio3/folio3_2.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
 .folio3-3 {
-  background: url('../../../images/iconografia/folio3/folio3_3.png') no-repeat center;
+  background: url("../../../images/iconografia/folio3/folio3_3.png") no-repeat
+    center;
   background-size: contain;
-  transition: all .2s;
+  transition: all 0.2s;
 }
+.folio4-1 {
+  background: url("../../../images/iconografia/folio4/folio4_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio4-2 {
+  background: url("../../../images/iconografia/folio4/folio4_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio4-3 {
+  background: url("../../../images/iconografia/folio4/folio4_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio5-1 {
+  background: url("../../../images/iconografia/folio5/folio5_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio5-2 {
+  background: url("../../../images/iconografia/folio5/folio5_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio5-3 {
+  background: url("../../../images/iconografia/folio5/folio5_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio6-1 {
+  background: url("../../../images/iconografia/folio6/folio6_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio6-2 {
+  background: url("../../../images/iconografia/folio6/folio6_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio6-3 {
+  background: url("../../../images/iconografia/folio6/folio6_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio7-1 {
+  background: url("../../../images/iconografia/folio7/folio7_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio7-2 {
+  background: url("../../../images/iconografia/folio7/folio7_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio7-3 {
+  background: url("../../../images/iconografia/folio7/folio7_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio8-1 {
+  background: url("../../../images/iconografia/folio8/folio8_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio8-2 {
+  background: url("../../../images/iconografia/folio8/folio8_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio8-3 {
+  background: url("../../../images/iconografia/folio8/folio8_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio9-1 {
+  background: url("../../../images/iconografia/folio9/folio9_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio9-2 {
+  background: url("../../../images/iconografia/folio9/folio9_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio9-3 {
+  background: url("../../../images/iconografia/folio9/folio9_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio10-1 {
+  background: url("../../../images/iconografia/folio10/folio10_1.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio10-2 {
+  background: url("../../../images/iconografia/folio10/folio10_2.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+.folio10-3 {
+  background: url("../../../images/iconografia/folio10/folio10_3.png") no-repeat
+    center;
+  background-size: contain;
+  transition: all 0.2s;
+}
+
+
+@media all and (max-width: 720px) {
+  .section_titles_iconography {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+
+  .cover-iconography {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 120px;
+  }
+.left-text{
+  text-align:left;
+
+}
+.scrollytelling{
+  flex-direction: column;
+}
+.no-sticky{
+  width:100%;
+}
+.is-sticky{
+  width:100%;
+  z-index: 100;
+  background-color: #111111;
+  top:60px;
+}
+#aSticky {
+  margin-bottom: -50px;
+  height: 50vh;
+}
+.text-folio-container{
+  width: 100%;
+  left: 0;
+  top: 50vh;
+}
+.text-folio-container div {
+  height: auto;
+}
+
+}
+@media all and (max-width: 1080px) {
+  .section_titles_iconography {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+}
+
+

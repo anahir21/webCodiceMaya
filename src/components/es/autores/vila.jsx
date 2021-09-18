@@ -3,7 +3,7 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import vila01 from "../../../images/vila/vila_01.jpg";
-import { ButtonMore } from "../../es/ui/ButtonMore";
+import pdfVila from "../../../documents/vila.pdf";
 import "./autores.css";
 
 export const Vila = () => {
@@ -180,7 +180,12 @@ export const Vila = () => {
 
             </article>
             <div className="more-container">
-        <ButtonMore/>
+            <a
+            href={pdfVila}
+            download="Vila.pdf"
+          >
+            Leer más
+      </a>
       </div>
         
             <Footer />

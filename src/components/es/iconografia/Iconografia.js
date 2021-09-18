@@ -29,7 +29,7 @@ export const Iconografia = () => {
             <div>
               <hr />
             </div>
-            <p className="author-name">Saeko Yanagisawa</p>
+            <p className="author-name left-text">Saeko Yanagisawa</p>
           </div>
           <h1 className="section_titles_iconography">
             Estudio <br /> Iconográfico

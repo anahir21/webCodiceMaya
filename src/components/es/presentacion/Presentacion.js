@@ -5,7 +5,8 @@ import { Footer } from "../footer/Footer";
 import pages from "../../../images/presentacion/paginas-codice.jpg";
 import cacao from "../../../images/presentacion/cacao.jpg";
 import vectorCacao from "../../../images/presentacion/vector-cacao.jpg";
-import { ButtonMore } from '../ui/ButtonMore';
+import pdfMoreno from "../../../documents/moreno_toscano.pdf"
+
 export const Presentacion = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -121,7 +122,12 @@ export const Presentacion = () => {
         </p>
       </article>
       <div className="more-container">
-        <ButtonMore />
+      <a
+            href={pdfMoreno}
+            download="moreno_toscano.pdf"
+          >
+            Leer más
+      </a>
       </div>
 
       <Footer />

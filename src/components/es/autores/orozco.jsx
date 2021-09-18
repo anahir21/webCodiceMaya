@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
-import { ButtonMore } from '../ui/ButtonMore';
+import pdfOrozco from "../../../documents/orozco.pdf"
 import "./autores.css";
 
 export const Orozco = () => {
@@ -195,7 +195,12 @@ export const Orozco = () => {
             </article>
             
             <div className="more-container-article">
-        <ButtonMore />
+            <a
+            href={pdfOrozco}
+            download="orozco.pdf"
+          >
+            Leer más
+      </a>
       </div>
             <Footer />
         </section>
