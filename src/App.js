@@ -20,8 +20,17 @@ import { Iconografia } from './components/es/iconografia/Iconografia';
 import audio1 from './audio/lamina_1.mp3'
 import audio2 from './audio/lamina_2.mp3'
 import audio3 from './audio/lamina_3.mp3'
+import audio4 from './audio/lamina_4.mp3'
+import audio5 from './audio/lamina_5.mp3'
+import audio6 from './audio/lamina_6.mp3'
+import audio7 from './audio/lamina_7.mp3'
+import audio8 from './audio/lamina_8.mp3'
+import audio9 from './audio/lamina_9.mp3'
+import audio10 from './audio/lamina_10.mp3'
+import audio11 from './audio/lamina_10-2.mp3'
+
 import { AudioContext }from './components/es/context/AudioContext';
-const allAudios = [audio1, audio2, audio3];
+const allAudios = [audio1, audio2, audio3, audio4, audio5, audio6, audio7, audio8, audio9, audio10, audio11];
 
 const playlist = allAudios.map((url) => {
   return {

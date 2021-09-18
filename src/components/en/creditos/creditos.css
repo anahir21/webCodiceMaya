@@ -1,0 +1,45 @@
+.credits{
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+.back-credits{
+    width: 60%;
+    height: calc(100vh - 100px);
+    background: url(../../../images/creditos/cover-credits.png) no-repeat center;
+    background-size: cover;
+}
+.view-credits{
+    margin-top: 0;
+    padding: 0;
+    padding-top: 100px;
+}
+.team {
+    color: #fff;
+    width: 30%;
+    padding: 0 5%;
+    line-height: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bloque::first-line {
+    color: #888888;
+}
+@media all and (max-width: 720px) {
+    .back-credits {
+        width: 100%;
+    }
+    .team{
+        width: 90%;
+        padding: 50px 5%;
+    }
+    .credits{
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 60%;
+    }
+    .back-credits{
+        height: 250px;
+    }
+}

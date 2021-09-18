@@ -1,0 +1,125 @@
+.cover-article {
+  min-height: 100vh;
+  width: 100%;
+  background: url("../../../images/codice/codice-portada.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: -60vh;
+}
+.text-article {
+  background-color: #fff;
+  width: 65%;
+  padding: 80px;
+  left: 50%;
+  margin-bottom: 40vh;
+  position: relative;
+  transform: translateX(-50%);
+}
+.title-article {
+  font-family: trajan-pro-3, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.5rem;
+  margin-top: 5px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+.author-section {
+  display: flex;
+  text-transform: uppercase;
+  color: #888;
+  align-items: center;
+}
+.author-name {
+ margin-right: 20px;
+}
+.author-section hr{
+    width: 50px;
+}
+.dropcap-article {
+    margin: 0;
+    padding: 0;
+    margin-top: 100px;
+
+}
+.dropcap-article::first-letter{
+    font-family: trajan-pro-3, serif;
+    font-size: 6rem;
+    line-height: 3.5rem;
+    padding: 0;
+    margin-left: -5px;
+    float:left;
+    margin-top: 22px;
+  }
+.full-image{
+    margin: 50px 0;
+}
+.full-image img {
+    width: 100%;
+}
+.call-to-action{
+    display: flex;
+    height: 50vh;
+    min-height: 400px;
+    margin: 50px 0;
+}
+.image-action{
+    width: 40%;
+    background: url('../../../images/codice/detalle-codice.png') no-repeat top center;
+}
+.image-action img{
+    height: 100%;
+    width: auto;
+}
+.content-action{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #262626;
+    color: #fff;
+    padding: 50px;
+    position: relative;
+}
+.content-action h4{
+    font-family: trajan-pro-3, serif;
+    font-weight: normal;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.content-action p{
+    margin-top: 0;
+    line-height: 2rem;
+}
+.content-action button{
+    position: absolute;
+    bottom: 30px;
+    border: 1px solid #ffffff;
+    border-radius: 27px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #f7f6f3;
+    height: 35px;
+    transition: all .3s ease-in;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+    padding: 0 20px;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 12px;
+    letter-spacing: 0px;
+}
+.content-action button:hover{
+    background-color: rgba(255, 255, 255, 1);
+  color: #111;
+  letter-spacing: 1px;
+}
+.subtitle-article{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #555;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}

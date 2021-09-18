@@ -1,0 +1,12 @@
+.parallax-view {
+    margin-top: 50px;
+}
+.parallax-container-editorial {
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
