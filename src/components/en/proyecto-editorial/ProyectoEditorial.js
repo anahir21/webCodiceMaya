@@ -1,28 +1,41 @@
-import React, {useEffect} from "react";
-import { Navbar } from "../../es/navbar/Navbar";
-import "./presentacion.css";
+import React, {useEffect, useState} from "react";
+import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
-import pages from "../../../images/presentacion/paginas-codice.jpg";
-import cacao from "../../../images/presentacion/cacao.jpg";
-import vectorCacao from "../../../images/presentacion/vector-cacao.jpg";
-import pdfMoreno from "../../../documents/moreno_toscano.pdf"
+import { Navbar } from "../navbar/Navbar";
+import portada from "../../../images/editorial/portada-editorial.png"
+import { Play } from "../ui/Play";
+import "./editorial.css";
+import { ButtonMore } from '../ui/ButtonMore';
+import papelAmate1 from "../../../images/editorial/papel-amate-1.png";
+import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
+import quote from "../../../images/editorial/quote.png";
+import { Modal } from "../modal/Modal.js";
 
-export const Presentacion = () => {
+export const ProyectoEditorial = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+  
+  const [showModal, setShowModal] = useState(false);
+
+  const openModal = () => {
+    setShowModal((prev) => !prev);
+  };
+
   return (
     <section className="view">
       <Navbar />
       <div className="header-section">
-        <p className="subtitle-section text-center">Presentación</p>
-        <h1 className="section_titles text-center">El Códice Maya de México</h1>
-        <h1 className="section_titles">Almanaque de Venus</h1>
-        <p className="name-author">Alejandra Moreno Toscano</p>
+        <h1 className="section_titles">El códice y el proyecto editorial</h1>
       </div>
-      <div className="paginas-codice">
-        <img alt="pages" src={pages} />
-      </div>
+
+      <Parallax bgImage={portada} strength={200} className="parallax-view" >
+          <div className="parallax-container-editorial">
+          <Play onClick={openModal} />
+          <Modal showModal={showModal} setShowModal={setShowModal} url="https://www.youtube.com/embed/I79ftTdSlms" />
+          </div>
+      </Parallax>
+
       <article className="article-white">
         <p className="dropcap">
           El día que los artesanos de las comunidades indígenas otomíes de San
@@ -60,6 +73,8 @@ export const Presentacion = () => {
         </p>
 
         <br />
+
+      
         <p>
           La Secretaría de Relaciones Exteriores, la Secretaría de Cultura del
           Gobierno de México, el Instituto Nacional de Antropología e Historia,
@@ -90,12 +105,11 @@ export const Presentacion = () => {
           mayas observadores del firmamento.
         </p>
         <figure className="gallery-items-2">
-          <img src={vectorCacao} alt="vector cacao" />
-          <img src={cacao} alt="cacao" />
+          <img src={papelAmate1} alt="vector cacao" />
+          <img src={papelAmate2} alt="cacao" />
         </figure>
         <figcaption>
-          Ciclo de 8 años de Venus, y un cacaotero abierto (semilla sagrada de
-          los mayas).
+          Elaboración de papel amate
         </figcaption>
 
         <br />
@@ -121,13 +135,8 @@ export const Presentacion = () => {
           espacio como factor de desarrollo y bienestar. 
         </p>
       </article>
-      <div className="read-more">
-      <a
-            href={pdfMoreno}
-            download="moreno_toscano.pdf"
-          >
-            Leer más
-      </a>
+      <div className="more-container">
+        <ButtonMore />
       </div>
 
       <Footer />
