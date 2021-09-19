@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from "react";
 import { Navbar } from "../../es/navbar/Navbar";
 import { Footer } from "../footer/Footer";
-import "./estudios.css";
+import "./studies.css";
 import brito from "../../../images/estudios/brito.jpg";
 import carlson from "../../../images/estudios/carlson.jpg";
 import morenotoscano from "../../../images/estudios/moreno_toscano.jpg";
@@ -11,41 +11,33 @@ import velasquez from "../../../images/estudios/velasquez.jpg";
 import vila from "../../../images/estudios/vila.jpg";
 import { ButtonMore } from "../ui/ButtonMore";
 
-export const Estudios = () => {
+export const Studies = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
-  /*   let history =useHistory();
-  
-  function handlePath (path){
-      history.push(path);
-  } */
-
   const [cardOver, setCardOver] = useState(false);
   const handleCardOver = () => setCardOver(true);
   const handleCard = () => setCardOver(false);
-
 
   return (
     <div className="estudios__container">
       <Navbar />
       <div className="container">
         <div className="estudios__container_body">
-          <h1 className="section_titles">Estudios</h1>
+          <h1 className="section_titles">Studies</h1>
           <hr />
 
           <h3 className="section-subtitle text-center top-line">
-            Los Expertos y sus estudios
+            Experts and their studies
           </h3>
           <p className="text-white text-center">
-            Siete expertos comparten sus conocimientos sobre diversas líneas
-            temáticas: <br />
-            historia, arqueología, antropología, astronomía y matemáticas{" "}
+            Seven experts share their knowledge on various thematic lines:{" "}
+            <br />
+            history, archaeology, anthropology, astronomy and mathematics.
           </p>
 
           <section className="estudios__container_img">
-           
             <div className="card">
               <div
                 className="container-over"
@@ -62,11 +54,10 @@ export const Estudios = () => {
                 </div>
               </div>
               <hr />
-              <h4 className="img_container_header">Presentación</h4>
+              <h4 className="img_container_header">Introduction</h4>
               <h6 className="img_container_author">Alejandra Moreno Toscano</h6>
             </div>
 
-           
             <div className="card">
               <div
                 className="container-over"
@@ -85,15 +76,13 @@ export const Estudios = () => {
               </div>
               <hr />
               <h4 className="img_container_header">
-               
-                El Legado de un Ajtz' IHB El códice Maya de México
+                The Legacy of an Ajtz’ Ihb The Mayan Codex of México
               </h4>
               <h6 className="img_container_author">
-               
                 Baltazar Brito Guadarrama
               </h6>
             </div>
-           
+
             <div className="card">
               <div
                 className="container-over"
@@ -112,11 +101,10 @@ export const Estudios = () => {
               </div>
               <hr />
               <h4 className="img_container_header">
-                El contexto histórico del códice maya de méxico
+                The Historical Context of the Maya Codex of Mexico
               </h4>
               <h6 className="img_container_author">Erik Velásquez García</h6>
             </div>
-           
 
             <div className="card">
               <div
@@ -136,13 +124,13 @@ export const Estudios = () => {
               </div>
               <hr />
               <h4 className="img_container_header">
-                Las Veinte máscaras de Venus: una perspectiva 20/20 del Códice
-                Maya de México, antes Grolier. El más antiguo libro en papel de
-                América que se conserva
+                The Twenty Masks of Venus: A 20/20 Perspective on El Códice Maya
+                de México, antes Grolier – The Oldest Surviving Book on Paper
+                from Ancient America
               </h4>
               <h6 className="img_container_author">John B. Carlson</h6>
             </div>
-           
+
             <div className="card">
               <div
                 className="container-over"
@@ -161,11 +149,11 @@ export const Estudios = () => {
               </div>
               <hr />
               <h4 className="img_container_header">
-                Cero, matemáticas y los mayas
+                Zero, Mathematics and the Maya
               </h4>
               <h6 className="img_container_author">Ricardo F. Vila Freyer</h6>
             </div>
-           
+
             <div className="card">
               <div
                 className="container-over"
@@ -184,11 +172,11 @@ export const Estudios = () => {
               </div>
               <hr />
               <h4 className="img_container_header">
-                El Legado Maya es de amor al conocimiento
+                The Mayan Legacy is Love of Knowledge
               </h4>
               <h6 className="img_container_author">Esther Orozco Orozco</h6>
             </div>
-           
+
             <div className="card">
               <div
                 className="container-over"
@@ -206,7 +194,7 @@ export const Estudios = () => {
                 </div>
               </div>
               <hr />
-              <h4 className="img_container_header">Estudio Iconográfico</h4>
+              <h4 className="img_container_header">Iconographical study</h4>
               <h6 className="img_container_author">Saeko Yanagisawa</h6>
             </div>
           </section>

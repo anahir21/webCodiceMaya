@@ -27,75 +27,69 @@ export const Velasquez = () => {
 
 
                 <h3 className="title-article">
+                    The Historical Context  <br />
+                    of the Maya Codex of  <br /> Mexico
 
-                    El contexto  <br /> histórico
-                    del Códice  <br /> Maya de México
                 </h3>
 
                 <p className="dropcap-article text-gray-article">
-                    En el año 761 el señor de Tamarindito lideró una
-                    gran rebelión en la región del Río de la Pasión
-                    contra K’awiil Chan K’inich, señor de la casa real de
-                    Mutuˀl que gobernaba en Dos Pilas, destruyendo a
-                    esta última ciudad de la cuenca del Petexbatún, en
-                    Guatemala.
+                    At the year 761 the Lord of Tamarindito led a
+                    great rebellion in the Río de la Pasión region
+                    against K’awiil Chan K’inich, lord of the royal house
+                    of Mutuˀl that ruled over Dos Pilas, destroying the
+                    latter city in the Petexbatún basin, in Guatemala.
+                    The elites of Cancuén apparently suffered a similar
+                    fate shortly after (ca. 800), for the palace dwellers
+                    were massacred and thrown into a neighboring cistern.
+                    These episodes are just a sample of the convulsions,
+                    violence, turbulence, unrest and political
+                    instability this region endured during the last four
+                    decades of the eighth century and early ninth century.
+                    Split sections of Dos Pilas aristocracy settled
+                    in different locations of the area (Aguas Calientes,
+                    Arroyo de Piedra, Seibal and La Amelia) claiming for
+                    themselves the royal title of Mutuˀl, albeit extinction
+                    was the destiny awaiting all. It is thought the family’s
+                    main branch took refuge in Aguateca and later
+                    on Punta Chimino, a peninsula in lake Petexbatún.
+                    In either case, the walls and defenses they hurriedly
+                    erected were of little use, since death, siege, chaos
+                    and fire followed shortly after (on this subject see
+                    Vega Villalobos, 2021). Based on archaeological –
+                    and to a lesser degree iconographic and epigraphic–
+                    data, certain scholars believe the aggressors came from Chontalpa, a zone of prosperous traders that
+                    had been growing since the mid-seventh century.
+                    The fact is that overpopulation, soil exhaustion and
+                    a series of prolonged and recurrent droughts pushed
+                    life in the Maya zone in particular, and in Mesoamerica
+                    in general, to the brink of extinction. The former
+                    citadels, palaces and sumptuous ceremonial centers
+                    of the Classic capitals were overrun by hordes
+                    of impoverished farmers, who dismantled the buildings
+                    and plundered the riches of temples and tombs,
+                    leading a rustic and miserable lifestyle, surviving
+                    haphazardly, for they were constantly exposed to
+                    famine, disease and bloody attacks by the Chontal
+                    or other groups struggling to survive. Under such
+                    precarious conditions, the quality and quantity
+                    of food also declined, infant mortality increased,
+                    body height and life expectancy decreased, while
+                    conditions such as anemia, osteoporosis, leishmaniasis
+                    and stomach infections intensified, along
+                    with scurvy and treponema, which doubtlessly presented
+                    as epidemics.
                 </p>
-                <p className="text-gray-article">
-                    Igual destino al parecer vivió la élite de
-                    Cancuén un poco más tarde (ca. 800), pues la gente
-                    de su palacio fue masacrada y arrojada en una cisterna
-                    contigua. Estos episodios son solamente una muestra
-                    de la convulsión, violencia, turbulencia, desorden e
-                    inestabilidad política que se vivió en esa región durante
-                    las últimas cuatro décadas del siglo VIII y las
-                    primeras del IX. Fragmentos escindidos de la nobleza
-                    de Dos Pilas se instalaron en diferentes lugares de la
-                    zona (Aguas Calientes, Arroyo de Piedra, Ceibal y La
-                    Amelia), reclamando para sí el título real de Mutuˀl,
-                    mas el destino de todos fue la extinción. Se cree que
-                    la rama principal de la familia se refugió en Aguateca
-                    y después en la península de Punta Chimino, en el lago
-                    Petexbatún. En ambos casos de poco le valieron las
-                    apresuradas murallas y defensas que edificaron, pues
-                    la muerte, el asedio, el caos y el incendio no tardaron
-                    en llegar (sobre este tema ver Vega Villalobos, 2021).
-                    Basados en datos arqueológicos —y en menor medida
-                    iconográficos y epigráficos—algunos estudiosos piensan que los agresores procedían de la Chontalpa,
-                    zona de prósperos comerciantes que desde mediados
-                    del siglo VII venía en ascenso. Pero lo cierto es
-                    que la sobrepoblación, el desgaste de las tierras y una
-                    serie de sequías prolongadas y recurrentes llevaron la
-                    vida en la zona maya en particular, y en Mesoamérica
-                    en general, al límite de la sobrevivencia. Los otrora
-                    acrópolis, palacios y suntuosos centros ceremoniales
-                    de las capitales clásicas fueron ocupados por hordas
-                    de agricultores empobrecidos, quienes se instalaron
-                    desmantelando los edificios y saqueando las riquezas
-                    de los templos y tumbas, llevaron un estilo de vida
-                    rústico y miserable, sobreviviendo a salto de mata,
-                    pues en todo momento estaban expuestos a la hambruna,
-                    a las enfermedades y a ataques sangrientos
-                    de los chontales o de otros grupos que luchaban por
-                    subsistir. Con ese tipo de condiciones tan precarias,
-                    la calidad y cantidad de su alimentación también se
-                    minó, aumentando la mortandad infantil, disminuyendo
-                    la talla corporal y la esperanza de vida, al tiempo
-                    que se recrudecieron padecimientos como la anemia,
-                    la osteoporosis, la leishmaniasis y las infecciones estomacales,
-                    a las que se sumaron el escorbuto y el treponema,
-                    que seguro se manifestaron en epidemias.
 
-                </p>
 
                 <blockquote>
                     <img src={quote} alt="icon-quote" />
                     <div className="text-quote">
                         <p className="p-quote">
-                            En el corazón del mundo maya el vigor constructivo
-                            se minó sensiblemente y una serie de reyezuelos en
-                            Ixlú, Jimbal y Zac Petén se proclamaron señores de
-                            Mutuˀl, debido a las batallas intestinas y fragmentación
-                            política de la casa gobernante de Tikal.
+                            Constructive vigor in the heart of the Maya world
+                            noticeably deteriorated and a series of princelings
+                            in Ixlú, Jimbal and Zac Petén proclaimed themselves
+                            Lords of Mutuˀl due to the internal feuding and
+                            political splintering of the governing house of Tikal.
                         </p>
 
                     </div>
@@ -104,26 +98,25 @@ export const Velasquez = () => {
 
 
                 <p className="text-gray-article">
-                    Los mayistas
-                    creen que para 830 ya no había autoridades
-                    respetables ni reconocidas por todos en Calakmul ni
-                    en Tikal. El último mandatario conocido de la dinastía
-                    Kaanuˀl que gobernó en Calakmul data de ca. 736 y lo que sucedió después no queda claro, aunque parece
-                    fuera de duda que la región de Río Bec gozó de
-                    una efímera autonomía, respiro y prosperidad antes
-                    de presentarse la crisis, lo mismo que los aledaños
-                    sitios de La Muñeca, Nadzcaan y Oxpemul. En esta
-                    última ciudad un señor que llevaba el glifo emblema
-                    de Murciélago –originario de Naachtún–, se proclamaba
-                    señor de Uhxteˀ Tuun (Calakmul) en 830. Para
-                    791 Calakmul había perdido tanta autoridad, que el
-                    gobernante de su antiguo y ferviente aliado, La Corona,
-                    prefirió casarse en ese año con una mujer del
-                    enemigo Tikal. Al término del siglo IX un personaje llamado
-                    Ajtook’ erigió las últimas estelas de Calakmul,
-                    de estilo muy burdo y pobre. Simon Martin piensa que
-                    hacia 849 los restos de la nobleza de Motul de San
-                    José se mudaron a Tayasal.
+                    Mayanists believe that by 830 there were no longer
+                    any authorities respected and recognized by everyone
+                    in Calakmul or Tikal. The last known leader of
+                    the Kaanuˀl dynasty who ruled in Calakmul dates
+                    from ca. 736 and what transpired after remains
+                    unclear, though it seems unquestioned that the Río
+                    Bec region enjoyed a fleeting autonomy, respite and prosperity before the crisis ensued, as did the nearby
+                    sites of La Muñeca, Nadzcaan and Oxpemul. In
+                    the latter city, a man bearing the emblem glyph of a
+                    bat –originally from Naachtún– proclaimed himself
+                    Lord of Uhxteˀ Tuun (Calakmul) in 830. By 791 Calakmul
+                    had lost its authority to such an extent that
+                    the governor of its former fervent ally, La Corona,
+                    preferred to marry a woman from enemy Tikal that
+                    year. By the end of the ninth century a character
+                    called Ajtook’ erected the last stela at Calakmul, of
+                    a very rough and poor style. Simon Martin believes
+                    the remnants of the Motul de San José nobility
+                    moved to Tayasal around 849.
                 </p>
 
 
@@ -133,35 +126,38 @@ export const Velasquez = () => {
                 </div>
 
                 <footpage>
-                    Figura 1. Estela 3 de Ceibal, Petén, Guatemala.
-                    Dibujo de Ian Graham (1996: 7.17). Notar la presencia
-                    de las fechas 7- SIPAK y 5 -SIPAK, ortos heliacales
-                    canónicos de la Estrella Matutina.
+                    Figure 1. Stela 3 at Seibal, Petén, Guatemala.
+                    Drawn by Ian Graham (1996: 7.17).Note the presence
+                    of the dates 7-SIPAK and 5-SIPAK, canonical heliacal
+                    risings of the Morning Star.
+
+
                     <br />
                 </footpage>
 
 
                 <footpage>
                     <br />
-                    Figura 2. Estela 1 de Jimbal, Petén, Guatemala.
-                    Dibujo de Christopher Jones y Linton Satterthwaite
-                    (1982: fig. 78). Notar la presencia de la fecha 12 -KOA,
-                    que indica el orto heliacal canónico de la Estrella Matutina.
-                    El gobernante retratado es Jasaw Chan K’awiil, último
-                    mandatario de la casa real de Mutuˀl, quien se encuentra
-                    celebrando el final de periodo de 879 d.C.</footpage>
+
+                    Figure 2. Stela 1 at Jimbal, Petén, Guatemala.
+                    Drawn by Christopher Jones and Linton Satterthwaite
+                    (1982: fig. 78). Note the presence of the date 12 -KOA,
+                    which indicates the canonical heliacal rising of the Morning
+                    Star. The king depicted is Jasaw Chan K’awiil, last ruler of the
+                    royal house of Mutuˀl, who is celebrating the end
+                    of the period AD 879.</footpage>
 
 
             </article>
             <div className="read-more">
-            <a
-            href={pdfVelasquez}
-            download="velasquez.pdf"
-          >
-            Leer más
-      </a>
-      </div>
-           
+                <a
+                    href={pdfVelasquez}
+                    download="velasquez.pdf"
+                >
+                    See more
+                </a>
+            </div>
+
             <Footer />
         </section>
     )

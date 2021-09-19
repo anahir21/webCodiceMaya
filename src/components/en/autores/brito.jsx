@@ -3,7 +3,7 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import brito01 from "../../../images/brito/brito-article01.jpg";
-import brito02 from "../../../images/brito/brito-article02.jpg";    
+import brito02 from "../../../images/brito/brito-article02.jpg";
 import pdfBrito from "../../../documents/brito.pdf"
 
 
@@ -31,92 +31,85 @@ export const Brito = () => {
 
 
                 <h3 className="title-article">
-                    El Legado de un AJTZ' <br />
-                    IHB El códice maya de <br />
-                    México
+                    The Legacy of an Ajtz’Ihb. <br />
+                     The Maya Codex of Mexico.
+
                 </h3>
 
                 <p className="dropcap-article text-gray-article">
-                    El 30 de agosto de 2018 resultó una fecha memorable
-                    para el estudio del pasado mesoamericano.
-                    Ese día, a las diez de la mañana, en una rueda de
-                    prensa convocada por el Instituto Nacional de Antropología
-                    e Historia (INAH) en las instalaciones del auditorio Fray
+                    August 30th, 2018, was a memorable date for the study of Mesoamerican history. At 10 a.m. that day, a press conference organized by the INAH (National Institute of Anthropology and History) in the Fray Bernardino de Sahagún Auditorium, in the MNA (National Museum of Anthropology), confirmed to the entire world that the controversial
+                    Grolier Codex was an authentic document. The interand
+                    trans-disciplinary studies it underwent determined
+                    that it was the continent’s oldest legible pre-
+                    Hispanic manuscript; therefore, henceforth it was
+                    renamed the Maya Codex of Mexico.
                 </p>
                 <p className="text-gray-article">
-                    Pero ¿de dónde salió este importante documento en
-                    principio tan desdeñado por una parte de la comunidad
-                    académica? y ¿por qué durante todos estos años
-                    estuvo envuelto en una fuerte controversia que ponía
-                    en duda su originalidad? Para saberlo, es necesario llevar
-                    a cabo un breve recuento de su devenir histórico. Pero
-                    ¿de dónde salió este importante documento en
-                    principio tan desdeñado por una parte de la comunidad
-                    académica? y ¿por qué durante todos estos años
-                    estuvo envuelto en una fuerte controversia que ponía
-                    en duda su originalidad? Para saberlo, es necesario llevar
-                    a cabo un breve recuento de su devenir histórico.
+                    But where did this important document, which was
+                    originally disdained by the academic community,
+                    come from? Why was it surrounded by polemics all
+                    those years, that questioned its authenticity? To find
+                    out, it is necessary to relate its historical background.
 
                 </p>
-                <h3 className="subtitle-author"> "Fue nada menos que un milagro" </h3>
+                <h3 className="subtitle-author"> “It was nothing short of a miracle” </h3>
 
                 <p className="text-gray-article">
-                    Esas fueron las
-                    discretas palabras que el mayista Michael D. Coe
-                    expresó en abril de 1971 al ser interrogado a través
-                    del The New York Times por el descubrimiento del
-                    cuarto códice maya que, clasificado como original,
-                    se exhibía por primera vez al público dentro del Club
-                    Grolier, “la sociedad más grande y antigua de Estados
-                    Unidos para bibliófilos y entusiastas de las artes
-                    gráficas”18. Más tarde, en 1973, en la publicación titulada
-                    The Maya Scribe and His World, Coe decidió escribir
-                    sobre el hallazgo de aquel manuscrito mesoamericano.
-                    Mencionó que había sido localizado dentro
-                    de una cueva, junto a una máscara de mosaico y que,
-                    además, lo había sometido a una prueba de Radiocarbono
-                    14 con la finalidad de despejar cualquier duda
-                    sobre su antigüedad; por último, observó que su contenido
-                    estaba relacionado con los ciclos de Venus y
-                    que el estilo e iconografía que lo caracterizaba eran
-                    producto de una aculturación surgida entre mayas y
-                    toltecas durante el Posclásico, manteniendo cierto
-                    parecido con la tradición Mixteca-Puebla.
+                    Were the discreet
+                    words used by Mayanist Michael D. Coe in April
+                    1971, during an interview with The New York Times
+                    on the discovery of the fourth Maya Codex, which
+                    was being publicly exhibited for the first time, classified
+                    as an original, within the Grolier Club. “The
+                    largest and oldest society in the USA for bibliophiles
+                    and enthusiasts of graphic arts”.18 Subsequently, in
+                    1973, Coe decided to write about the discovery of
+                    that Mesoamerican manuscript in The Maya Scribe and
+                    His World. He mentioned it had been discovered in a
+                    cave, along with a mosaic mask and, furthermore,
+                    that he had undertaken Carbon-14 dating in order
+                    to dispel any doubts on its antiquity; finally, he noted
+                    that its content concerned the cycles of Venus and
+                    its characteristic style and iconography were the
+                    product of enculturation developed between the
+                    Maya and Toltec during the Postclassic, presenting
+                    a similarity with the Mixteca-Puebla tradition.
+
+
+
                 </p>
 
                 <p className="text-gray-article">
 
 
-                    Desde un principio las palabras del investigador
-                    norteamericano fueron muy escuetas, nunca despejaron
-                    las dudas sobre la procedencia del documento
-                    y, mucho menos, esclarecieron el nombre del propietario. Su hermetismo era total; sin embargo, ese
-                    mismo año Karl E. Mayer, un periodista que trabajaba
-                    para The New Yorker, publicó una nota intitulada
-                    “A Reporter at Large. The Plundered Past”, donde
-                    denunció distintos casos de venta ilegal de obras
-                    artísticas y piezas arqueológicas. Entre los informantes
-                    secretos que lo habían proveído de noticias
-                    había traficantes y comerciantes de dudosa reputación.
-                    Uno de ellos le confesó las siguientes palabras:
+                    From the outset, the North American investigator’s
+                    words were succinct; they never dispelled misgivings
+                    on the document’s origin, let alone clarified
+                    the name of its owner. He was completely hermetic.
+                    However, that same year, Karl E. Mayer, a reporter
+                    for The New Yorker, published an article entitled “A Reporter at Large. The Plundered Past” wherein he
+                    denounced various cases of illegal sales of artwork
+                    and archaeological artefacts.20 Among the secret
+                    informants who had provided information were
+                    traffickers and dealers with a shady reputation.
+                    Once of them confessed the following:
 
                 </p>
                 <blockquote>
                     <img src={quote} alt="icon-quote" />
                     <div className="text-quote">
                         <p className="p-quote">
-                            Ese códice [el Grolier] fue encontrado en una
-                            caja de madera —lo sé por casualidad, aunque
-                            no es mío— y la caja estaba bien cerrada, tan
-                            apretada que la humedad no arruinó el papel
-                            de la corteza […] El códice fue descubierto en
-                            una cueva en Chiapas, y fue parte de un grupo
-                            funerario. Espero que se venda por seis cifras y
-                            desaparezca de la vista por varios años. Luego
-                            volverá a aparecer, con un nombre de coleccionista
-                            adjunto. Se encontró con algunos otros
-                            objetos de primera clase, incluida la máscara
-                            de mosaico de Dumbarton Oaks.
+                            This codex [the Grolier] was found in a wooden
+                            box—I happen to know this although it is not
+                            mine—and the box was well shut, so tightly
+                            that humidity did not ruin the bark paper […]
+                            The codex was discovered in a cave in Chiapas
+                            and formed part of a funerary group. I expect it
+                            to sell for six figures and disappear from sight
+                            for several years. Then it will reappear with a
+                            collector’s name attached to it. It was found
+                            with a few other first-class objects, including
+                            the Dumbarton Oaks mosaic mask.
 
 
                         </p>
@@ -130,30 +123,29 @@ export const Brito = () => {
 
 
                 <p className="text-gray-article">
-                    Aunque algo dejaban entrever estas declaraciones,
-                    durante mucho tiempo no se supo a ciencia cierta
-                    quién era el misterioso dueño del documento; no
-                    obstante, existía una fuerte sospecha sobre Sáenz
-                    por haber estado involucrado en la venta de la máscara
-                    de Dumbarton Oaks. Casi tres décadas después,
-                    en 1992, Coe rompió el silencio; decidió extender su
-                    declaración original y, en su libro El desciframiento de los
-                    glifos mayas.
-
+                    Although these declarations hinted things, for a long
+                    time it was not certain who the mysterious owner of
+                    the document was; nevertheless, there were strong
+                    suspicions it was Sáenz, since he had been involved
+                    in the sale of the Dumbarton Oaks mask. Almost
+                    three decades later, in 1992, Coe broke his silence
+                    and expanded on his original declaration, confirming
+                    with the following words in Reading the Maya Glyphs
+                    that the Mexican collector owned the codex.
 
 
                 </p>
 
             </article>
             <div className="read-more">
-            <a
-            href={pdfBrito}
-            download="baltazar_brito.pdf"
-          >
-            Leer más
-      </a>
-      
-      </div>
+                <a
+                    href={pdfBrito}
+                    download="baltazar_brito.pdf"
+                >
+                    See more
+                </a>
+
+            </div>
             <Footer />
         </section>
     );

@@ -2,7 +2,8 @@ import React, {useEffect} from "react";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import "./creditos.css";
-export const Creditos = () => {
+
+export const Credits = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])

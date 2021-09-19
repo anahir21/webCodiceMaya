@@ -28,77 +28,89 @@ export const Orozco = () => {
 
 
                 <h3 className="title-article">
-                    El legado maya es de amor
-                    al conocimiento<br />
+                    The Mayan Legacy <br />
+                    is Love of Knowledge
+
 
                 </h3>
 
                 <p className="dropcap-article text-gray-article">
-                    Cuando era niña y adolescente, en la madrugada
-                    solía observar el firmamento desde el patio de
-                    mi casa, en Pascual Orozco (un pueblito de 2000
-                    habitantes, al pie de la Sierra Tarahumara). Sentada
-                    en el quicio de la puerta, localizaba los astros más
-                    brillantes y les ponía nombre. Seguía Seguía su viaje incesante
-                    por el infinito. Si me agobiaban las inquietudes
-                    propias de la edad, los buscaba, les hablaba por su
-                    nombre y les pedía consejo. No sabía que, una niña de
-                    pueblo, ignorante de todo, repetía una acción común
-                    a los seres humanos: mirar extasiados el cosmos. Los
-                    astros han sido bautizados muchas veces en distintos
-                    idiomas y desde distintos rincones del planeta; se
-                    les teme, se les canta, se les suplica y se les interroga.
-                    La intrigante belleza del universo ha acompañado a
-                    nuestra especie desde que existe, y la reta a cantarle
-                    y explorarla; de allí nacieron el arte y la ciencia. La
-                    curiosidad y la necesidad son sus madres. Primero,
-                    parieron a las religiones y la magia, y luego, hombres
-                    y mujeres sabias buscaron las causas de los fenómenos
-                    que los amenazaban o beneficiaban.
+                    When I was a child and an adolescent, I used to
+                    observe the dawn sky from the yard of my
+                    home, in Pascual Orozco (a small town of 2,000
+                    inhabitants, at the foot of the Sierra Tarahumara). Sitting
+                    in the doorway, I located the brightest stars and
+                    named them. They continued their incessant journey
+                    through infinity. If age-related concerns overwhelm
+                    me, I  seek them out, speak to them by name and ask
+                    for advice. I did not know that a small-town girl, ignorant
+                    of everything, repeated an action common to
+                    human beings: gazing at the cosmos in ecstasy. The
+                    stars have been baptized many times with distinct
+                    names from different corners of the planet, they are
+                    feared, they are praised, they are beseeched and interrogated.
+                    The universe’s intriguing beauty has accompanied
+                    our species since it exists, and challenges us
+                    to sing and explore it, for art and science were born
+                    there. Curiosity and need are their mother. First, they
+                    gave birth to religions and magic, and then wise men
+                    and women looked for the causes of the phenomena
+                    that threatened or benefited the group or tribe.
+
+
+
+
+
                 </p>
                 <p className="text-gray-article">
 
-                    Aunque la magia y las religiones luchan por permanecer,
-                    ya no es su tiempo, la ciencia les va ganando
-                    terreno, aunque su influencia en las esperanzas de los
-                    humanos permanecerá mientras no adoptemos una
-                    mentalidad científica.
-                    Observar es el primer paso en la generación del conocimiento
-                    y un acto de supervivencia. Explorar el
-                    entorno permite encontrar alimentos y protegernos
-                    de los enemigos y de los eventos naturales. Nos conduce
-                    a interrogarnos y encontrar los porqués de su
-                    acaecer. En forma oral, gráfica, o por medio del lenguaje
-                    sistematizado, trasmitimos a nuestros hijos lo
-                    que aprendemos para que lo acrecienten y se protejan
-                    mejor. Así lo hicieron los tatarabuelos nuestros
-                    que surgieron en el África meridional hace más de
-                    200,000 años, y empezaron su peregrinaje por el planeta
-                    hace 50,000. Arribaron a Europa, Asia y Oceanía,
-                    y llegaron al Continente Americano entre 15,000
-                    y 30,000 años (dato controversial). Después de su
-                    travesía por la Tierra, y con el conocimiento acumulado,
-                    milenios después, los ambiciosos humanos buscamos
-                    la conquista del cosmos que nos atrae como
-                    el flautista de Hamelin a los niños del pueblo. Así, hemos
-                    llegado a Marte y logramos la hazaña de recibir
-                    en estos días, imágenes fascinantes de su superficie.
-</p>            
-<p className="text-gray-article">
+                    Although magic and religions struggle to remain -it
+                    is no longer their time, science is gaining ground- its
+                    influence on the hopes of humans will remain if we do
+                    not adopt a scientific mindset.
 
-                    Desde antes de la era cristiana, las viejas culturas
-                    mesoamericanas, entre ellas los pueblos mayas, que
-                    permanecen, habitaron los espacios que hoy vivimos.
-                    Solemos olvidar la vastedad de sus conocimientos,
-                    pero sus hallazgos son universales, y los mexicanos
-                    somos los afortunados herederos de ellos. Este legado
-                    nos empuja a rescatar sus saberes, comparables a los de las culturas europeas y asiáticas de la época.
-                    El Códice Maya de México (1154) que aquí se presenta,
-                    junto con el análisis hecho por distinguidos científicos
-                    de distintas áreas del saber, muestran al mundo
-                    la pulcritud del trabajo que la ciencia (sin ser lo que
-                    hoy es) y la magia del cosmos y la selva, inspiraron
-                    a los mayas.
+
+                </p>
+                <p className="text-gray-article">
+
+                    Observing is the first step in the generation of knowledge
+                    and an act of survival. Exploring the environment
+                    allows us to find food and protect ourselves from
+                    enemies and natural events. It leads us to question
+                    ourselves and find out the reasons for its occurrence.
+                    Orally, graphically, or through systematized language,
+                    we transmit what we learn to our children, so that
+                    they can enhance it and protect themselves better.
+                    So did our great-great-grandparents, who emerged
+                    in southern Africa more than 200,000 years ago and
+                    began their pilgrimage around the planet 50,000
+                    years ago. They reached Europe, Asia, and Oceania,
+                    and the American continent between 15,000 and
+                    30,000 years ago (a contested fact). After their journey
+                    around Earth, and with the accumulated knowledge,
+                    millennia later, the ambitious humans sought
+                    to conquer the cosmos that attracts us like the Pied
+                    Piper of Hamelin did the town’s children. Thus, we
+                    have reached Mars and achieved the feat of receiving
+                    fascinating images of its surface in these very days.
+
+                </p>
+
+                <p className="text-gray-article">
+
+                    Since before the Christian era, the old Mesoamerican
+                    cultures, among them the Maya peoples, who remain,
+                    inhabited the spaces where we live today. We tend
+                    to forget the vastness of their knowledge, but their
+                    findings are universal, and Mexicans are their lucky
+                    heirs. This legacy pushes us to rescue their knowledge,
+                    comparable to that of the European and Asian
+                    cultures of the time. The Maya Codex of Mexico that is presented here, together with the analysis made by
+                    distinguished scientists from different fields of knowledge,
+                    show the world the neatness of the work that
+                    science, the magic of the cosmos and the jungle, inspired
+                    in the Maya.
+
 
                 </p>
 
@@ -106,8 +118,8 @@ export const Orozco = () => {
                     <img src={quote} alt="icon-quote" />
                     <div className="text-quote">
                         <p className="p-quote">
-                            Un lucero del alba, bello y temible, transita por el cielo
-                            mesoamericano cargado de presagios
+                            A morning star, beautiful and fearsome, transits the
+                            Mesoamerican sky
                         </p>
 
                     </div>
@@ -116,92 +128,95 @@ export const Orozco = () => {
 
 
                 <p className="text-gray-article">
-                    ¿Qué tenía
-                    que ver esa ruta brillante con el clima, las estaciones
-                    del año, las cosechas y los embates de la Naturaleza
-                    que asolaban a los mayas? Observaron al lucero,
-                    correlacionaron su apariencia con los eventos en su
-                    entorno, se sorprendieron con su repetición recurrente
-                    en el tiempo y el espacio, anotaron y revisaron sus
-                    observaciones. ¡Siguieron los pasos de la investigación
-                    científica actual! Observar, preguntarse, anotar,
-                    analizar y corregir. Como previsión y homenaje a
-                    Venus, trazaron su camino. Conocerlo, les ayudaría
-                    a evitar, mediante sacrificios y ritos, las consecuencias
-                    de sus movimientos: enfermedades, sequías y
-                    desastres. Pintaron los rostros del planeta con las fechas
-                    exactas en que aparecía. Cuando no lo miraban,
-                    suponían que estaba en el inframundo. Sus hallazgos
-                    y conclusiones, mezclados con la magia y la religión,
-                    hijas de la ignorancia sobre algunos fenómenos, nos
-                    sorprenden 2000 años después.
+                    What did that
+                    brilliant route have to do with the weather and the
+                    seasons of the year, the crops and the devastations
+                    by Nature that ravaged the Maya? They observed
+                    the star, correlated its appearance with events in its
+                    environment, were surprised by its recurring repetition
+                    in time and space, recorded, reviewed and corrected
+                    their observations. They followed in the footsteps
+                    of current scientific research! Observe, inquire,
+                    annotate, and analyze the facts. In anticipation and
+                    homage to Venus, they traced its path. Knowing that
+                    sacrifices and rituals would help them avoid the consequences
+                    of its movements: diseases, droughts, and
+                    disasters. They painted the faces of the planet with
+                    the exact dates it appeared. When they could not see
+                    it, they assumed Venus was in the underworld. Their
+                    findings and conclusions, mixed with magic and religion,
+                    products of ignorance about certain phenomena,
+                    astonish us 2,000 years later.
+
+
                 </p>
                 <p className="text-gray-article">
-                    Los mayas sabían fabricar su papel, sus colores y
-                    pinceles, y usarlos con minuciosidad y maestría para
-                    buscar el conocimiento. Representaban la nada como
-                    muy pocos pueblos de la Tierra supieron hacerlo, inventando
-                    su propio cero y aprendiendo a colocarlo adecuadamente en su matemática vigesimal. Otras
-                    culturas también inventaron el cero, pero la distancia
-                    y las comunicaciones de aquel tiempo evitaban la socialización
-                    de los conocimientos. Se dice que el cero
-                    se originó en Camboya entre los siglos III y IV, pero los
-                    mayas no lo sabían. Estudiaron la Vía Láctea, dejaron
-                    construcciones que maravillan al mundo. Escribanos,
-                    pintores, matemáticos y astrónomos de otros pueblos
-                    se reunían para debatir y lograr mayor precisión
-                    en el registro de los datos. Es decir, realizaban lo que
-                    hoy les llamamos congresos científicos. Sabían que
-                    un descubrimiento repercute en las generaciones
-                    venideras, que es un escalón para descubrir otros
-                    secretos de la Naturaleza y aplicarlos para el bienestar
-                    social (ojalá). Desde el saber maya y el saber de
-                    otros sobre Astronomía, Matemáticas, Geometría y
-                    más, el ser humano llegó a la Luna. El conocimiento
-                    que se produjo para lograr esta hazaña permitió generar
-                    las sorprendentes comunicaciones de hoy, que
-                    nos permiten estar en contacto con personas que se
-                    encuentran a miles de kilómetros de distancia.
+                    The Maya knew how to make their paper, colors, and
+                    brushes, and use them meticulously and masterfully
+                    to seek knowledge. They represented nothingness as
+                    very few peoples on Earth knew how, inventing their
+                    own zero and learning to place it properly in their vigesimal
+                    system for mathematics. Other cultures also
+                    invented zero, but the distance and communications at the time prevented socialization of this knowledge.
+                    Zero is said to have originated in Cambodia between
+                    the 3rd and 4th centuries, but it is unlikely that the
+                    Maya would have heard of it. They studied the Milky
+                    Way, they left constructions that amaze the world.
+                    Scribes, painters, mathematicians and astronomers
+                    from other towns met to debate and achieve greater
+                    precision in the recording of data, similar to today’s
+                    scientific congresses. They knew that a discovery affects
+                    future generations, which is a stepping-stone to
+                    discover other secrets of Nature and apply them for
+                    the benefit of society (hopefully). From Maya knowledge
+                    and the knowledge of others regarding astronomy,
+                    mathematics, geometry and more, humanity
+                    reached the Moon in 1969. The huge knowledge that
+                    was produced to achieve this feat led to the generation
+                    of today’s amazing communications, which allow
+                    us to be in contact with people who are thousands of
+                    kilometers away, evidencing the repercussions of a
+                    scientific project.
                 </p>
                 <p className="text-gray-article">
-                    El uso de la herbolaria por los mayas, sumado con muchos
-                    más conocimientos sobre los seres vivos que se
-                    ha acumulado desde su época de oro, ha permitido
-                    encontrar los caminos para derrotar a microorganismos
-                    patógenos como los virus, las bacterias y los
-                    protozoarios que quebrantan la salud humana. Hoy,
-                    tenemos enfrente al SARS- CoV-2 causando millones
-                    de muertes en el mundo, mientras la humanidad avanza,
-                    al principio a ciegas, y luego alumbrada por los
-                    hallazgos científicos que nos han llevado a producir
-                    vacunas y medicamentos en varias partes del mundo,
-                    trabajamos para derrotarlo. Los mexicanos estamos también en esa batalla por la salud y la vida, buscando
-                    una vacuna mexicana. Necesitamos tener presente el
-                    legado maya para convertirnos en gigantes actuales de
-                    la ciencia y tecnología, que nos permita hacerle frente
-                    a este y otras amenazas con las mejores herramientas.
+
+                    The use of herbalism by the Maya, coupled with much
+                    greater knowledge that has accumulated since their
+                    time, learning about living beings, has helped find
+                    ways to defeat pathogenic microorganisms, such as
+                    viruses, bacteria and protozoa that undermine human
+                    health. Today, we face SARS-CoV-2, causing millions
+                    of deaths in the world, while humanity advances,
+                    at first blindly, and then illuminated by the scientific
+                    findings that have led to the production of vaccines
+                    and drugs in various parts of the world, to defeat it.
+                    We Mexicans are also in that battle for health and life,
+                    looking for a Mexican vaccine. We need to keep the
+                    Mayan legacy in mind, to become current giants of science and technology, allowing us to face this and
+                    other microorganisms with the best tools.
                 </p>
                 <p className="text-gray-article">
-                    Finalmente, saludo la edición facsimilar de los Códices
-                    De la Cruz Badiano y Maya de México que ha respaldado
-                    la Secretaría de Relaciones Exteriores, la Secretaría
-                    de Cultura del gobierno de México, el Instituto
-                    Nacional de Antropología e Historia y la Biblioteca
-                    Nacional de Antropología e Historia. Invito a todos y
-                    todas a la fascinante aventura de conocerlos.
+
+                    Finally, I welcome the edition of the De la Cruz Badiano
+                    Codex and Maya Codex of Mexico that has been endorsed
+                    by the Ministry of Foreign Affairs, the Ministry of Culture,
+                    the National Institute of Anthropology and History,
+                    and the National Library of Anthropology and
+                    History. I invite everyone to the fascinating adventure
+                    of reading it.
                 </p>
 
 
             </article>
-            
+
             <div className="read-more">
-            <a
-            href={pdfOrozco}
-            download="orozco.pdf"
-          >
-            Leer más
-      </a>
-      </div>
+                <a
+                    href={pdfOrozco}
+                    download="orozco.pdf"
+                >
+                   See more
+                </a>
+            </div>
             <Footer />
         </section>
     )

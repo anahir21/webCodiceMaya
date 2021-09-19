@@ -3,7 +3,7 @@ import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
 import quote from "../../../images/blackquote.png";
 import "./autores.css";
- import pdfCarlson from "../../../documents/carlson.pdf"
+import pdfCarlson from "../../../documents/carlson.pdf"
 import codicecarlson from "../../../images/carlson/codice-carlson.jpg"
 
 export const Carlson = () => {
@@ -26,25 +26,25 @@ export const Carlson = () => {
 
 
                 <h3 className="title-article">
-                    Las veinte máscaras de Venus:
-                    una <br />
-                    perspectiva 20/20 del Códice
-                    Maya <br /> de México, antes Grolier.
-                    El más antiguo  libro en papel<br />
-                    de América que se conserva
+                    The twenty masks of venus: a 20/20  <br />
+                    perspective
+                    on El Códice Maya  <br />
+                    de méxico, antes Grolier – the oldest  <br />
+                    surviving book on paper from ancient  <br />
+                    America
+
 
                 </h3>
 
                 <blockquote>
                     <img src={quote} alt="icon-quote" />
                     <div className="text-quote">
-                        <p className="p-quote">
-                            [E]stos sacerdotes y Ah kines [Ahk’in], que es en su lengua,
-                            tenían ellos en mucho, y estos Ah Kines tenían libros de figuras
-                            por donde se regían, y allí tenían señalados los tiempos en
-                            que habían de sembrar y coger e ir a caza y a la guerra, y se
-                            entendían unos sacerdotes con otros y se escribían por figuras
-                            y sabían lo que había sucedido muchos años atrás.
+                        <p className="p-quote"> These priests ... had books of figures [figures or drawings]
+                            by which they governed themselves, and there they had
+                            marked the times when they had to sow and harvest and
+                            to go hunting and go to war. And priests corresponded
+                            with one another and wrote to one another by figures and
+                            knew what had happened many years before.
                         </p>
                         <p className="quote-author">— Giraldo Díaz de Alpuche, 1579</p>
                     </div>
@@ -54,100 +54,84 @@ export const Carlson = () => {
 
 
                 <p className="dropcap-article text-gray-article">
-                    Entre los logros verdaderamente notables de las antiguas
-                    culturas de Mesoamérica están la creación de la escritura y
-                    las tradiciones de fabricar papel para múltiples usos y escribir
-                    en libros (Lenz 1948; Seemann Conzatti 1990).
-                    Podemos estar bastante seguros de que tanto la escritura.
+                    Among the truly outstanding achievements of the
+                    ancient cultures of Mesoamerica were the creation
+                    of writing and the traditions of papermaking for
+                    many uses and writing in books (Lenz 1948; Seemann
+                    Conzatti 1990). We may be reasonably certain
+                    that both writing and papermaking are deep cultural
+                    traditions whose roots extend back at least to
+                    the Middle Formative period (ca. 900-400 BCE) and
+                    perhaps even earlier. Calendrical and other simple inscriptions have survived on other media such as
+                    ceramics and carved stone from the “Olmec” Gulf
+                    Coast to the Zapotec Highlands of Oaxaca and the
+                    Maya Lowlands. Characteristic stone beaters for
+                    the manufacture of bark paper have also been excavated
+                    dating from this period.
                 </p>
-                <p className="text-gray-article">Al momento de la Conquista española en el siglo
-                    XVI, en Mesoamérica había múltiples libros plegados
-                    como biombo confeccionados con pieles de animales
-                    (generalmente de venado) así como con papel de
-                    corteza, con una capa de fino gesso blanco y pintado
-                    caligráficamente a pincel. Estos libros plegados
-                    se conocen como “códices”, a diferencia de otros
-                    documentos con escritura registrada en madera,
-                    piedra, concha y cerámica. Sabemos que dichos códices
-                    incluían genealogías, listas de reyes, registros de
-                    tributos y almanaques astronómicos, calendáricos y
-                    rituales para la adivinación y profecía. Existían también
-                    diversas formas de mapas y documentos territoriales,
-                    pero los cerca de 16 códices que se conservan
-                    son de naturaleza sobre todo genealógica-histórica o
-                    ritual-calendárica. De éstos, sólo cuatro provienen de
-                    la cultura maya. Los Códices Dresde, París y Madrid
-                    —nombrados por la ciudad en la que se encuentran
-                    en nuestros días— probablemente llegaron a Europa
-                    en el siglo XVI y después se perdieron para el mundo
-                    académico, sólo para ser redescubiertos en el siglo
-                    XIX y reconocidos por lo que son —libros plegados
-                    precolombinos de adivinación conteniendo almanaques
-                    rituales con datos calendáricos, astronómicos
-                    y otra información sagrada—. El cuarto libro maya,
-                    más frecuentemente llamado el Códice Grolier —el único descubierto en el siglo XX, presuntamente por
-                    saqueadores en una cueva seca en México— ha sido
-                    tema de gran controversia desde su presentación al
-                    mundo en 1971 en la ciudad de Nueva York. Si bien
-                    muchos mayistas han aceptado el Códice Grolier
-                    como un genuino artefacto antiguo, aún queda duda
-                    en la mente de algunos, sobre todo en México. A continuación
-                    presento un breve recuento de esta historia
-                    desde una perspectiva personal, así como un resumen
-                    de mi trabajo de investigación, arguyendo que
-                    el Códice es en efecto un almanaque de adivinación
-                    maya de estilo híbrido de hace mil años. En tal caso,
-                    es el libro en papel más antiguo de América que se
-                    conserva.
+                <p className="text-gray-article">At the time of the Spanish conquest in the early
+                    sixteenth century, screenfold books of animal hide
+                    (usually deerskin) as well as bark paper, coated with
+                    a fine white plaster gesso and painted calligraphically
+                    by brush, existed in great numbers throughout
+                    Mesoamerica. These screenfold books are known
+                    as codices in contrast to other written documents
+                    recorded on wood, stone, shell, and pottery. We
+                    know that these codices included histories and genealogies,
+                    king lists, tribute records, and astronomical,
+                    calendrical, and ritual almanacs for divination
+                    and prophecy. Various forms of maps and territorial
+                    documents also existed, but the 16 or so surviving codices
+                    are essentially genealogical/historical or ritual/
+                    calendrical in nature. Of these, only four derive from
+                    the Maya cultures. The Dresden, Paris, and Madrid Codices
+                    – named for the cities where they are currently
+                    located – probably came to Europe in the sixteenth
+                    century and were subsequently lost to the world of
+                    scholarship, only to be rediscovered in the nineteenth
+                    century and recognized for what they were:
+                    pre-Columbian screenfold divinatory books containing
+                    ritual almanacs with calendrical, astronomical,
+                    and other sacred information. The fourth Maya book,
+                    most often known as the Grolier Codex – the only one
+                    to be discovered in the twentieth century, allegedly by
+                    looters in a dry cave in Mexico – has been the subject of great controversy since it was first presented to the
+                    world in 1971 in New York City. Although most Maya
+                    scholars have come to accept the Grolier Codex as a
+                    genuine ancient artifact, some doubt had remained
+                    in the minds of some, particularly in Mexico. What
+                    follows is a brief account of this history from a personal
+                    perspective along with a summary of this author’s
+                    research arguing that the Codex is indeed a fragment
+                    of a thousand year old hybrid-style Maya divinatory
+                    almanac. If so, it is the oldest surviving book on paper
+                    from the Americas.
                 </p>
 
-                <p className="text-gray-article">
-                    Esas fueron las
-                    discretas palabras que el mayista Michael D. Coe
-                    expresó en abril de 1971 al ser interrogado a través
-                    del The New York Times por el descubrimiento del
-                    cuarto códice maya que, clasificado como original,
-                    se exhibía por primera vez al público dentro del Club
-                    Grolier, “la sociedad más grande y antigua de Estados
-                    Unidos para bibliófilos y entusiastas de las artes
-                    gráficas”18. Más tarde, en 1973, en la publicación titulada
-                    The Maya Scribe and His World, Coe decidió escribir
-                    sobre el hallazgo de aquel manuscrito mesoamericano.
-                    Mencionó que había sido localizado dentro
-                    de una cueva, junto a una máscara de mosaico y que,
-                    además, lo había sometido a una prueba de Radiocarbono
-                    14 con la finalidad de despejar cualquier duda
-                    sobre su antigüedad; por último, observó que su contenido
-                    estaba relacionado con los ciclos de Venus y
-                    que el estilo e iconografía que lo caracterizaba eran
-                    producto de una aculturación surgida entre mayas y
-                    toltecas durante el Posclásico, manteniendo cierto
-                    parecido con la tradición Mixteca-Puebla.
-                </p>
+
 
                 <div className="full-image">
-          <img src={codicecarlson} alt="Códice John B. Carlson" />
-     </div>
+                    <img src={codicecarlson} alt="Códice John B. Carlson" />
+                </div>
 
-                
-                
-                
+
+
+
                 <p className="text-gray-article">
-
-                    El Dr. Sáenz mandó fotografiar en blanco y negro
-                    este “Códice Sáenz”, en algún momento entre 1965
-                    y 1968. El eminente mayista de Yale Michael D. Coe
-                    [1929-2019] (1992:227-229, 2006:198) vio estas fotos
-                    por primera vez cuando visitó la casa de Sáenz en
-                    la Ciudad de México en 1968 y sostuvo el Códice en
-                    sus manos. Coe narra que se convenció de inmediato
-                    de que lo que estaba viendo era un genuino artefacto
-                    antiguo precolombino. Sáenz le dio una serie de fotos
-                    en blanco y negro y Coe se las llevó de vuelta a New
-                    Haven y la mostró a su colega de Yale, Floyd Lounsbury.
-                    “Tras considerable estudio, ambos concluimos
-                    que éste era el cuarto manuscrito maya conocido”
-                    (Coe, 2006, p. 198).
+                    Dr. Sáenz had black-and-white photographs taken of
+                    this “Sáenz Codex,” sometime between 1965 and
+                    1968. Eminent Yale Mayanist, the late Michael D.
+                    Coe [1929-2019] (1992:227-229, 2006:198) first
+                    saw these photographs when he visited the Sáenz
+                    home in Mexico City in 1968 and held the actual Codex
+                    in his hands. Coe describes that he was immediately
+                    convinced that what he was seeing was a genuine
+                    ancient pre-Columbian artifact. He was given
+                    a set of black-and-white photographs that he took
+                    back to New Haven and showed his Yale colleague
+                    Floyd Lounsbury. “After considerable study, we both
+                    concluded that this was the fourth known Maya manuscript”
+                    (Coe 2006:198).
 
                 </p>
 
@@ -178,13 +162,13 @@ export const Carlson = () => {
 
             </article>
             <div className="read-more">
-            <a
-            href={pdfCarlson}
-            download="carlson.pdf"
-          >
-            Leer más
-      </a>
-      
+                <a
+                    href={pdfCarlson}
+                    download="carlson.pdf"
+                >
+                    See more
+                </a>
+
             </div>
             <Footer />
         </section>

@@ -101,29 +101,7 @@ export const Carlson = () => {
                     conserva.
                 </p>
 
-                <p className="text-gray-article">
-                    Esas fueron las
-                    discretas palabras que el mayista Michael D. Coe
-                    expresó en abril de 1971 al ser interrogado a través
-                    del The New York Times por el descubrimiento del
-                    cuarto códice maya que, clasificado como original,
-                    se exhibía por primera vez al público dentro del Club
-                    Grolier, “la sociedad más grande y antigua de Estados
-                    Unidos para bibliófilos y entusiastas de las artes
-                    gráficas”18. Más tarde, en 1973, en la publicación titulada
-                    The Maya Scribe and His World, Coe decidió escribir
-                    sobre el hallazgo de aquel manuscrito mesoamericano.
-                    Mencionó que había sido localizado dentro
-                    de una cueva, junto a una máscara de mosaico y que,
-                    además, lo había sometido a una prueba de Radiocarbono
-                    14 con la finalidad de despejar cualquier duda
-                    sobre su antigüedad; por último, observó que su contenido
-                    estaba relacionado con los ciclos de Venus y
-                    que el estilo e iconografía que lo caracterizaba eran
-                    producto de una aculturación surgida entre mayas y
-                    toltecas durante el Posclásico, manteniendo cierto
-                    parecido con la tradición Mixteca-Puebla.
-                </p>
+                
 
                 <div className="full-image">
           <img src={codicecarlson} alt="Códice John B. Carlson" />
