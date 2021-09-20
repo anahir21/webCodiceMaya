@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Route, Switch, useLocation } from "react-router-dom";
+import { Route, Switch, useLocation, Link, Router} from "react-router-dom";
 import { animated, useTransition } from "react-spring";
 
 import "./App.css";
@@ -17,7 +17,14 @@ import { Velasquez } from "./components/es/autores/velasquez";
 import { Vila } from "./components/es/autores/vila";
 import { Orozco } from "./components/es/autores/orozco";
 import { Iconografia } from "./components/es/iconografia/Iconografia";
+import { HomeEn } from "./components/en/homen/HomeEn";
+import { Introduction } from "./components/en/introduction/Introduction";
+import { Codex } from "./components/en/codex/Codex";
+import { Iconography } from "./components/en/iconografia/Iconografia";
 import { Studies } from "./components/en/studies/Studies";
+import { EditorialProject } from "./components/en/editorial-project/EditorialProject";
+import { Downloads } from "./components/en/downloads/Downloads";
+import { Credits } from "./components/en/credits/Credits";
 
 import audio1 from "./audio/lamina_1.mp3";
 import audio2 from "./audio/lamina_2.mp3";
@@ -103,19 +110,17 @@ function App() {
       }}
     >
       <animated.div style={props}>
+        
         <Switch location={item}>
           <Route path="/" exact component={Home}></Route>
 
           <Route path="/es/presentacion" exact component={Presentacion}></Route>
 
-          <Route path="/es/codice" component={Codice}></Route>
+          <Route exact path="/es/codice" component={Codice}></Route>
 
           <Route path="/es/estudios" component={Estudios}></Route>
 
-          <Route
-            path="/es/proyecto-editorial"
-            component={ProyectoEditorial}
-          ></Route>
+          <Route path="/es/proyecto-editorial"component={ProyectoEditorial} ></Route>
 
           <Route path="/es/descargas" component={Descargas}></Route>
 
@@ -131,10 +136,26 @@ function App() {
 
           <Route path="/es/esther-orozco" component={Orozco}></Route>
 
-          <Route path="/estudio-iconografico" component={Iconografia}></Route>
+          <Route path="/es/estudio-iconografico" component={Iconografia} ></Route>
 
-          <Route path="/studies" component={Studies}></Route>
+          <Route path="/en/" component={HomeEn}></Route>
+
+          <Route  path="/en/introduction" exact component={Introduction}></Route>
+
+          <Route path="/en/codex" component={Codex}></Route>
+
+          <Route path="/en/iconography" component={Iconography}></Route>
+
+          <Route path="/en/studies" component={Studies}></Route>
+
+          <Route path="/en/editorial-project" component={EditorialProject} ></Route>
+
+          <Route path="/en/downloads" component={Downloads}></Route>
+
+          <Route path="/en/credits" component={Credits}></Route>
+          
         </Switch>
+        
       </animated.div>
     </AudioContext.Provider>
   ));

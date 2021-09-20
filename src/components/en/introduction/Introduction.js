@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { Navbar } from "../../es/navbar/Navbar";
-import "./presentacion.css";
+import { Navbar } from "../../en/navbar/Navbar";
+import "./introduction.css";
 import { Footer } from "../footer/Footer";
 import pages from "../../../images/presentacion/paginas-codice.jpg";
 import cacao from "../../../images/presentacion/cacao.jpg";

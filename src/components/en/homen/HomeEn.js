@@ -12,7 +12,7 @@ import "./home.css";
 import { Footer } from "../footer/Footer.js";
 import { Navbar } from "../navbar/Navbar.js";
 
-export const Home = () => {
+export const HomeEn = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

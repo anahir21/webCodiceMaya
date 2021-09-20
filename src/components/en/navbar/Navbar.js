@@ -17,9 +17,11 @@ export const Navbar = () => {
       case "/":
         handlePath("/en");
         break;
-      case "/Estudios":
-        handlePath("/es/estudios");
+
+      case "/Introduction":
+        handlePath("/en/introduction");
         break;
+
       default:
         handlePath("/");
     }
@@ -40,16 +42,16 @@ export const Navbar = () => {
           </h2>
         </NavLink>
         <div className="links">
-          <NavLink to="/es/presentacion">Introduction</NavLink>
-          <NavLink to="{()=>handlePath('Codice')}">
+          <NavLink to="/en/introduction">Introduction</NavLink>
+          <NavLink to="/en/codex">
             The Maya Codex of Mexico
           </NavLink>
-          <NavLink to="/es/estudio-iconografico">Iconography</NavLink>
+          <NavLink to="/en/iconography">Iconography</NavLink>
           <li className="drop-down-container">
-            <NavLink to="/es/estudios">Studies</NavLink>
+            <NavLink to="/en/studies">Studies</NavLink>
             <ul>
               <li>
-                <NavLink to="/es/presentacion">Moreno Toscano</NavLink>
+                <NavLink to="/en/introduction">Moreno Toscano</NavLink>
               </li>
               <li>
                 <NavLink to="/baltazar-brito">Brito Guadarrama</NavLink>
@@ -84,14 +86,14 @@ export const Navbar = () => {
           <img alt="logo" src={logo}></img>
         </NavLink>
         <section className="options">
-          <NavLink to="/es/presentacion">Introduction</NavLink>
-          <NavLink to="/es/codice">The Maya Codex of Mexico</NavLink>
-          <NavLink to="/es/estudio-iconografico">Iconography</NavLink>
+          <NavLink to="/en/introduction">Introduction</NavLink>
+          <NavLink to="/en/codex">The Maya Codex of Mexico</NavLink>
+          <NavLink to="/en/iconography">Iconography</NavLink>
           <li className="drop-down-container">
-            <NavLink to="/es/estudios">Studies</NavLink>
+            <NavLink to="/en/studies">Studies</NavLink>
             <ul>
               <li>
-                <Link to="/es/presentacion">Moreno Toscano</Link>
+                <Link to="/en/introduction">Moreno Toscano</Link>
               </li>
               <li>
                 <Link to="/es/baltazar-brito">Brito Guadarrama</Link>

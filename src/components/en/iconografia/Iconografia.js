@@ -12,7 +12,7 @@ import folio1_2 from "../../../images/iconografia/folio1/folio1_2.png";
 import { ImageFolio } from "./ImageFolio";
 import { TextFolio } from "./TextFolio";
 
-export const Iconografia = () => {
+export const Iconography = () => {
   const [ref, inView] = useInView({
     threshold: 0,
   });

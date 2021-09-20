@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Footer } from "../footer/Footer";
 import { Navbar } from "../navbar/Navbar";
-import "./codice.css";
+import "./codex.css";
 import tabla from "../../../images/codice/tabla.png";
 import orbitas from "../../../images/codice/orbitas.png";
 import tarjeta3 from "../../../images/codice/tarjeta3.png";
@@ -9,7 +9,7 @@ import tarjeta6 from "../../../images/codice/tarjeta6.png";
 import tarjeta7 from "../../../images/codice/tarjeta7.png";
 import tarjeta4 from "../../../images/codice/tarjeta4.jpg";
 
-export const Codice = () => {
+export const Codex = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
