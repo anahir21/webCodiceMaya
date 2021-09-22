@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import quote from "../../../images/blackquote.png";
 import pdfOrozco from "../../../documents/orozco.pdf"
 import "./autores.css";
@@ -12,7 +12,7 @@ export const Orozco = () => {
 
     return (
         <section className="view">
-            <Navbar />
+            <Menu />
 
             <div className="cover-article cover-orozco"></div>
             <article className="text-article">

@@ -3,7 +3,7 @@ import UseSpy from "./useSpy";
 import { UseEmitter } from "./emiter";
 import  AudioPlay  from "../ui/AudioPlay";
 
-export const DivFolio = ({title, folio, text, url}) => {
+export const DivFolio = ({title, folio, text}) => {
     
 const { setDataEvent } = UseEmitter();
 const { isVisible, itemRef} = UseSpy();
@@ -17,7 +17,6 @@ useEffect(() => {
         <div ref={itemRef} folio={folio}>
             {title? <h3 className="section_titles text-left">{title}</h3> :null}
             <p className='text-gray'>{text}</p>
-            { url ? <AudioPlay url={url}/> : null }
         </div>
     )
 }

@@ -10,7 +10,7 @@ import especialistas from "../../../images/home/especialistas.jpg";
 import cc from "../../../images/home/by-nc-sa.png";
 import "./home.css";
 import { Footer } from "../footer/Footer.js";
-import { Navbar } from "../navbar/Navbar.js";
+import { Menu } from "../navbar/Menu.js";
 
 export const Home = () => {
   useEffect(() => {
@@ -24,7 +24,7 @@ export const Home = () => {
   };
   return (
     <Fragment>
-      <Navbar />
+      <Menu />
       <Parallax bgImage={venus} strength={200}>
         <div className="parallax-container">
           <div className="text-parallax">

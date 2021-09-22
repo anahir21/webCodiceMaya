@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import portada from "../../../images/editorial/portada-editorial.png"
 import { Play } from "../ui/Play";
 import "./editorial.css";
@@ -24,7 +24,7 @@ export const ProyectoEditorial = () => {
 
   return (
     <section className="view">
-      <Navbar />
+      <Menu />
       <div className="header-section">
         <h1 className="section_titles">El códice y el proyecto editorial</h1>
       </div>

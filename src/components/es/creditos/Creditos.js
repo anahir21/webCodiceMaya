@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import { Footer } from "../footer/Footer";
-import { Navbar } from "../navbar/Navbar";
+import {Menu } from "../navbar/Menu";
 import "./creditos.css";
 export const Creditos = () => {
   useEffect(() => {
@@ -8,7 +8,7 @@ export const Creditos = () => {
   }, [])
   return (
     <section className="view-credits">
-      <Navbar />
+      <Menu />
 
       <div className="credits">
         <div className="team">

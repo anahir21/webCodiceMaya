@@ -13,12 +13,12 @@ export const Footer = () => {
           </div>
           <div className="site-map">
               <nav id="nav-footer">
-              <p className="footer-p" >Secciones</p>    
-              <NavLink to="/presentacion" className="footer-a">Presentación</NavLink>
-              <NavLink to="/codice" className="footer-a">Códice Maya de México</NavLink>
-              <NavLink to="/estudios" className="footer-a">Estudios</NavLink>
-              <NavLink to="/descargas" className="footer-a">Descargas</NavLink>
-              <NavLink to="/creditos" className="footer-a">Créditos</NavLink>
+              <p className="footer-p" >Sections</p>    
+              <NavLink to="/presentacion" className="footer-a">Introduction</NavLink>
+              <NavLink to="/codice" className="footer-a">The Maya Codex of Mexico</NavLink>
+              <NavLink to="/estudios" className="footer-a">Studies</NavLink>
+              <NavLink to="/descargas" className="footer-a">Download</NavLink>
+              <NavLink to="/creditos" className="footer-a">Credits</NavLink>
               </nav>
               
           </div>
@@ -27,7 +27,7 @@ export const Footer = () => {
       <hr className="line-large" />
       <div className="legal">
       <img src={logo}alt="logo"/>
-      <p>© 2021 – Secretaría de Relaciones Exteriores</p>
+      <p>© 2021 - Mexican Ministry of Foreign Affairs</p>
       </div>
     </div>
   );

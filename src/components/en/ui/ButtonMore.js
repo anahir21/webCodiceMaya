@@ -12,7 +12,7 @@ export const ButtonMore = ({path}) => {
 
   return (
     <button className="button__ver_mas" onClick={()=>handlePath(path)}>
-      Ver más <RiArrowDropRightLine />
+   See more <RiArrowDropRightLine />
     </button>
   );
 };

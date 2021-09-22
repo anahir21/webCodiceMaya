@@ -1,10 +1,8 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Navbar } from "../navbar/Navbar";
-import  UseSpy from "./useSpy";
+import UseSpy from "./useSpy";
 import { UseEmitter, Emmiter } from "./emiter";
-import { useInView } from 'react-intersection-observer';
-
-
+import { useInView } from "react-intersection-observer";
 
 import "./iconografia.css";
 
@@ -14,14 +12,12 @@ import folio1_2 from "../../../images/iconografia/folio1/folio1_2.png";
 import { ImageFolio } from "./ImageFolio";
 import { TextFolio } from "./TextFolio";
 
- 
-export const Iconografia = () => {
+export const Iconography = () => {
   const [ref, inView] = useInView({
     threshold: 0,
-  })
-  
+  });
+
   return (
-    
     <section className="section-iconography">
       <Navbar />
       <div className="cover-iconography">
@@ -33,7 +29,7 @@ export const Iconografia = () => {
             <p className="author-name left-text">Saeko Yanagisawa</p>
           </div>
           <h1 className="section_titles_iconography">
-            Estudio <br /> Iconográfico
+            ICONOGRAPHIC <br /> STUDY
           </h1>
         </div>
 
@@ -41,40 +37,35 @@ export const Iconografia = () => {
           <img src={codice_03} alt="codice-maya-folio-3" />
         </div>
       </div>
-      <div ref={ref}  className="intro-iconography">
+      <div ref={ref} className="intro-iconography">
         <p className="text-gray">
-          Los Mayas dividían el ciclo sinódico de este astro en cuatro fases
-          aparentes desde la Tierra. La fase uno, cuando Venus aparece como la
-          Estrella de la Mañana; la dos, se oculta detrás del Sol; la tres,
-          reaparece como la Estrella de la Tarde; y la cuatro, desaparece de
-          nuevo en la sombra del Sol. Cada fase es presidida por un dios con
-          conductas agresivas. Son deidades militares, de la muerte y el
-          inframundo. Los augurios de cada fase son aciagos, nefastos y
-          beligerantes, porque creían que cuando Venus se ocultaba, andaba en el
-          Inframundo. El ciclo comienza en el día 1 Ajaw, el último día
-          registrado en la última página que hoy está perdida. Es la fecha
-          venusina por excelencia, en ella arranca y termina. 1 Ajaw es el alfa
-          y el omega de toda la construcción del almanaque venusino.
+          The Mayans divided the synodic cycle of this star into four phases
+          apparent from Earth. Phase one, when Venus appears as the Morning
+          Star; phase two, it hides behind the Sun; phase three, it reappears as
+          the Evening Star; and phase four, it disappears again in the shadow of
+          the Sun. Each phase is presided over by a god with aggressive
+          behavior. They are military, death and underworld deities. The omens
+          of each phase are ominous, nefarious and belligerent, because they
+          believed that when Venus was hidden, she was in the Underworld. The
+          cycle begins on the day 1 Ajaw, the last day recorded on the last page
+          that today is lost. It is the Venusian date par excellence, it starts
+          and ends on this date. 1 Ajaw is the alpha and the omega of the whole
+          construction of the Venusian almanac.
         </p>
       </div>
-     
-      <div className="folio-container" >
+
+      <div className="folio-container">
         <Emmiter>
           <div className="scrollytelling">
-          <div className={inView ? 'no-sticky': 'is-sticky' }>
-          <ImageFolio />
-          </div>
-          
-          <TextFolio></TextFolio>
+            <div className={inView ? "no-sticky" : "is-sticky"}>
+              <ImageFolio />
+            </div>
+
+            <TextFolio></TextFolio>
           </div>
         </Emmiter>
-        
       </div>
-      <div>
-      
-    </div>
+      <div></div>
     </section>
-    
-   
   );
 };

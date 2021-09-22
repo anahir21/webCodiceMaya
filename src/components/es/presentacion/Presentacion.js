@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { Navbar } from "../../es/navbar/Navbar";
+import { Menu} from "../../es/navbar/Menu";
 import "./presentacion.css";
 import { Footer } from "../footer/Footer";
 import pages from "../../../images/presentacion/paginas-codice.jpg";
@@ -13,7 +13,7 @@ export const Presentacion = () => {
   }, [])
   return (
     <section className="view">
-      <Navbar />
+      <Menu />
       <div className="header-section">
         <p className="subtitle-section text-center">Presentación</p>
         <h1 className="section_titles text-center">El Códice Maya de México</h1>

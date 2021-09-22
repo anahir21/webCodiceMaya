@@ -26,92 +26,86 @@ export const Vila = () => {
 
 
                 <h3 className="title-article">
+                    zero, mathematics  <br />
+                    and the Maya.
 
-                    Cero, matemáticas  <br />
-                    y los mayas
                 </h3>
 
                 <p className="dropcap-article text-gray-article">
-                    La etimología de matemática es “lo relativo al conocimiento”,
-                    es por eso que la cultura contemporánea
-                    le da tanta importancia a esta ciencia y, sobre todo,
-                    valora su aplicación en cualquier otra disciplina científica. Sobra decir que esta idea, la etimología de la palabra
-                    matemática, va mucho más allá de simplemente
-                    contar o de lo relativo a números. Las matemáticas
-                    ayudan a establecer modelos sistemáticos
-                    sobre lo que conocemos para poder predecir lo que
-                    se espera: la evolución de una bacteria, la evolución
-                    del clima, la robustez de un puente, etcétera.
+                    he etymology of mathematics is “that which is related
+                    to knowledge”, therefore modern culture ascribes
+                    such importance to this science and, particularly,
+                    its application in any other scientific discipline.
+                    Needless to say, the etymology of the word mathematics
+                    goes well beyond simply counting or things
+                    related to numbers. Mathematics help us establish
+                    systematic models of what we know, in order to predict
+                    what is expected: the development of a bacterium,
+                    climate evolution, the stability of a bridge, etc.
 
                 </p>
                 <blockquote>
                     <img src={quote} alt="icon-quote" />
                     <div className="text-quote">
                         <p className="p-quote">
-                            Entre los primeros conocimientos de la humanidad
-                            de los que hay registro está el arte de contar.
+                            The art of counting is among humanity’s first registered
+                            knowledge.
                         </p>
 
                     </div>
                 </blockquote>
 
                 <p className="text-gray-article">
-                    Se han
-                    encontrado huesos en cuevas que fueron habitadas
-                    hace miles de años que han fungido como evidencia
-                    de que los hombres antiguos contaban, pues en
-                    estos huesos marcaban cantidades, posiblemente
-                    de objetos de caza, o animales. La evolución del
-                    sistema numérico es muy impresionante porque el
-                    conocimiento que hoy es muy natural para todos los
-                    humanos no apareció en la historia de la matemática
-                    de la misma forma sino hasta mucho tiempo después.
-                    El concepto de cero forma parte de ese conocimiento
-                    más reciente, al igual que los sistemas de numeración.
-                    Empecemos diciendo que pocas culturas en la humanidad
-                    han desarrollado su propio sistema de numeración.
-                    Por ejemplo, tanto los romanos como los
-                    griegos, hebreos y otros, representaban los números
-                    utilizando el alfabeto. Y aunque usaran claves para ir
-                    clasificando o denotando los números grandes, este
-                    sistema fue enormemente complicado como para
-                    desarrollar una aritmética útil. Aún hoy, debido al
-                    tiempo que duró su uso, utilizamos en ocasiones la
-                    numeración romana, como por ejemplo, al referirnos
-                    a nuestro siglo: el XXI, o a la clasificación de un
-                    monarca por su nombre: Felipe II, Calos V. Pero hay
-                    que ponerse a imaginar si solo conociéramos este
-                    sistema de numeración, cómo podríamos desarrollar
-                    algoritmos sencillos para hacer sumas como IX + VII,
-                    MDI + XCVI; y ya no digamos para multiplicaciones.
-                    No podemos dejar de pensar que nuestros antepasados
-                    que practicaban el comercio debían hacer sumas
-                    con frecuencia y, en un sistema como el romano, eso
-                    seguramente resultaba demasiado engorroso.
+                    Bones found in caves inhabited
+                    thousands of years ago provide evidence that ancient
+                    man counted, for they bore the marks of quantities,
+                    perhaps the objects of a hunt, or animals. The
+                    evolution of a numeral system is a very impressive
+                    feat because knowledge that is natural to all of us
+                    nowadays did not appear in math history in the same
+                    way until much later. The concept of zero is part of
+                    this more recent knowledge, as are numeral systems.
+                    Let us begin by saying that few of humanity’s cultures
+                    developed their own system of numeration.
+                    For example, the Romans, Greeks and Hebrews
+                    all represented numbers by using the alphabet. Although
+                    they did use codes to go classifying or noting
+                    large numbers, this system was too complicated to
+                    develop useful arithmetic. To this day, due to the
+                    length of time they were in use, we still use roman
+                    numerals, for example to indicate centuries1 or to
+                    classify monarchs by name: Philip II, Charles V. But
+                    try to imagine if we only knew this system of numeration:
+                    how could we develop simple algorithms
+                    for sums such as IX + VII, MDI + XCVI, let alone for
+                    multiplications? Our ancestors who practiced commerce
+                    clearly must have used sums often, and in a
+                    system such as the Roman one, it was certainly too
+                    complicated.
+
+
 
                 </p>
 
 
                 <p className="text-gray-article">
-                    Para simplificar el sistema de numeración, la humanidad
-                    o las diversas civilizaciones que han transitado en
-                    nuestra historia tuvieron que desarrollar otros. Nosotros,
-                    los humanos del siglo XXI, utilizamos el sistema
-                    decimal con los números arábigos, que explicaremos
-                    brevemente a continuación porque ello nos servirá
-                    para poder describir otros más.
+                    To simplify the system of numeration, humanity, or
+                    various cultures of the past, had to develop others.
+                    Nowadays, we humans of the twenty-first century
+                    use a decimal system with Arabic numerals, which will be explained briefly below because this will help
+                    describe others.
                 </p>
 
                 <p className="text-gray-article">
 
-                    El cero podría ser el símbolo que representa la ausencia
-                    de cantidad en la notación posicional, o bien, el
-                    número que representa la cantidad nula. Para nosotros
-                    hoy día es obvio que es la cantidad nula, pero esto
-                    es consecuencia de miles de años de evolución de
-                    nuestro entendimiento de la matemática. No fue
-                    tan obvio para las culturas que intentaron desarrollar
-                    estos conceptos.
+
+                    Zero could be the symbol which represents the absence
+                    of a quantity in the positional notation, or the number
+                    that represents the void quantity. Nowadays it is obvious
+                    to us what the void quantity is, but this is the result of
+                    thousands of years of evolution of our understanding
+                    of mathematics. It was not so obvious to cultures who
+                    attempted to develop these concepts.
 
                 </p>
 
@@ -121,73 +115,63 @@ export const Vila = () => {
                 </div>
 
                 <p className="text-gray-article">
-                    Debemos mencionar que en el sistema maya los
-                    números también admiten otros tipos de representaciones,
-                    igual que el mismo cero. Pensemos que nosotros
-                    actualmente podemos representar el número
-                    con palabras, como sucede en documentos legales,
-                    y con cifras. Algo análogo sucedía con los mayas que
-                    tienen glifos asociados simultáneamente a números
-                    y a dioses, digamos, la representación “caligráfica” de
-                    los números, además de la representación por cifras
-                    con el sistema mencionado arriba.
-                    
-                   
-                    <br />
-                    Como podemos ver, en todas las páginas de nuestro
-                    Códice Maya de México aparecen representados números.
-                    Además, en sus estelas y relieves los mayas
-                    fueron siempre cuidadosos en fechar sus grandes
-                    enunciados políticos y religiosos. En cada estela
-                    donde se describe algún suceso especial del sagrado
-                    gobernante o algún suceso religioso, se grababa la
-                    fecha en su propio sistema de notación. Este es otro
-                    de los grandes logros de la cultura maya. No solo el
-                    desarrollo o descubrimiento autónomo del cero y
-                    de un sistema de numeración tan eficiente como el
-                    nuestro, sino también su sistema calendárico. Ya no
-                    digamos de su sistema de escritura.
+                    It is noteworthy that in the Maya system, numbers
+                    could have other types of representations, just
+                    like zero. Think of the fact that nowadays we can
+                    represent numbers with words, as occurs in legal
+                    documents, and with digits. Something similar occurred
+                    with the Maya, who had glyphs associated
+                    with both numbers and gods, a sort of “calligraphic”
+                    representation of the number in addition to representing
+                    it with the system mentioned above.
+
+
+
+
+
                 </p>
 
 
                 <p className="text-gray-article">
-                Se conocen al menos seis glifos para el cero, por
-                    ejemplo. Y estas representaciones podrían haber
-                    variado entre las distintas ciudades y las distintas
-                    épocas en el devenir histórico de la cultura maya.
-                   
+
+                    At least six glyphs for zero are known, for example.
+                    And these representations could have varied between
+                    the different cities and epochs in the history
+                    of the Maya culture.
+
                 </p>
 
 
                 <p className="text-gray-article">
-                    
-                    Como podemos ver, en todas las páginas de nuestro
-                    Códice Maya de México aparecen representados números.
-                    Además, en sus estelas y relieves los mayas
-                    fueron siempre cuidadosos en fechar sus grandes
-                    enunciados políticos y religiosos. En cada estela
-                    donde se describe algún suceso especial del sagrado
-                    gobernante o algún suceso religioso, se grababa la
-                    fecha en su propio sistema de notación. Este es otro
-                    de los grandes logros de la cultura maya. No solo el
-                    desarrollo o descubrimiento autónomo del cero y
-                    de un sistema de numeración tan eficiente como el
-                    nuestro, sino también su sistema calendárico. Ya no
-                    digamos de su sistema de escritura.
+
+
+                    As we can see, every page of our Maya Codex of
+                    Mexico includes the representation of numbers.
+                    Furthermore, the Maya were always careful to
+                    date their great political and religious statements
+                    on stelae and bas-reliefs. Each stela describing
+                    a special event of a sacred governor, or some
+                    religious occasion, included the date, recorded
+                    in their own system of notation. This is one of the
+                    great achievements of Maya culture. Not only the
+                    autonomous development and discovery of zero
+                    and a system of notation as efficient as ours, but
+                    also their calendrical system. Not to mention their
+                    writing system.
                 </p>
 
 
 
             </article>
             <div className="read-more">
-            <a
-            href={pdfVila}
-            download="Vila.pdf"
-          >
-            Leer más
-      </a>
-      </div>
-        
+                <a
+                    href={pdfVila}
+                    download="Vila.pdf"
+                >
+                    See more
+                </a>
+            </div>
+
             <Footer />
         </section>
     )

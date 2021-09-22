@@ -1,24 +1,33 @@
 import React, { Fragment, useState } from "react";
-import { NavLink, Link, useHistory } from "react-router-dom";
-import "./Navbar.css";
+import { NavLink, Link, useHistory, useLocation } from "react-router-dom";
+import "./Menu.css";
 import logo from "../../../images/logo.png";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Mailto } from "../ui/Mailto";
 
-
-
-
-export const Navbar = () => {
+export const Menu = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleSetMenu = () => setShowMenu(true);
   const handleSetMenuClose = () => setShowMenu(false);
 
-  let history =useHistory();
-  
-  function handlePath (path){
-      history.push(path);
+  let history = useHistory();
+  let location = useLocation();
+  function handlePath(path) {
+    history.push(path);
   }
+  const handleLanguage = () => {
+    switch (location.pathname) {
+      case "/":
+        handlePath("/en");
+        break;
+      case "/Estudios":
+        handlePath("/es/estudios");
+        break;
+      default:
+        handlePath("/");
+    }
+  };
 
   return (
     <Fragment>
@@ -27,37 +36,37 @@ export const Navbar = () => {
           <h2 className="logo">Códice <br/>Maya de<br/> México</h2>
         </NavLink>
         <div className="links">
-          <NavLink to="/presentacion">Presentación</NavLink>
-          <NavLink to="/codice">Códice Maya de México</NavLink>
-          <NavLink to="/estudio-iconografico">Iconografía</NavLink>
+          <NavLink to="/es/presentacion">Presentación</NavLink>
+          <NavLink to="/es/codice">Códice Maya de México</NavLink>
+          <NavLink to="/es/estudio-iconografico">Iconografía</NavLink>
           <li className="drop-down-container">
-          <NavLink to="/estudios">Estudios</NavLink>
+          <NavLink to="/es/estudios">Estudios</NavLink>
             <ul>
               <li>
-                <NavLink to="/presentacion">Moreno Toscano</NavLink>
+                <NavLink to="/es/presentacion">Moreno Toscano</NavLink>
               </li>
               <li>
-                <NavLink to="/baltazar-brito">Brito Guadarrama</NavLink>
+                <NavLink to="/es/baltazar-brito">Brito Guadarrama</NavLink>
               </li>
               <li>
-                <NavLink to="/erik-velasquez">Velásquez</NavLink>
+                <NavLink to="/es/erik-velasquez">Velásquez</NavLink>
               </li>
               <li>
-                <NavLink to="/ricardo-vila">Vila Freyer</NavLink>
+                <NavLink to="/es/ricardo-vila">Vila Freyer</NavLink>
               </li>
               <li>
-                <NavLink to="/john-carlson">B. Carlson</NavLink>
+                <NavLink to="/es/john-carlson">B. Carlson</NavLink>
               </li>
               <li>
-                <NavLink to="/esther-orozco">Orozco</NavLink>
+                <NavLink to="/es/esther-orozco">Orozco</NavLink>
               </li>
             </ul>
           </li>
-          <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descargas</NavLink>
-          <NavLink to="/creditos">Créditos</NavLink>
+          <NavLink to="/es/proyecto-editorial">Proyecto Editorial</NavLink>
+          <NavLink to="/es/descargas">Descargas</NavLink>
+          <NavLink to="/es/creditos">Créditos</NavLink>
         </div>
-        <select id="language">
+        <select id="language" onChange={()=>handleLanguage()}>
           <option>ES</option>
           <option>EN</option>
         </select>
@@ -71,8 +80,8 @@ export const Navbar = () => {
         </NavLink>
         <section className="options">
           <NavLink to="/presentacion">Presentación</NavLink>
-          <NavLink to="/codice">Códice Maya de México</NavLink>
-          <NavLink to="/estudio-iconografico">Iconografía</NavLink>
+          <NavLink to="/es/codice">Códice Maya de México</NavLink>
+          <NavLink to="/es/estudio-iconografico">Iconografía</NavLink>
           <li className="drop-down-container">
           <NavLink to="/estudios">Estudios</NavLink>
             <ul>

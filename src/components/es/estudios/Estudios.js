@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { Navbar } from "../../es/navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import { Footer } from "../footer/Footer";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";
@@ -29,7 +29,7 @@ export const Estudios = () => {
 
   return (
     <div className="estudios__container">
-      <Navbar />
+      <Menu />
       <div className="container">
         <div className="estudios__container_body">
           <h1 className="section_titles">Estudios</h1>
@@ -58,7 +58,7 @@ export const Estudios = () => {
                   src={morenotoscano}
                 />
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/presentacion"} />
+                  <ButtonMore path={"/es/presentacion"} />
                 </div>
               </div>
               <hr />
@@ -80,7 +80,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/baltazar-brito"} />
+                  <ButtonMore path={"/es/baltazar-brito"} />
                 </div>
               </div>
               <hr />
@@ -107,7 +107,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/erik-velasquez"} />
+                  <ButtonMore path={"/es/erik-velasquez"} />
                 </div>
               </div>
               <hr />
@@ -131,7 +131,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/john-carlson"} />
+                  <ButtonMore path={"/es/john-carlson"} />
                 </div>
               </div>
               <hr />
@@ -156,7 +156,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/ricardo-vila"} />
+                  <ButtonMore path={"/es/ricardo-vila"} />
                 </div>
               </div>
               <hr />
@@ -179,7 +179,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/esther-orozco"} />
+                  <ButtonMore path={"/es/esther-orozco"} />
                 </div>
               </div>
               <hr />
@@ -202,7 +202,7 @@ export const Estudios = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/codice"} />
+                  <ButtonMore path={"/es/codice"} />
                 </div>
               </div>
               <hr />

@@ -12,7 +12,7 @@ import "./home.css";
 import { Footer } from "../footer/Footer.js";
 import { Navbar } from "../navbar/Navbar.js";
 
-export const Home = () => {
+export const HomeEn = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -29,11 +29,10 @@ export const Home = () => {
         <div className="parallax-container">
           <div className="text-parallax">
             <h1 className="header__codice">
-              Códice Maya
-              <br />
-              de México
+              THE MAYA CODEX <br />
+              OF MEXICO
             </h1>
-            <h3 className="header__almanaque">El Almanaque de Venus</h3>
+            <h3 className="header__almanaque">VENUS ALMANAC</h3>
           </div>
         </div>
       </Parallax>
@@ -41,16 +40,20 @@ export const Home = () => {
       <div className="text-intro">
         <hr />
         <p>
-          El Códice Maya de México es el documento <br />
-          legible conservado más antiguo de la <br />
-          civilización mesoamericana, y el más <br />
-          antiguo de américa.
+          The Maya Codex of Mexico is the oldest <br />
+          preserved legible document of <br />
+          Mesoamerican civilization, and the oldest <br />
+          in the Americas.
         </p>
       </div>
 
       <Parallax bgImage={venus2} strength={200}>
         <div className="parallax-container">
-          <Modal showModal={showModal} setShowModal={setShowModal} url="https://www.youtube.com/embed/8-gEB1y9fhc" />
+          <Modal
+            showModal={showModal}
+            setShowModal={setShowModal}
+            url="https://www.youtube.com/embed/8-gEB1y9fhc"
+          />
           <Play onClick={openModal} />
         </div>
       </Parallax>
@@ -64,15 +67,13 @@ export const Home = () => {
           </div>
 
           <h3 className="section-subtitle text-left">
-            El Códice Maya de México
+            The Maya Codex of Mexico
           </h3>
           <p className="text-gray">
-            Descubre el documento más antiguo de América de la mano de
-            especialistas que describen la importancia de cultural del códice,
-            que a través de sus extraordinaimport {AudioContext} from
-            '../context/AudioContext'; rias láminas registran sistemáticamente
-            los movimientos del planeta Venus como fenómeno astronómico
-            recurrente y observable.
+            Discover the oldest document in America from the hand of specialists
+            who describe the cultural importance of the codex, which through its
+            extraordinary images systematically record the movements of the
+            planet Venus as a recurrent and observable astronomical phenomenon.
           </p>
         </div>
       </section>
@@ -83,14 +84,12 @@ export const Home = () => {
             <hr className="line line-left" />
           </div>
 
-          <h3 className="section-subtitle text-left">
-            Estudios de especialistas
-          </h3>
+          <h3 className="section-subtitle text-left">SPECIALIST STUDIES</h3>
           <p className="text-gray">
             Alejandra Moreno Toscano, Baltazar Brito Guadarrama, Erik Velásquez
-            García, John B. Carlson, Ricardo F. Vila Freyer y Esther Orozco
-            escribieron los ensayos que acompañan esta edición sobre el “Códice
-            Maya de México. Almanaque de Venus”.
+            García, John B. Carlson, Ricardo F. Vila Freyer and Esther Orozco
+            wrote the essays for this edition on the "The Maya Codex of Mexico.
+            Almanac of Venus",
           </p>
         </div>
         <div className="image-studies">
@@ -102,18 +101,16 @@ export const Home = () => {
         <div className="container-publication">
           <div className="title-publication">
             <hr className="line line-center" />
-            <h3 className="section-subtitle text-center">Publicación</h3>
+            <h3 className="section-subtitle text-center">Book</h3>
           </div>
           <div id="license">
-              <img src={cc} alt="license" />
-              <p>
-                Atribución/Reconocimiento-NoComercial-CompartirIgual 4.0
-                Internacional
-              </p>
-            </div>
+            <img src={cc} alt="license" />
+            <p>
+              Attribution/NonCommercial-NoCommercial-ShareAlike 4.0
+              International
+            </p>
+          </div>
           <div id="iframe-container">
-            
-
             <Iframe
               src="https://indd.adobe.com/embed/240f6732-3f4a-4038-a23f-b49d6052a2df?startpage=1&allowFullscreen=true"
               frameborder="0"

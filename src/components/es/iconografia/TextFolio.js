@@ -37,7 +37,7 @@ export const TextFolio = () => {
       />
       <DivFolio
         folio="folio2-3"
-        text="Venus es el dios Kisin, el dios de la muerte, ataviado como guerrero tolteca con yelmo de jaguar, saca su aliento de putrefacción. "
+        text="Venus permanecerá 250 días [número de anillo: (5 x 2) + (20 x 12), faltan 7 puntos] en el cielo poniente. "
       />
 
       <DivFolio
@@ -48,7 +48,7 @@ export const TextFolio = () => {
       />
       <DivFolio
         folio="folio3-2"
-        text="El día 3 K’an [signo desaparecido], Venus se oculta en el Inframundo, lugar obscuro, lleno de desgracia, ahí permanecerá por ocho días [número de anillo: 5 + 3]."
+        text="El guerrero Venus que lleva yelmo de serpiente emplumada captura al noble. ."
       />
       <DivFolio folio="folio3-3" text="Corre el peligro a los gobernantes." />
       <DivFolio
