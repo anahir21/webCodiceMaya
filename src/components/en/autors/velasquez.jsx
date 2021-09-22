@@ -7,7 +7,7 @@ import velasquez01 from "../../../images/velasquez/velasquez01.jpg";
 import velasquez02 from "../../../images/velasquez/velasquez02.jpg";
 import pdfVelasquez from "../../../documents/velazquez.pdf"
 
-export const Velasquez = () => {
+export const VelasquezEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

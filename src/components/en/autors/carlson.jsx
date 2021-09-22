@@ -6,7 +6,7 @@ import "./autores.css";
 import pdfCarlson from "../../../documents/carlson.pdf"
 import codicecarlson from "../../../images/carlson/codice-carlson.jpg"
 
-export const Carlson = () => {
+export const CarlsonEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

@@ -14,14 +14,14 @@ export const Credits = () => {
       <div className="credits">
         <div className="team">
           <p className="bloque">
-            Coordinación general
+          General Coordination
             <br />
             Alejandra Moreno Toscano Baltazar <br />
             Brito Guadarrama
           </p>
 
           <p className="bloque">
-            Autores <br />
+            Authors <br />
             Alejandra Moreno Toscano <br />
             Baltazar Brito Guadarrama <br />
             Erik Velásquez García <br />
@@ -31,12 +31,12 @@ export const Credits = () => {
           </p>
 
           <p className="bloque">
-          Coordinación editorial y digital <br/>
+          Editorial and digital Coordination <br/>
           Vania Ramírez Islas 
           </p>
 
           <p className="bloque">
-          Diseño editorial y desarrollo web <br/>
+          Editorial Design and Web Development <br/>
           Anahí Hernández Olvera <br/>
           Anahí Rosas Rivas
           </p>

@@ -11,7 +11,7 @@ import pdfBrito from "../../../documents/brito.pdf"
 import "./autores.css";
 
 
-export const Brito = () => {
+export const BritoEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

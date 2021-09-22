@@ -26,6 +26,11 @@ import { Studies } from "./components/en/studies/Studies";
 import { EditorialProject } from "./components/en/editorial-project/EditorialProject";
 import { Downloads } from "./components/en/downloads/Downloads";
 import { Credits } from "./components/en/credits/Credits";
+import { BritoEn } from "./components/en/autors/brito";
+import { CarlsonEn } from "./components/en/autors/carlson";
+import { VelasquezEn } from "./components/en/autors/velasquez";
+import { VilaEn } from "./components/en/autors/vila";
+import { OrozcoEn } from "./components/en/autors/orozco";
 
 
 import audio1 from "./audio/lamina_1.mp3";
@@ -141,9 +146,9 @@ function App() {
           <Route path="/es/estudio-iconografico" component={Iconografia} ></Route>
 
 
-          <Route path="/en/" component={HomeEn}></Route>
+          <Route path="/en/" exact component={HomeEn}></Route>
 
-          <Route path="/en/introduction" exact component={Introduction}></Route>
+          <Route path="/en/introduction" component={Introduction}></Route>
 
           <Route path="/en/codex" component={Codex}></Route>
 
@@ -159,8 +164,18 @@ function App() {
           <Route path="/en/downloads" component={Downloads}></Route>
 
           <Route path="/en/credits" component={Credits}></Route>
- 
 
+          <Route path="/en/baltazar-brito" component={BritoEn}></Route>
+
+          <Route path="/en/john-carlson" component={CarlsonEn}></Route>
+
+          <Route path="/en/erik-velasquez" component={VelasquezEn}></Route>
+
+          <Route path="/en/ricardo-vila" component={VilaEn}></Route>
+
+          <Route path="/en/esther-orozco" component={OrozcoEn}></Route>
+
+ 
           
         </Switch>
         

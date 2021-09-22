@@ -5,7 +5,7 @@ import quote from "../../../images/blackquote.png";
 import pdfOrozco from "../../../documents/orozco.pdf"
 import "./autores.css";
 
-export const Orozco = () => {
+export const OrozcoEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

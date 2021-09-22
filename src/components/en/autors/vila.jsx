@@ -6,7 +6,7 @@ import vila01 from "../../../images/vila/vila_01.jpg";
 import pdfVila from "../../../documents/vila.pdf";
 import "./autores.css";
 
-export const Vila = () => {
+export const VilaEn = () => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

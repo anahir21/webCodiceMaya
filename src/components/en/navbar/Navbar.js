@@ -53,19 +53,19 @@ export const Navbar = () => {
                 <NavLink to="/en/introduction">Moreno Toscano</NavLink>
               </li>
               <li>
-                <NavLink to="/baltazar-brito">Brito Guadarrama</NavLink>
+                <NavLink to="/en/baltazar-brito">Brito Guadarrama</NavLink>
               </li>
               <li>
-                <NavLink to="/erik-velasquez">Velásquez</NavLink>
+                <NavLink to="/en/erik-velasquez">Velásquez</NavLink>
               </li>
               <li>
-                <NavLink to="/ricardo-vila">Vila Freyer</NavLink>
+                <NavLink to="/en/ricardo-vila">Vila Freyer</NavLink>
               </li>
               <li>
-                <NavLink to="/john-carlson">B. Carlson</NavLink>
+                <NavLink to="/en/john-carlson">B. Carlson</NavLink>
               </li>
               <li>
-                <NavLink to="/esther-orozco">Orozco</NavLink>
+                <NavLink to="/en/esther-orozco">Orozco</NavLink>
               </li>
             </ul>
           </li>
@@ -95,19 +95,19 @@ export const Navbar = () => {
                 <Link to="/en/introduction">Moreno Toscano</Link>
               </li>
               <li>
-                <Link to="/es/baltazar-brito">Brito Guadarrama</Link>
+                <Link to="/en/baltazar-brito">Brito Guadarrama</Link>
               </li>
               <li>
-                <Link to="/es/erik-velasquez">Velásquez</Link>
+                <Link to="/en/erik-velasquez">Velásquez</Link>
               </li>
               <li>
-                <Link to="/es/ricardo-vila">Vila Freyer</Link>
+                <Link to="/en/ricardo-vila">Vila Freyer</Link>
               </li>
               <li>
-                <Link to="/es/john-carlson">B. Carlson</Link>
+                <Link to="/en/john-carlson">B. Carlson</Link>
               </li>
               <li>
-                <Link to="/es/esther-orozco">Orozco</Link>
+                <Link to="/en/esther-orozco">Orozco</Link>
               </li>
             </ul>
           </li>

@@ -21,8 +21,11 @@ export const Menu = () => {
       case "/":
         handlePath("/en");
         break;
-      case "/Estudios":
-        handlePath("/es/estudios");
+      case "/es/presentacion":
+        handlePath("/en/introduction");
+        break;
+      case "/es/codice":
+        handlePath("/en/codex");
         break;
       default:
         handlePath("/");
