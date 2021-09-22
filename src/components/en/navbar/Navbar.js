@@ -17,15 +17,14 @@ export const Navbar = () => {
       case "/":
         handlePath("/en");
         break;
-
-      case "/Introduction":
-        handlePath("/en/introduction");
+      case "/Estudios":
+        handlePath("/es/estudios");
         break;
-
       default:
         handlePath("/");
     }
   };
+
 
   const [showMenu, setShowMenu] = useState(false);
   const handleSetMenu = () => setShowMenu(true);
@@ -34,7 +33,7 @@ export const Navbar = () => {
   return (
     <Fragment>
       <div className="menu">
-        <NavLink to="/">
+        <NavLink to="/en">
           <h2 className="logo">
             The Maya <br />
             Codex of
@@ -70,11 +69,11 @@ export const Navbar = () => {
               </li>
             </ul>
           </li>
-          <NavLink to="/proyecto-editorial">Editorial Project</NavLink>
-          <NavLink to="/descargas">Downloads</NavLink>
-          <NavLink to="/creditos">Credits </NavLink>
+          <NavLink to="/en/editorial-project">Editorial Project</NavLink>
+          <NavLink to="/en/downloads">Downloads</NavLink>
+          <NavLink to="/en/credits">Credits </NavLink>
         </div>
-        <select id="language" onChange={() => handleLanguage()}>
+        <select id="language">
           <option value="es">ES</option>
           <option value="en">EN</option>
         </select>
@@ -112,9 +111,9 @@ export const Navbar = () => {
               </li>
             </ul>
           </li>
-          <NavLink to="/es/proyecto-editorial">Editorial Project</NavLink>
-          <NavLink to="/es/descargas">Download</NavLink>
-          <NavLink to="/es/creditos">Credits</NavLink>
+          <NavLink to="/en/editorial-project">Editorial Project</NavLink>
+          <NavLink to="/en/downloads">Download</NavLink>
+          <NavLink to="/en/credits">Credits</NavLink>
         </section>
         <section id="contact">
           <p>CONTACT</p>

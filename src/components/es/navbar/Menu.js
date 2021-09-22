@@ -1,15 +1,12 @@
 import React, { Fragment, useState } from "react";
 import { NavLink, Link, useHistory, useLocation } from "react-router-dom";
-import "./Navbar.css";
+import "./Menu.css";
 import logo from "../../../images/logo.png";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 import { Mailto } from "../ui/Mailto";
 
-
-
-
-export const Navbar = () => {
+export const Menu = () => {
   const [showMenu, setShowMenu] = useState(false);
   const handleSetMenu = () => setShowMenu(true);
   const handleSetMenuClose = () => setShowMenu(false);

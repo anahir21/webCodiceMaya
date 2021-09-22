@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
 import { Footer } from "../footer/Footer";
@@ -36,7 +36,7 @@ export const Descargas = () => {
   }, [])
   return (
     <section className=" view downloads">
-      <Navbar />
+      <Menu />
       <h1 className="section_titles text-left">Descargas</h1>
       <div className="grid-pages">
         <div className="folio-card">

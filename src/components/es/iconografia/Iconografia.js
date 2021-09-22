@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import  UseSpy from "./useSpy";
 import { UseEmitter, Emmiter } from "./emiter";
 import { useInView } from 'react-intersection-observer';
@@ -23,7 +23,7 @@ export const Iconografia = () => {
   return (
     
     <section className="section-iconography">
-      <Navbar />
+      <Menu/>
       <div className="cover-iconography">
         <div className="title-iconography">
           <div className="author-section-iconography">

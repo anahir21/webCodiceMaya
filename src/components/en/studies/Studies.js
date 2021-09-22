@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { Navbar } from "../../es/navbar/Navbar";
+import { Navbar } from "../../en/navbar/Navbar";
 import { Footer } from "../footer/Footer";
 import "./studies.css";
 import brito from "../../../images/estudios/brito.jpg";

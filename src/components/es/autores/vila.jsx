@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import quote from "../../../images/blackquote.png";
 import vila01 from "../../../images/vila/vila_01.jpg";
 import pdfVila from "../../../documents/vila.pdf";
@@ -13,7 +13,7 @@ export const Vila = () => {
 
     return (
         <section className="view">
-            <Navbar />
+            <Menu />
 
             <div className="cover-article cover-vila"></div>
             <article className="text-article">

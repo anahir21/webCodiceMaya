@@ -8,7 +8,7 @@ export const TextFolio = () => {
         title="Page 1"
         folio="folio1-1"
         text="On day 1 K'an [missing sign, 1st sign of the hieroglyphic column], since the first rising of Venus as the Morning Star on day 1 Ajaw [last sign of the hieroglyphic column on page XX, now lost] 1,404 days passed [(584 x 2) + 236], "
-        url="1"
+      
       />
 
       <DivFolio
@@ -25,7 +25,7 @@ export const TextFolio = () => {
         title="Page 2"
         folio="folio2-1"
         text="On the 12th Hix [1st sign of the hieroglyphic column], at sunset, Venus appears in the West."
-        url="2"
+       
       />
       <DivFolio
         folio="folio2-2"
@@ -40,7 +40,7 @@ export const TextFolio = () => {
         title="Page 3"
         folio="folio3-1"
         text="On day 3 K'an [missing sign], Venus hides in the Underworld, dark place, full of misfortune, there it will remain for eight days [ring number: 5 + 3]."
-        url="3"
+      
       />
       <DivFolio
         folio="folio3-2"
@@ -51,7 +51,7 @@ export const TextFolio = () => {
         title="Page 4"
         folio="folio4-1"
         text="On the 11th Eeb, Venus appears in the East at dawn. It comes from the Underworld infected with death, disease, drought and misfortune."
-        url="4"
+        
       />
       <DivFolio
         folio="folio4-2"
@@ -66,7 +66,7 @@ export const TextFolio = () => {
         title="Page 5"
         folio="folio5-1"
         text="On the 13th Lamat, Venus goes into occultation behind the Sun. There it will remain 90 days [ring number: (5x2) + (20 x 4)].  "
-        url="5"
+       
       />
       <DivFolio
         folio="folio5-2"
@@ -81,7 +81,7 @@ export const TextFolio = () => {
         title="Page 6"
         folio="folio6-1"
         text="On the 12th Etz'nab, Venus shines as the Evening Star in the west for 250 days [ring number: (5 x 2) + (20 x 12)].  "
-        url="6"
+       
       />
       <DivFolio
         folio="folio6-2"
@@ -96,7 +96,7 @@ export const TextFolio = () => {
         title="Page 7"
         folio="folio7-1"
         text="On the 2nd Lamat, Venus hides again to the Underworld. "
-        url="7"
+       
       />
       <DivFolio
         folio="folio7-2"
@@ -110,7 +110,7 @@ export const TextFolio = () => {
         title="Page 8"
         folio="folio8-1"
         text="On the 10th Kib, Venus comes out again from the east. She comes from the Underworld laden with death and disease. Quetzalcoatl with feathered serpent headdress serves as the Morning Star. He wears legs lined with rattlesnake crotals and eagle claw, belt and skirt like a ball player, the Toltec dorsal mirror tezcacuitlapalli on his back. "
-        url="8"
+       
       />
       <DivFolio
         folio="folio8-2"
@@ -124,7 +124,7 @@ export const TextFolio = () => {
         title="Page 9"
         folio="folio9-1"
         text="On the 12th Éeb, Venus hides behind the Sun for 90 days [ring number: (5 x 2) + (20 x 4), 4 points missing]. Corn is born from the head of the mountain god.  "
-        url="9"
+        
       />
       <DivFolio
         folio="folio9-2"
@@ -138,7 +138,7 @@ export const TextFolio = () => {
         title="Page 10"
         folio="folio10-1"
         text="On the 11th Iik', Venus rises in the western sky at sunset. There it will remain for 250 days [ring number: (5 x 2) + (20 x 12), totally lost]. "
-        url="10"
+       
       />
       <DivFolio
         folio="folio10-2"
@@ -151,7 +151,7 @@ export const TextFolio = () => {
       <DivFolio
         folio="folio10-4"
         text="After 37,960 days or five synodic periods of Venus or eight solar years it returns again to page 1. On the 9th day K'an [2nd sign of the hieroglyphic column, missing, on page 2], the god K'awiil, god of wealth and abundance, is personified to Venus. The planet is invisible, because it is hidden behind the Sun. The total count of the Maya Codex of Mexico, the almanac of Venus, is 37,960 days, which is equivalent to 65 Venusian synodic periods, "
-        url="11"
+       
       />
     </div>
   );

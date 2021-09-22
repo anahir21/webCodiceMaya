@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
-import { Navbar } from "../navbar/Navbar";
+import { Menu } from "../navbar/Menu";
 import quote from "../../../images/blackquote.png";
 import "./autores.css";
  import pdfCarlson from "../../../documents/carlson.pdf"
@@ -13,7 +13,7 @@ export const Carlson = () => {
 
     return (
         <section className="view">
-            <Navbar />
+            <Menu />
 
             <div className="cover-article cover-carlson"></div>
             <article className="text-article">
