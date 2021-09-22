@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Footer } from "../footer/Footer";
-import { Menu } from "../navbar/Menu";
+import { Menu } from "../menu/Menu";
 import "./codice.css";
 import tabla from "../../../images/codice/tabla.png";
 import orbitas from "../../../images/codice/orbitas.png";

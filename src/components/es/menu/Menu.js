@@ -21,11 +21,44 @@ export const Menu = () => {
       case "/":
         handlePath("/en");
         break;
-      case "/Estudios":
-        handlePath("/es/estudios");
+      case "/es/presentacion":
+        handlePath("/en/introduction");
+        break;
+      case "/es/codice":
+        handlePath("/en/codex");
+        break;
+      case "/es/estudio-iconografico":
+        handlePath("/en/iconography");
+        break;
+      case "/es/estudios":
+        handlePath("/en/studies");
+        break;
+      case "/es/proyecto-editorial":
+        handlePath("/en/editorial-project");
+        break;
+      case "/es/descargas":
+        handlePath("/en/downloads");
+        break;
+      case "/es/creditos":
+        handlePath("/en/credits");
+        break;
+      case "/es/baltazar-brito":
+        handlePath("/en/baltazar-brito");
+        break;
+      case "/es/john-carlson":
+        handlePath("/en/john-carlson");
+        break;
+      case "/es/erik-velasquez":
+        handlePath("/en/erik-velasquez");
+        break;
+      case "/es/ricardo-vila":
+        handlePath("/en/ricardo-vila");
+        break;
+      case "/es/esther-orozco":
+        handlePath("/en/esther-orozco");
         break;
       default:
-        handlePath("/");
+        handlePath("/en");
     }
   };
 

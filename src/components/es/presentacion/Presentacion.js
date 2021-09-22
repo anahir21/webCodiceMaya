@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { Menu} from "../../es/navbar/Menu";
+import { Menu} from "../../es/menu/Menu";
 import "./presentacion.css";
 import { Footer } from "../footer/Footer";
 import pages from "../../../images/presentacion/paginas-codice.jpg";

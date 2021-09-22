@@ -10,9 +10,9 @@ import especialistas from "../../../images/home/especialistas.jpg";
 import cc from "../../../images/home/by-nc-sa.png";
 import "./home.css";
 import { Footer } from "../footer/Footer.js";
-import { Menu } from "../navbar/Menu.js";
+import { Menu } from "../menu/Menu.js";
 
-export const Home = () => {
+export const Inicio = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);

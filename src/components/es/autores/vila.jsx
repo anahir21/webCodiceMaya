@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
-import { Menu } from "../navbar/Menu";
+import { Menu } from "../menu/Menu";
 import quote from "../../../images/blackquote.png";
 import vila01 from "../../../images/vila/vila_01.jpg";
 import pdfVila from "../../../documents/vila.pdf";

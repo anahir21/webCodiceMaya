@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import { Menu } from "../navbar/Menu";
+import { Menu } from "../menu/Menu";
 import { Link } from "react-router-dom";
 import { FiDownload } from "react-icons/fi";
 import { Footer } from "../footer/Footer";

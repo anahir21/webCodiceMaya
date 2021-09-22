@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 import { Footer } from "../footer/Footer";
-import {Menu } from "../navbar/Menu";
+import {Menu } from "../menu/Menu";
 import "./creditos.css";
 export const Creditos = () => {
   useEffect(() => {
