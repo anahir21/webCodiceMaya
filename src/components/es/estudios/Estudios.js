@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from "react";
-import { Menu } from "../navbar/Menu";
+import { Menu } from "../menu/Menu";
 import { Footer } from "../footer/Footer";
 import "./estudios.css";
 import brito from "../../../images/estudios/brito.jpg";

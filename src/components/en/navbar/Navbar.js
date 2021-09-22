@@ -17,8 +17,41 @@ export const Navbar = () => {
       case "/":
         handlePath("/en");
         break;
-      case "/Estudios":
+      case "/en/introduction":
+        handlePath("/es/presentacion");
+        break;
+      case "/en/codex":
+        handlePath("/es/codice");
+        break;
+      case "/en/iconography":
+        handlePath("/es/estudio-iconografico");
+        break;
+      case "/en/studies":
         handlePath("/es/estudios");
+        break;
+      case "/en/editorial-project":
+        handlePath("/es/proyecto-editorial");
+        break;
+      case "/en/downloads":
+        handlePath("/es/descargas");
+        break;
+      case "/en/credits":
+        handlePath("/es/creditos");
+        break;
+      case "/en/baltazar-brito":
+        handlePath("/es/baltazar-brito");
+        break;
+      case "/en/john-carlson":
+        handlePath("/es/john-carlson");
+        break;
+      case "/en/erik-velasquez":
+        handlePath("/es/erik-velasquez");
+        break;
+      case "/en/ricardo-vila":
+        handlePath("/es/ricardo-vila");
+        break;
+      case "/en/esther-orozco":
+        handlePath("/es/esther-orozco");
         break;
       default:
         handlePath("/");
@@ -73,9 +106,10 @@ export const Navbar = () => {
           <NavLink to="/en/downloads">Downloads</NavLink>
           <NavLink to="/en/credits">Credits </NavLink>
         </div>
-        <select id="language">
-          <option value="es">ES</option>
+        <select id="language" onChange={()=>handleLanguage()}>
           <option value="en">EN</option>
+          <option value="es">ES</option>
+          
         </select>
         <FaBars className="bars-icon" onClick={handleSetMenu} />
       </div>

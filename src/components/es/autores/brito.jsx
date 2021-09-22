@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { Footer } from "../footer/Footer";
-import { Menu } from "../navbar/Menu";
+import { Menu } from "../menu/Menu";
 import quote from "../../../images/blackquote.png";
 import brito01 from "../../../images/brito/brito-article01.jpg";
 import brito02 from "../../../images/brito/brito-article02.jpg";    

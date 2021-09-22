@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { Route, Switch, useLocation, Link, Router, Redirect} from "react-router-dom";
+import { Route, Switch, useLocation} from "react-router-dom";
 import { animated, useTransition } from "react-spring";
 
 import "./App.css";
 
-import { Home } from "./components/es/home/Home";
+import { Inicio} from "./components/es/inicio/inicio";
 import { Codice } from "./components/es/codice/Codice";
 import { Estudios } from "./components/es/estudios/Estudios";
 import { Presentacion } from "./components/es/presentacion/Presentacion";
@@ -100,7 +100,7 @@ function App() {
         });
       });
     };
-  }, []);
+  }, );
 
   const location = useLocation();
 
@@ -119,7 +119,7 @@ function App() {
       <animated.div style={props}>
         
         <Switch location={item}>
-          <Route path="/" exact component={Home}></Route>
+          <Route path="/" exact component={Inicio}></Route>
 
           <Route path="/es/presentacion" exact component={Presentacion}></Route>
 
