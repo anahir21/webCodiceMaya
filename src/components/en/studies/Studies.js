@@ -50,7 +50,7 @@ export const Studies = () => {
                   src={morenotoscano}
                 />
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/presentacion"} />
+                  <ButtonMore path={"/en/introduction"} />
                 </div>
               </div>
               <hr />
@@ -71,7 +71,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/baltazar-brito"} />
+                  <ButtonMore path={"/en/baltazar-brito"} />
                 </div>
               </div>
               <hr />
@@ -96,7 +96,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/erik-velasquez"} />
+                  <ButtonMore path={"/en/erik-velasquez"} />
                 </div>
               </div>
               <hr />
@@ -119,7 +119,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/john-carlson"} />
+                  <ButtonMore path={"/en/john-carlson"} />
                 </div>
               </div>
               <hr />
@@ -144,7 +144,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/ricardo-vila"} />
+                  <ButtonMore path={"/en/ricardo-vila"} />
                 </div>
               </div>
               <hr />
@@ -167,7 +167,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/esther-orozco"} />
+                  <ButtonMore path={"/en/esther-orozco"} />
                 </div>
               </div>
               <hr />
@@ -190,7 +190,7 @@ export const Studies = () => {
                 />
 
                 <div className={cardOver ? "card-over" : "card-leave"}>
-                  <ButtonMore path={"/codice"} />
+                  <ButtonMore path={"/en/codex"} />
                 </div>
               </div>
               <hr />
