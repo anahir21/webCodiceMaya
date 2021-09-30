@@ -112,35 +112,35 @@ export const Menu = () => {
           <img alt="logo" src={logo}></img>
         </NavLink>
         <section className="options">
-          <NavLink to="/presentacion">Presentación</NavLink>
+          <NavLink to="/es/presentacion">Presentación</NavLink>
           <NavLink to="/es/codice">Códice Maya de México</NavLink>
           <NavLink to="/es/estudio-iconografico">Iconografía</NavLink>
           <li className="drop-down-container">
-          <NavLink to="/estudios">Estudios</NavLink>
+          <NavLink to="/es/estudios">Estudios</NavLink>
             <ul>
               <li>
-                <Link to="/presentacion">Moreno Toscano</Link>
+                <Link to="/es/presentacion">Moreno Toscano</Link>
               </li>
               <li>
-                <Link to="/baltazar-brito">Brito Guadarrama</Link>
+                <Link to="/es/baltazar-brito">Brito Guadarrama</Link>
               </li>
               <li>
-                <Link to="/erik-velasquez">Velásquez</Link>
+                <Link to="/es/erik-velasquez">Velásquez</Link>
               </li>
               <li>
-                <Link to="/ricardo-vila">Vila Freyer</Link>
+                <Link to="/es/ricardo-vila">Vila Freyer</Link>
               </li>
               <li>
-                <Link to="/john-carlson">B. Carlson</Link>
+                <Link to="/es/john-carlson">B. Carlson</Link>
               </li>
               <li>
-                <Link to="/esther-orozco">Orozco</Link>
+                <Link to="/es/esther-orozco">Orozco</Link>
               </li>
             </ul>
           </li>
-          <NavLink to="/proyecto-editorial">Proyecto Editorial</NavLink>
-          <NavLink to="/descargas">Descargas</NavLink>
-          <NavLink to="/creditos">Créditos</NavLink>
+          <NavLink to="/es/proyecto-editorial">Proyecto Editorial</NavLink>
+          <NavLink to="/es/descargas">Descargas</NavLink>
+          <NavLink to="/es/creditos">Créditos</NavLink>
      
         </section>
         <section id="contact">

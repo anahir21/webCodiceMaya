@@ -134,9 +134,7 @@ export const ProyectoEditorial = () => {
           espacio como factor de desarrollo y bienestar. 
         </p>
       </article>
-      <div className="more-container">
-        <ButtonMore />
-      </div>
+   
 
       <Footer />
     </section>

@@ -16,8 +16,8 @@ export const Credits = () => {
           <p className="bloque">
           General Coordination
             <br />
-            Alejandra Moreno Toscano Baltazar <br />
-            Brito Guadarrama
+            Alejandra Moreno Toscano <br />
+            Baltazar Brito Guadarrama
           </p>
 
           <p className="bloque">
