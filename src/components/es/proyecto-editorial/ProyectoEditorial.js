@@ -1,20 +1,19 @@
-import React, {useEffect, useState} from "react";
+import React, { useEffect, useState } from "react";
 import { Parallax } from "react-parallax";
 import { Footer } from "../footer/Footer";
 import { Menu } from "../menu/Menu";
-import portada from "../../../images/editorial/portada-editorial.png"
+import portada from "../../../images/editorial/portada-editorial.png";
 import { Play } from "../ui/Play";
 import "./editorial.css";
-import { ButtonMore } from '../ui/ButtonMore';
 import papelAmate1 from "../../../images/editorial/papel-amate-1.png";
 import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
 import { Modal } from "../modal/Modal.js";
 
 export const ProyectoEditorial = () => {
   useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
-  
+    window.scrollTo(0, 0);
+  }, []);
+
   const [showModal, setShowModal] = useState(false);
 
   const openModal = () => {
@@ -28,113 +27,94 @@ export const ProyectoEditorial = () => {
         <h1 className="section_titles">El códice y el proyecto editorial</h1>
       </div>
 
-      <Parallax bgImage={portada} strength={200} className="parallax-view" >
-          <div className="parallax-container-editorial">
+      <Parallax bgImage={portada} strength={200} className="parallax-view">
+        <div className="parallax-container-editorial">
           <Play onClick={openModal} />
-          <Modal showModal={showModal} setShowModal={setShowModal} url="https://www.youtube.com/embed/I79ftTdSlms" />
-          </div>
+          <Modal
+            showModal={showModal}
+            setShowModal={setShowModal}
+            url="https://www.youtube.com/embed/I79ftTdSlms"
+          />
+        </div>
       </Parallax>
 
       <article className="article-white">
         <p className="dropcap">
-          El día que los artesanos de las comunidades indígenas otomíes de San
-          Pablito-Pahuatlán, en el estado de Puebla, eligieron el árbol de Amate
-          del que extrajeron corteza de acuerdo al proceso utilizado por las
-          culturas precolombinas de México y generaron el lienzo donde se
-          imprimiría el facsímil del Códice Maya de México, los astrónomos
-          confirmaron que había agua en la superficie iluminada de la Luna.
-          Comenzó la escritura de los textos de investigación en diciembre de
-          2020 cuando retornaba a la atmósfera terrestre la cápsula del Hayabusa
-          2, luego de 18 meses de navegar en el espacio, con las muestras
-          rocosas del asteroide Ryugu. Las muestras permitirán comprobar si los
-          iones de hidrógeno que emite el Sol reaccionan con el oxígeno en las
-          rocas y crean moléculas de agua. Con ello se resolverá el enigma de la
-          formación del agua en nuestro planeta.
-        </p>
-
-        <br />
-        <h3 className="section-subtitle top-line">
-          El Códice Maya de México es el objeto legible conservado más antiguo
-          de la civilización mesoamericana.
-        </h3>
-
-        <br />
-        <p>
-          Fue pintado sobre láminas de corteza de árboles de amate vivos entre
-          1021 y 1154 d. C. Su contenido se refiere a la revolución sinódica del
-          planeta Venus al que observamos a simple vista como Estrella de la
-          Mañana o Estrella Vespertina. También se refiere a la posición de
-          Venus con relación a la Luna y al Sol en cada una de las estaciones.
-          En otras palabras, son láminas extraordinarias que registran
-          sistemáticamente los movimientos del planeta Venus como fenómeno
-          astronómico recurrente y observable. Agregamos a esta edición para
-          subrayarlo el subtítulo Almanaque de Venus.
-        </p>
-
-        <br />
-
-      
-        <p>
-          La Secretaría de Relaciones Exteriores, la Secretaría de Cultura del
-          Gobierno de México, el Instituto Nacional de Antropología e Historia,
-          la Biblioteca Nacional de Antropología e Historia y el proyecto de
-          Diplomacia Cultural del gobierno de México, respaldaron la edición
-          facsimilar del Códice Maya de México, Almanaque de Venus para
-          reconocer la capacidad de los hombres de repensar el mundo
-          que habitan: descifrarlo, codificarlo, documentarlo y entenderlo a
-          partir de perspectivas diferentes. Hoy, cuando la ciencia y la
-          tecnología están estrechamente vinculadas a proyectos espaciales,
-          recordaremos que la civilización mesoamericana miró hacia los tres
-          objetos más luminosos del cielo con rigor, coherencia en el cálculo y
-          determinación de transmitir ese conocimiento a las generaciones por
-          venir. 
+          El facsimilar del proyecto sobre el Códice Maya de México fue creado
+          por artesanos indígenas otomies de la comunidad de San Pablito
+          Pahuatlan, quienes a través de los procesos de fabricación artesanal
+          de papel crearon los lienzos de la públicación.
         </p>
 
         <br />
         <p>
-          Los distinguidos especialistas en antropología, epigrafía maya,
-          semiótica, astronomía y matemáticas: Baltazar Brito Guadarrama, Erik
-          Velásquez García, John B. Carlson y Ricardo F. Vila Freyer escribieron
-          los ensayos que acompañan esta edición del Códice Maya de México.
-          Almanaque de Venus, teniendo presentes a los lectores jóvenes y a
-          estudiantes universitarios de disciplinas como matemáticas, astronomía
-          o historia de la ciencia, especialmente a los jóvenes mexicanos que
-          durante seis ocasiones han ganado las Olimpiadas en Matemáticas,
-          convocadas por el CIMAT, para introducirlos al mundo de los escribas
-          mayas observadores del firmamento.
+          Actualmente, los habitantes de San Pablito es una de las pocas
+          comunidades en México que elabora una especie de papel de corteza, el
+          amate, que es una palabra nahua que significa tanto papel como
+          higuera. Este conocimiento tradicional estuvo aampliamnete arraigado
+          en las culturas mexicanas precolombinas (azteca, maya y purépecha,
+          principalmente), como se ha documentado desde el siglo XVI.
         </p>
+
+        <br />
+
+        <p>
+          La mayoría de los habitantes de San Pablito están relacionados de
+          alguna manera con la elaboración de papel amate, que lo convierte en
+          la actividad económica más importante para la comunidad. El papel
+          amate también es crucial para la salud física y espiritual de la
+          comunidad, y es parte de su sistema de rituales y creencias. Este
+          último aspecto es particularmente relevante para la comunidad de San
+          Pablito; representar imágenes ritualistas en papel es uno de los
+          pilares de su cosmovisión. Las deidades, demonios y otros personajes
+          representados en papel son cruciales para su sistema espiritual. En
+          este sentido, el conocimiento involucrado en los procesos de
+          elaboración del papel amate está intrínsecamente conectado a todo el
+          sistema de creencias de la comunidad otomí de San Pablito.
+        </p>
+
+        <br />
+        <p>
+          Sin embargo, varios de los procesos de elaboración de papel amate
+          están desapareciendo. Existen varios desafíos multifactoriales
+          (pobreza, grupos criminales, migración y acceso deficiente a servicios
+          esenciales, por mencionar algunos) que afectan a las comunidades
+          indígenas en México, y San Pablito no es una excepción. Estos desafíos
+          están afectando radicalmente la transmisión del conocimiento sobre la
+          fabricación de papel a las generaciones más jóvenes, principalmente
+          porque los poseedores del conocimiento (principalmente hombres) migran
+          a los Estados Unidos en busca de mejores condiciones de vida.
+        </p>
+        <br />
+       
+        <p>
+          El proyecto sobre el Códice Maya de México ha coadyucaado en el
+          rescate de procesos tradicionales que están desapareciendo por
+          diferentes factores, incluyendo el uso de nuevos materiales químicos,
+          las condiciones ambientales y la sustentabilidad de las cortezas. Con
+          apoyo institucional de la SRE, se han rescatado algunos procesos como
+          el uso de cal y cenizas para ablandar el papel, así como el uso de
+          corteza de árboles de Mora, rescatando procesos y materiales
+          prehispánicos.
+        </p>
+        <br />
+
+        <p>
+          Cabe señalar que la documentación de los procesos, y servirá de
+          herramienta a la comunidad local, investigadores e instituciones de la
+          sociedad civil comprometidas con la preservación del conocimiento
+          tradicional entre los grupos indígenas de México. Preservar,
+          salvaguardar y promover el proceso de fabricación de papel y
+          transmitirlo a las generaciones futuras, es uno de los principales
+          objetivos de este proyecto.
+        </p>
+
         <figure className="gallery-items-2">
           <img src={papelAmate1} alt="vector cacao" />
           <img src={papelAmate2} alt="cacao" />
         </figure>
-        <figcaption>
-          Elaboración de papel amate
-        </figcaption>
-
-        <br />
-        <p>
-          Los escribas mayas observadores del cielo que, alrededor del año 1100
-          d.C. , sistematizaron y calcularon el tiempo que toma a dos planetas
-          girar alrededor del Sol y a un satélite girar alrededor de la
-          Tierra, y fueron capaces de precisar ciclos recurrentes y de derivar
-          procesos culturales de ese movimiento planetario, realizaron una
-          proeza científica y astronómica. Estamos ciertos de que la lectura de
-          los ensayos que acompañan a esta edición, escritos desde perspectivas
-          diferentes, pero analizando las mismas láminas pintadas por los sabios
-          mayas, ayudarán a la comprensión clara de esa aportación científica.
-        </p>
-
-        <p>
-          Visto desde la Tierra, en el mes de diciembre, cuando los días se
-          acortan, Venus parece desafiar al sol. Al terminar el invierno, los
-          días se alargan y el planeta entra en una nueva fase. Esa historia del
-          ciclo sin fin que nos ha sido contada y vuelta a contar ha dejado
-          huella cultural entre nosotros. Por la forma cíclica y recurrente como
-          entendemos el mundo puede hoy constituir un aliciente para explorar el
-          espacio como factor de desarrollo y bienestar. 
-        </p>
+        <figcaption>Elaboración de papel amate</figcaption>
       </article>
-   
 
       <Footer />
     </section>

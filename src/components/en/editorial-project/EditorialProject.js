@@ -5,8 +5,10 @@ import { Navbar } from "../navbar/Navbar";
 import portada from "../../../images/editorial/portada-editorial.png";
 import { Play } from "../ui/Play";
 import "./editorialproject.css";
-import { ButtonMore } from "../ui/ButtonMore";
 import { Modal } from "../modal/Modal.js";
+
+import papelAmate1 from "../../../images/editorial/papel-amate-1.png";
+import papelAmate2 from "../../../images/editorial/papel-amate-2.png";
 
 export const EditorialProject = () => {
   useEffect(() => {
@@ -101,13 +103,18 @@ export const EditorialProject = () => {
           promoting the papermaking process and transmitting it to future
           generations is one of the main objectives of this project.
           </p>
+
+
+          <figure className="gallery-items-2">
+          <img src={papelAmate1} alt="vector cacao" />
+          <img src={papelAmate2} alt="cacao" />
+        </figure>
+        
           
       
          
       </article>
-      <div className="more-container">
-        <ButtonMore />
-      </div>
+     
 
       <Footer />
     </section>
